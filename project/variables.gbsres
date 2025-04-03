@@ -1,4 +1,325 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "384",
+      "name": "Item 00 Empty",
+      "symbol": "var_item_00_empty"
+    },
+    {
+      "id": "385",
+      "name": "Item 01 Lightbulb",
+      "symbol": "var_item_01_lightbulb"
+    },
+    {
+      "id": "386",
+      "name": "Item 02 TV Remote",
+      "symbol": "var_item_02_tv_remote"
+    },
+    {
+      "id": "387",
+      "name": "Item 03 Bottle Alcohol",
+      "symbol": "var_item_03_bottle_alcohol"
+    },
+    {
+      "id": "388",
+      "name": "Item 04 Branch Dry",
+      "symbol": "var_item_04_branch_dry"
+    },
+    {
+      "id": "389",
+      "name": "Item 05 Branch Wet",
+      "symbol": "var_item_05_branch_wet"
+    },
+    {
+      "id": "390",
+      "name": "Item 06 Torch",
+      "symbol": "var_item_06_torch"
+    },
+    {
+      "id": "391",
+      "name": "Item 07 Basement Key",
+      "symbol": "var_item_07_basement_key"
+    },
+    {
+      "id": "392",
+      "name": "Item 08 Camera",
+      "symbol": "var_item_08_camera"
+    },
+    {
+      "id": "393",
+      "name": "Item 09 Screwdriver",
+      "symbol": "var_item_09_screwdriver"
+    },
+    {
+      "id": "394",
+      "name": "Item 10 Lens",
+      "symbol": "var_item_10_lens"
+    },
+    {
+      "id": "395",
+      "name": "Item 11 Bottle Empty",
+      "symbol": "var_item_11_bottle_empty"
+    },
+    {
+      "id": "396",
+      "name": "Item 12 Battery Broken",
+      "symbol": "var_item_12_battery_broken"
+    },
+    {
+      "id": "397",
+      "name": "Item 13 Battery Empty",
+      "symbol": "var_item_13_battery_empty"
+    },
+    {
+      "id": "398",
+      "name": "Item 14 Battery Charged",
+      "symbol": "var_item_14_battery_charged"
+    },
+    {
+      "id": "399",
+      "name": "Item 15 Bottle Smoke",
+      "symbol": "var_item_15_bottle_smoke"
+    },
+    {
+      "id": "400",
+      "name": "Item 16 Bottle Acid",
+      "symbol": "var_item_16_bottle_acid"
+    },
+    {
+      "id": "401",
+      "name": "Item 17 Sponge Wet",
+      "symbol": "var_item_17_sponge_wet"
+    },
+    {
+      "id": "402",
+      "name": "Item 18 Crowbar",
+      "symbol": "var_item_18_crowbar"
+    },
+    {
+      "id": "403",
+      "name": "Item 19 Metal Rod",
+      "symbol": "var_item_19_metal_rod"
+    },
+    {
+      "id": "404",
+      "name": "Item 20 Sponge Dry",
+      "symbol": "var_item_20_sponge_dry"
+    },
+    {
+      "id": "405",
+      "name": "Item 21 Syringe Empty",
+      "symbol": "var_item_21_syringe_empty"
+    },
+    {
+      "id": "406",
+      "name": "Item 22 Syringe Filled",
+      "symbol": "var_item_22_syringe_filled"
+    },
+    {
+      "id": "407",
+      "name": "Item 23 Amber",
+      "symbol": "var_item_23_amber"
+    },
+    {
+      "id": "408",
+      "name": "Item 24 Journal Strange",
+      "symbol": "var_item_24_journal_strange"
+    },
+    {
+      "id": "409",
+      "name": "Item 25 Feather",
+      "symbol": "var_item_25_feather"
+    },
+    {
+      "id": "410",
+      "name": "Item 26 Bottle Dye",
+      "symbol": "var_item_26_bottle_dye"
+    },
+    {
+      "id": "411",
+      "name": "Item 27 Tube Water",
+      "symbol": "var_item_27_tube_water"
+    },
+    {
+      "id": "412",
+      "name": "Item 28 Seed",
+      "symbol": "var_item_28_seed"
+    },
+    {
+      "id": "413",
+      "name": "Item 29 Wool",
+      "symbol": "var_item_29_wool"
+    },
+    {
+      "id": "414",
+      "name": "Item 30 Feather Pen",
+      "symbol": "var_item_30_feather_pen"
+    },
+    {
+      "id": "415",
+      "name": "Item 31 Die",
+      "symbol": "var_item_31_die"
+    },
+    {
+      "id": "416",
+      "name": "Item 32 Button",
+      "symbol": "var_item_32_button"
+    },
+    {
+      "id": "417",
+      "name": "Item 33 Button Magnet",
+      "symbol": "var_item_33_magnet_button"
+    },
+    {
+      "id": "418",
+      "name": "Item 34 Button Taped",
+      "symbol": "var_item_34_"
+    },
+    {
+      "id": "419",
+      "name": "Item 35 You Tried",
+      "symbol": "var_item_35_you_tried"
+    },
+    {
+      "id": "420",
+      "name": "Item 36 Magnets",
+      "symbol": "var_item_36_magnets"
+    },
+    {
+      "id": "421",
+      "name": "Item 37 Metal Can",
+      "symbol": "var_item_37_metal_can"
+    },
+    {
+      "id": "422",
+      "name": "Item 38 Scissors",
+      "symbol": "var_item_38_scissors"
+    },
+    {
+      "id": "423",
+      "name": "Item 39 Weird Film",
+      "symbol": "var_item_39_weird_film"
+    },
+    {
+      "id": "424",
+      "name": "Item 40 Lens Concave",
+      "symbol": "var_item_40_lens_concave"
+    },
+    {
+      "id": "425",
+      "name": "Item 41 Lens Convex",
+      "symbol": "var_item_41_lens_convex"
+    },
+    {
+      "id": "426",
+      "name": "Item 42 Lens Thin",
+      "symbol": "var_item_42_lens_thin"
+    },
+    {
+      "id": "427",
+      "name": "Item 43 Lens Thick",
+      "symbol": "var_item_43_lens_thick"
+    },
+    {
+      "id": "428",
+      "name": "Item 44 Glitter Glue",
+      "symbol": "var_item_44_glitter_glue"
+    },
+    {
+      "id": "429",
+      "name": "Item 45 Niko Photo",
+      "symbol": "var_item_45_niko_photo"
+    },
+    {
+      "id": "430",
+      "name": "Item 46 Lib Card Kip",
+      "symbol": "var_item_46_lib_card_kip"
+    },
+    {
+      "id": "431",
+      "name": "Item 47 Gas Mask",
+      "symbol": "var_item_47_gas_mask"
+    },
+    {
+      "id": "432",
+      "name": "Item 48 Rubber Gloves",
+      "symbol": "var_item_48_rubber_gloves"
+    },
+    {
+      "id": "433",
+      "name": "Item 49 Novelty Shirt",
+      "symbol": "var_item_49_novelty_shirt"
+    },
+    {
+      "id": "434",
+      "name": "Item 50 Lib Card Niko",
+      "symbol": "var_item_50_lib_card_niko"
+    },
+    {
+      "id": "435",
+      "name": "Item 51 Lib Card Sticky",
+      "symbol": "var_item_51_lib_card_sticky"
+    },
+    {
+      "id": "436",
+      "name": "Item 52 Niko Photo Sticky",
+      "symbol": "var_item_52_niko_photo_stic"
+    },
+    {
+      "id": "437",
+      "name": "Item 53 Dirt",
+      "symbol": "var_item_53_dirt"
+    },
+    {
+      "id": "438",
+      "name": "Item 54 Water Pill",
+      "symbol": "var_item_54_water_pill"
+    },
+    {
+      "id": "439",
+      "name": "Item 55 Medicated Water",
+      "symbol": "var_item_55_medicated_water"
+    },
+    {
+      "id": "440",
+      "name": "Item 56 Clover",
+      "symbol": "var_item_56_clover"
+    },
+    {
+      "id": "441",
+      "name": "Item 57 Tube Empty",
+      "symbol": "var_item_57_tube_empty"
+    },
+    {
+      "id": "442",
+      "name": "Item 58 Bottle Pond Water",
+      "symbol": "var_item_58_bottle_pond_wat"
+    },
+    {
+      "id": "443",
+      "name": "Item 59 Journal Glowing",
+      "symbol": "var_item_59_journal_glowing"
+    },
+    {
+      "id": "444",
+      "name": "Item 60 Disk Memory",
+      "symbol": "var_item_60_disk_memory"
+    },
+    {
+      "id": "445",
+      "name": "Item 61 Disk Backup",
+      "symbol": "var_item_61_disk_backup"
+    },
+    {
+      "id": "446",
+      "name": "Item 62 Battery Charged",
+      "symbol": "var_item_62_battery_charged"
+    },
+    {
+      "id": "447",
+      "name": "Item 63 Music Box",
+      "symbol": "var_item_63_music_box"
+    }
+  ]
 }
