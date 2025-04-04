@@ -2,324 +2,644 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "384",
+      "id": "0",
       "name": "Item 00 Empty",
       "symbol": "var_item_00_empty"
     },
     {
-      "id": "385",
+      "id": "1",
       "name": "Item 01 Lightbulb",
       "symbol": "var_item_01_lightbulb"
     },
     {
-      "id": "386",
+      "id": "2",
       "name": "Item 02 TV Remote",
       "symbol": "var_item_02_tv_remote"
     },
     {
-      "id": "387",
+      "id": "3",
       "name": "Item 03 Bottle Alcohol",
       "symbol": "var_item_03_bottle_alcohol"
     },
     {
-      "id": "388",
+      "id": "4",
       "name": "Item 04 Branch Dry",
       "symbol": "var_item_04_branch_dry"
     },
     {
-      "id": "389",
+      "id": "5",
       "name": "Item 05 Branch Wet",
       "symbol": "var_item_05_branch_wet"
     },
     {
-      "id": "390",
+      "id": "6",
       "name": "Item 06 Torch",
       "symbol": "var_item_06_torch"
     },
     {
-      "id": "391",
+      "id": "7",
       "name": "Item 07 Basement Key",
       "symbol": "var_item_07_basement_key"
     },
     {
-      "id": "392",
+      "id": "8",
       "name": "Item 08 Camera",
       "symbol": "var_item_08_camera"
     },
     {
-      "id": "393",
+      "id": "9",
       "name": "Item 09 Screwdriver",
       "symbol": "var_item_09_screwdriver"
     },
     {
-      "id": "394",
+      "id": "10",
       "name": "Item 10 Lens",
       "symbol": "var_item_10_lens"
     },
     {
-      "id": "395",
+      "id": "11",
       "name": "Item 11 Bottle Empty",
       "symbol": "var_item_11_bottle_empty"
     },
     {
-      "id": "396",
+      "id": "12",
       "name": "Item 12 Battery Broken",
       "symbol": "var_item_12_battery_broken"
     },
     {
-      "id": "397",
+      "id": "13",
       "name": "Item 13 Battery Empty",
       "symbol": "var_item_13_battery_empty"
     },
     {
-      "id": "398",
+      "id": "14",
       "name": "Item 14 Battery Charged",
       "symbol": "var_item_14_battery_charged"
     },
     {
-      "id": "399",
+      "id": "15",
       "name": "Item 15 Bottle Smoke",
       "symbol": "var_item_15_bottle_smoke"
     },
     {
-      "id": "400",
+      "id": "16",
       "name": "Item 16 Bottle Acid",
       "symbol": "var_item_16_bottle_acid"
     },
     {
-      "id": "401",
+      "id": "17",
       "name": "Item 17 Sponge Wet",
       "symbol": "var_item_17_sponge_wet"
     },
     {
-      "id": "402",
+      "id": "18",
       "name": "Item 18 Crowbar",
       "symbol": "var_item_18_crowbar"
     },
     {
-      "id": "403",
+      "id": "19",
       "name": "Item 19 Metal Rod",
       "symbol": "var_item_19_metal_rod"
     },
     {
-      "id": "404",
+      "id": "20",
       "name": "Item 20 Sponge Dry",
       "symbol": "var_item_20_sponge_dry"
     },
     {
-      "id": "405",
+      "id": "21",
       "name": "Item 21 Syringe Empty",
       "symbol": "var_item_21_syringe_empty"
     },
     {
-      "id": "406",
+      "id": "22",
       "name": "Item 22 Syringe Filled",
       "symbol": "var_item_22_syringe_filled"
     },
     {
-      "id": "407",
+      "id": "23",
       "name": "Item 23 Amber",
       "symbol": "var_item_23_amber"
     },
     {
-      "id": "408",
+      "id": "24",
       "name": "Item 24 Journal Strange",
       "symbol": "var_item_24_journal_strange"
     },
     {
-      "id": "409",
+      "id": "25",
       "name": "Item 25 Feather",
       "symbol": "var_item_25_feather"
     },
     {
-      "id": "410",
+      "id": "26",
       "name": "Item 26 Bottle Dye",
       "symbol": "var_item_26_bottle_dye"
     },
     {
-      "id": "411",
+      "id": "27",
       "name": "Item 27 Tube Water",
       "symbol": "var_item_27_tube_water"
     },
     {
-      "id": "412",
+      "id": "28",
       "name": "Item 28 Seed",
       "symbol": "var_item_28_seed"
     },
     {
-      "id": "413",
+      "id": "29",
       "name": "Item 29 Wool",
       "symbol": "var_item_29_wool"
     },
     {
-      "id": "414",
+      "id": "30",
       "name": "Item 30 Feather Pen",
       "symbol": "var_item_30_feather_pen"
     },
     {
-      "id": "415",
+      "id": "31",
       "name": "Item 31 Die",
       "symbol": "var_item_31_die"
     },
     {
-      "id": "416",
+      "id": "32",
       "name": "Item 32 Button",
       "symbol": "var_item_32_button"
     },
     {
-      "id": "417",
+      "id": "33",
       "name": "Item 33 Button Magnet",
       "symbol": "var_item_33_magnet_button"
     },
     {
-      "id": "418",
+      "id": "34",
       "name": "Item 34 Button Taped",
       "symbol": "var_item_34_"
     },
     {
-      "id": "419",
+      "id": "35",
       "name": "Item 35 You Tried",
       "symbol": "var_item_35_you_tried"
     },
     {
-      "id": "420",
+      "id": "36",
       "name": "Item 36 Magnets",
       "symbol": "var_item_36_magnets"
     },
     {
-      "id": "421",
+      "id": "37",
       "name": "Item 37 Metal Can",
       "symbol": "var_item_37_metal_can"
     },
     {
-      "id": "422",
+      "id": "38",
       "name": "Item 38 Scissors",
       "symbol": "var_item_38_scissors"
     },
     {
-      "id": "423",
+      "id": "39",
       "name": "Item 39 Weird Film",
       "symbol": "var_item_39_weird_film"
     },
     {
-      "id": "424",
+      "id": "40",
       "name": "Item 40 Lens Concave",
       "symbol": "var_item_40_lens_concave"
     },
     {
-      "id": "425",
+      "id": "41",
       "name": "Item 41 Lens Convex",
       "symbol": "var_item_41_lens_convex"
     },
     {
-      "id": "426",
+      "id": "42",
       "name": "Item 42 Lens Thin",
       "symbol": "var_item_42_lens_thin"
     },
     {
-      "id": "427",
+      "id": "43",
       "name": "Item 43 Lens Thick",
       "symbol": "var_item_43_lens_thick"
     },
     {
-      "id": "428",
+      "id": "44",
       "name": "Item 44 Glitter Glue",
       "symbol": "var_item_44_glitter_glue"
     },
     {
-      "id": "429",
+      "id": "45",
       "name": "Item 45 Niko Photo",
       "symbol": "var_item_45_niko_photo"
     },
     {
-      "id": "430",
+      "id": "46",
       "name": "Item 46 Lib Card Kip",
       "symbol": "var_item_46_lib_card_kip"
     },
     {
-      "id": "431",
+      "id": "47",
       "name": "Item 47 Gas Mask",
       "symbol": "var_item_47_gas_mask"
     },
     {
-      "id": "432",
+      "id": "48",
       "name": "Item 48 Rubber Gloves",
       "symbol": "var_item_48_rubber_gloves"
     },
     {
-      "id": "433",
+      "id": "49",
       "name": "Item 49 Novelty Shirt",
       "symbol": "var_item_49_novelty_shirt"
     },
     {
-      "id": "434",
+      "id": "50",
       "name": "Item 50 Lib Card Niko",
       "symbol": "var_item_50_lib_card_niko"
     },
     {
-      "id": "435",
+      "id": "51",
       "name": "Item 51 Lib Card Sticky",
       "symbol": "var_item_51_lib_card_sticky"
     },
     {
-      "id": "436",
+      "id": "52",
       "name": "Item 52 Niko Photo Sticky",
       "symbol": "var_item_52_niko_photo_stic"
     },
     {
-      "id": "437",
+      "id": "53",
       "name": "Item 53 Dirt",
       "symbol": "var_item_53_dirt"
     },
     {
-      "id": "438",
+      "id": "54",
       "name": "Item 54 Water Pill",
       "symbol": "var_item_54_water_pill"
     },
     {
-      "id": "439",
+      "id": "55",
       "name": "Item 55 Medicated Water",
       "symbol": "var_item_55_medicated_water"
     },
     {
-      "id": "440",
+      "id": "56",
       "name": "Item 56 Clover",
       "symbol": "var_item_56_clover"
     },
     {
-      "id": "441",
+      "id": "57",
       "name": "Item 57 Tube Empty",
       "symbol": "var_item_57_tube_empty"
     },
     {
-      "id": "442",
+      "id": "58",
       "name": "Item 58 Bottle Pond Water",
       "symbol": "var_item_58_bottle_pond_wat"
     },
     {
-      "id": "443",
+      "id": "59",
       "name": "Item 59 Journal Glowing",
       "symbol": "var_item_59_journal_glowing"
     },
     {
-      "id": "444",
+      "id": "60",
       "name": "Item 60 Disk Memory",
       "symbol": "var_item_60_disk_memory"
     },
     {
-      "id": "445",
+      "id": "61",
       "name": "Item 61 Disk Backup",
       "symbol": "var_item_61_disk_backup"
     },
     {
-      "id": "446",
+      "id": "62",
       "name": "Item 62 Battery Charged",
       "symbol": "var_item_62_battery_charged"
     },
     {
-      "id": "447",
+      "id": "63",
       "name": "Item 63 Music Box",
       "symbol": "var_item_63_music_box"
+    },
+    {
+      "id": "64",
+      "name": "Item 64 Placeholder",
+      "symbol": "var_item_64_placeholder"
+    },
+    {
+      "id": "65",
+      "name": "Item 65 Placeholder",
+      "symbol": "var_item_65_placeholder"
+    },
+    {
+      "id": "66",
+      "name": "Item 66 Placeholder",
+      "symbol": "var_item_66_placeholder"
+    },
+    {
+      "id": "67",
+      "name": "Item 67 Placeholder",
+      "symbol": "var_item_67_placeholder"
+    },
+    {
+      "id": "68",
+      "name": "Item 68 Placeholder",
+      "symbol": "var_item_68_placeholder"
+    },
+    {
+      "id": "69",
+      "name": "Item 69 Placeholder",
+      "symbol": "var_item_69_placeholder"
+    },
+    {
+      "id": "70",
+      "name": "Item 70 Placeholder",
+      "symbol": "var_item_70_placeholder"
+    },
+    {
+      "id": "71",
+      "name": "Item 71 Placeholder",
+      "symbol": "var_item_71_placeholder"
+    },
+    {
+      "id": "72",
+      "name": "Item 72 Placeholder",
+      "symbol": "var_item_72_placeholder"
+    },
+    {
+      "id": "73",
+      "name": "Item 73 Placeholder",
+      "symbol": "var_item_73_placeholder"
+    },
+    {
+      "id": "74",
+      "name": "Item 74 Placeholder",
+      "symbol": "var_item_74_placeholder"
+    },
+    {
+      "id": "75",
+      "name": "Item 75 Placeholder",
+      "symbol": "var_item_75_placeholder"
+    },
+    {
+      "id": "76",
+      "name": "Item 76 Placeholder",
+      "symbol": "var_item_76_placeholder"
+    },
+    {
+      "id": "77",
+      "name": "Item 77 Placeholder",
+      "symbol": "var_item_77_placeholder"
+    },
+    {
+      "id": "78",
+      "name": "Item 78 Placeholder",
+      "symbol": "var_item_78_placeholder"
+    },
+    {
+      "id": "79",
+      "name": "Item 79 Placeholder",
+      "symbol": "var_item_79_placeholder"
+    },
+    {
+      "id": "80",
+      "name": "Item 80 Placeholder",
+      "symbol": "var_item_80_placeholder"
+    },
+    {
+      "id": "81",
+      "name": "Item 81 Placeholder",
+      "symbol": "var_item_81_placeholder"
+    },
+    {
+      "id": "82",
+      "name": "Item 82 Placeholder",
+      "symbol": "var_item_82_placeholder"
+    },
+    {
+      "id": "83",
+      "name": "Item 83 Placeholder",
+      "symbol": "var_item_83_placeholder"
+    },
+    {
+      "id": "84",
+      "name": "Item 84 Placeholder",
+      "symbol": "var_item_84_placeholder"
+    },
+    {
+      "id": "85",
+      "name": "Item 85 Placeholder",
+      "symbol": "var_item_85_placeholder"
+    },
+    {
+      "id": "86",
+      "name": "Item 86 Placeholder",
+      "symbol": "var_item_86_placeholder"
+    },
+    {
+      "id": "87",
+      "name": "Item 87 Placeholder",
+      "symbol": "var_item_87_placeholder"
+    },
+    {
+      "id": "88",
+      "name": "Item 88 Placeholder",
+      "symbol": "var_item_88_placeholder"
+    },
+    {
+      "id": "89",
+      "name": "Item 89 Placeholder",
+      "symbol": "var_item_89_placeholder"
+    },
+    {
+      "id": "90",
+      "name": "Item 90 Placeholder",
+      "symbol": "var_item_90_placeholder"
+    },
+    {
+      "id": "91",
+      "name": "Item 91 Placeholder",
+      "symbol": "var_item_91_placeholder"
+    },
+    {
+      "id": "92",
+      "name": "Item 92 Placeholder",
+      "symbol": "var_item_92_placeholder"
+    },
+    {
+      "id": "93",
+      "name": "Item 93 Placeholder",
+      "symbol": "var_item_93_placeholder"
+    },
+    {
+      "id": "94",
+      "name": "Item 94 Placeholder",
+      "symbol": "var_item_94_placeholder"
+    },
+    {
+      "id": "95",
+      "name": "Item 95 Placeholder",
+      "symbol": "var_item_95_placeholder"
+    },
+    {
+      "id": "96",
+      "name": "Item 96 Placeholder",
+      "symbol": "var_item_96_placeholder"
+    },
+    {
+      "id": "97",
+      "name": "Item 97 Placeholder",
+      "symbol": "var_item_97_placeholder"
+    },
+    {
+      "id": "98",
+      "name": "Item 98 Placeholder",
+      "symbol": "var_item_98_placeholder"
+    },
+    {
+      "id": "99",
+      "name": "Item 99 Placeholder",
+      "symbol": "var_item_99_placeholder"
+    },
+    {
+      "id": "100",
+      "name": "Item 100 Placeholder",
+      "symbol": "var_item_100_placeholder"
+    },
+    {
+      "id": "101",
+      "name": "Item 101 Placeholder",
+      "symbol": "var_item_101_placeholder"
+    },
+    {
+      "id": "102",
+      "name": "Item 102 Placeholder",
+      "symbol": "var_item_102_placeholder"
+    },
+    {
+      "id": "103",
+      "name": "Item 103 Placeholder",
+      "symbol": "var_item_103_placeholder"
+    },
+    {
+      "id": "104",
+      "name": "Item 104 Placeholder",
+      "symbol": "var_item_104_placeholder"
+    },
+    {
+      "id": "105",
+      "name": "Item 105 Placeholder",
+      "symbol": "var_item_105_placeholder"
+    },
+    {
+      "id": "106",
+      "name": "Item 106 Placeholder",
+      "symbol": "var_item_106_placeholder"
+    },
+    {
+      "id": "107",
+      "name": "Item 107 Placeholder",
+      "symbol": "var_item_107_placeholder"
+    },
+    {
+      "id": "108",
+      "name": "Item 108 Placeholder",
+      "symbol": "var_item_108_placeholder"
+    },
+    {
+      "id": "109",
+      "name": "Item 109 Placeholder",
+      "symbol": "var_item_109_placeholder"
+    },
+    {
+      "id": "110",
+      "name": "Item 110 Placeholder",
+      "symbol": "var_item_110_placeholder"
+    },
+    {
+      "id": "111",
+      "name": "Item 111 Placeholder",
+      "symbol": "var_item_111_placeholder"
+    },
+    {
+      "id": "112",
+      "name": "Item 112 Placeholder",
+      "symbol": "var_item_112_placeholder"
+    },
+    {
+      "id": "113",
+      "name": "Item 113 Placeholder",
+      "symbol": "var_item_113_placeholder"
+    },
+    {
+      "id": "114",
+      "name": "Item 114 Placeholder",
+      "symbol": "var_item_114_placeholder"
+    },
+    {
+      "id": "115",
+      "name": "Item 115 Placeholder",
+      "symbol": "var_item_115_placeholder"
+    },
+    {
+      "id": "116",
+      "name": "Item 116 Placeholder",
+      "symbol": "var_item_116_placeholder"
+    },
+    {
+      "id": "117",
+      "name": "Item 117 Placeholder",
+      "symbol": "var_item_117_placeholder"
+    },
+    {
+      "id": "118",
+      "name": "Item 118 Placeholder",
+      "symbol": "var_item_118_placeholder"
+    },
+    {
+      "id": "119",
+      "name": "Item 119 Placeholder",
+      "symbol": "var_item_119_placeholder"
+    },
+    {
+      "id": "120",
+      "name": "Item 120 Placeholder",
+      "symbol": "var_item_120_placeholder"
+    },
+    {
+      "id": "121",
+      "name": "Item 121 Placeholder",
+      "symbol": "var_item_121_placeholder"
+    },
+    {
+      "id": "122",
+      "name": "Item 122 Placeholder",
+      "symbol": "var_item_122_placeholder"
+    },
+    {
+      "id": "123",
+      "name": "Item 123 Placeholder",
+      "symbol": "var_item_123_placeholder"
+    },
+    {
+      "id": "124",
+      "name": "Item 124 Placeholder",
+      "symbol": "var_item_124_placeholder"
+    },
+    {
+      "id": "125",
+      "name": "Item 125 Placeholder",
+      "symbol": "var_item_125_placeholder"
+    },
+    {
+      "id": "126",
+      "name": "Item 126 Placeholder",
+      "symbol": "var_item_126_placeholder"
+    },
+    {
+      "id": "127",
+      "name": "Item 127 Placeholder",
+      "symbol": "var_item_127_placeholder"
     }
   ]
 }

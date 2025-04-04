@@ -17,7 +17,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "384",
+              "variable": "0",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -41,7 +41,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "385",
+              "variable": "1",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -65,7 +65,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "386",
+              "variable": "2",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -89,7 +89,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "387",
+              "variable": "3",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -113,7 +113,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "388",
+              "variable": "4",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -137,7 +137,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "389",
+              "variable": "5",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -161,7 +161,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "390",
+              "variable": "6",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -185,7 +185,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "391",
+              "variable": "7",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -209,7 +209,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "392",
+              "variable": "8",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -233,7 +233,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "393",
+              "variable": "9",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -257,7 +257,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "394",
+              "variable": "10",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -281,7 +281,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "395",
+              "variable": "11",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -305,7 +305,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "396",
+              "variable": "12",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -329,7 +329,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "397",
+              "variable": "13",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -353,7 +353,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "398",
+              "variable": "14",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -377,7 +377,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "399",
+              "variable": "15",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -412,7 +412,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "400",
+              "variable": "16",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -436,7 +436,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "401",
+              "variable": "17",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -460,7 +460,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "402",
+              "variable": "18",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -484,7 +484,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "403",
+              "variable": "19",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -508,7 +508,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "404",
+              "variable": "20",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -532,7 +532,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "405",
+              "variable": "21",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -556,7 +556,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "406",
+              "variable": "22",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -580,7 +580,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "407",
+              "variable": "23",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -604,7 +604,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "408",
+              "variable": "24",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -628,7 +628,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "409",
+              "variable": "25",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -652,7 +652,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "410",
+              "variable": "26",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -676,7 +676,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "411",
+              "variable": "27",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -700,7 +700,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "412",
+              "variable": "28",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -724,7 +724,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "413",
+              "variable": "29",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -748,7 +748,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "414",
+              "variable": "30",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -772,7 +772,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "415",
+              "variable": "31",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -807,7 +807,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "416",
+              "variable": "32",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -831,7 +831,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "417",
+              "variable": "33",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -855,7 +855,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "418",
+              "variable": "34",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -879,7 +879,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "419",
+              "variable": "35",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -903,7 +903,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "420",
+              "variable": "36",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -927,7 +927,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "421",
+              "variable": "37",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -951,7 +951,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "422",
+              "variable": "38",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -975,7 +975,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "423",
+              "variable": "39",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -999,7 +999,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "424",
+              "variable": "40",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -1023,7 +1023,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "425",
+              "variable": "41",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -1047,7 +1047,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "426",
+              "variable": "42",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -1071,7 +1071,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "427",
+              "variable": "43",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -1095,7 +1095,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "428",
+              "variable": "44",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -1119,7 +1119,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "429",
+              "variable": "45",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -1143,7 +1143,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "430",
+              "variable": "46",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -1167,7 +1167,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "431",
+              "variable": "47",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -1202,7 +1202,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "432",
+              "variable": "48",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -1226,7 +1226,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "433",
+              "variable": "49",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -1250,7 +1250,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "434",
+              "variable": "50",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -1274,7 +1274,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "435",
+              "variable": "51",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -1298,7 +1298,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "436",
+              "variable": "52",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -1323,7 +1323,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "437",
+              "variable": "53",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -1347,7 +1347,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "438",
+              "variable": "54",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -1371,7 +1371,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "439",
+              "variable": "55",
               "flag1": true,
               "flag2": true,
               "flag3": true,
@@ -1395,7 +1395,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "440",
+              "variable": "56",
               "flag1": false,
               "flag2": false,
               "flag3": false,
@@ -1419,7 +1419,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "441",
+              "variable": "57",
               "flag1": true,
               "flag2": false,
               "flag3": false,
@@ -1443,7 +1443,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "442",
+              "variable": "58",
               "flag1": false,
               "flag2": true,
               "flag3": false,
@@ -1467,7 +1467,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "443",
+              "variable": "59",
               "flag1": true,
               "flag2": true,
               "flag3": false,
@@ -1491,7 +1491,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "444",
+              "variable": "60",
               "flag1": false,
               "flag2": false,
               "flag3": true,
@@ -1515,7 +1515,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "445",
+              "variable": "61",
               "flag1": true,
               "flag2": false,
               "flag3": true,
@@ -1539,7 +1539,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "446",
+              "variable": "62",
               "flag1": false,
               "flag2": true,
               "flag3": true,
@@ -1563,7 +1563,7 @@
           {
             "command": "EVENT_SET_FLAGS",
             "args": {
-              "variable": "447",
+              "variable": "63",
               "flag1": true,
               "flag2": true,
               "flag3": true,
