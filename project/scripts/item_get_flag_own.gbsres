@@ -1,0 +1,30 @@
+{
+  "_resourceType": "script",
+  "id": "2537ca4e-11e8-42c6-bb82-cfc22bc1575b",
+  "name": "Item Get Flag Own",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Item Data Variable",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Return Value",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "item_get_flag_own",
+  "script": [
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V1",
+        "expression": "($V0$ >> 14 & 0x1)"
+      },
+      "id": "4649ea6d-50cd-4c28-9d69-534321cd0520"
+    }
+  ]
+}
