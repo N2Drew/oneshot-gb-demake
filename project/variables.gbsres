@@ -643,73 +643,163 @@
     },
     {
       "id": "128",
-      "name": "Inventory Slot 0 Reference",
-      "symbol": "var_inventory_slot_0_ref"
+      "name": "Inventory 0 Ref",
+      "symbol": "var_inventory_0_ref"
     },
     {
       "id": "129",
-      "name": "Inventory Slot 1 Reference",
-      "symbol": "var_inventory_slot_1_ref"
+      "name": "Inventory 1 Ref",
+      "symbol": "var_inventory_1_ref"
     },
     {
       "id": "130",
-      "name": "Inventory Slot 2 Reference",
-      "symbol": "var_inventory_slot_2_ref"
+      "name": "Inventory 2 Ref",
+      "symbol": "var_inventory_2_ref"
     },
     {
       "id": "131",
-      "name": "Inventory Slot 3 Reference",
-      "symbol": "var_inventory_slot_3_ref"
+      "name": "Inventory 3 Ref",
+      "symbol": "var_inventory_3_ref"
     },
     {
       "id": "132",
-      "name": "Inventory Slot 4 Reference",
-      "symbol": "var_inventory_slot_4_ref"
+      "name": "Inventory 4 Ref",
+      "symbol": "var_inventory_4_ref"
     },
     {
       "id": "133",
-      "name": "Inventory Slot 5 Reference",
-      "symbol": "var_inventory_slot_5_ref"
+      "name": "Inventory 5 Ref",
+      "symbol": "var_inventory_5_ref"
     },
     {
       "id": "134",
-      "name": "Inventory Slot 6 Reference",
-      "symbol": "var_inventory_slot_6_ref"
+      "name": "Inventory 6 Ref",
+      "symbol": "var_inventory_6_ref"
     },
     {
       "id": "135",
-      "name": "Inventory Slot 7 Reference",
-      "symbol": "var_inventory_slot_7_ref"
+      "name": "Inventory 7 Ref",
+      "symbol": "var_inventory_7_ref"
     },
     {
       "id": "136",
-      "name": "Inventory Slot 8 Reference",
-      "symbol": "var_inventory_slot_8_ref"
+      "name": "Inventory 8 Ref",
+      "symbol": "var_inventory_8_ref"
     },
     {
       "id": "137",
-      "name": "Inventory Slot 9 Reference",
-      "symbol": "var_inventory_slot_9_ref"
+      "name": "Inventory 9 Ref",
+      "symbol": "var_inventory_9_ref"
     },
     {
       "id": "138",
-      "name": "Inventory Slot 10 Reference",
-      "symbol": "var_inventory_slot_10_ref"
+      "name": "Inventory 10 Ref",
+      "symbol": "var_inventory_10_ref"
     },
     {
       "id": "139",
-      "name": "Inventory Slot 11 Reference",
-      "symbol": "var_inventory_slot_11_ref"
+      "name": "Inventory 11 Ref",
+      "symbol": "var_inventory_11_ref"
+    },
+    {
+      "id": "140",
+      "name": "Inventory 12 Ref",
+      "symbol": "var_inventory_12_ref"
+    },
+    {
+      "id": "141",
+      "name": "Inventory 13 Ref",
+      "symbol": "var_inventory_13_ref"
+    },
+    {
+      "id": "142",
+      "name": "Inventory 14 Ref",
+      "symbol": "var_inventory_14_ref"
+    },
+    {
+      "id": "143",
+      "name": "Inventory 15 Ref",
+      "symbol": "var_inventory_15_ref"
+    },
+    {
+      "id": "496",
+      "name": "Array 0 Current Index",
+      "symbol": "var_array_0_current_index"
+    },
+    {
+      "id": "497",
+      "name": "Array 1 Size Items",
+      "symbol": "var_array_1_size_items"
+    },
+    {
+      "id": "498",
+      "name": "Array 2 Size Inventory",
+      "symbol": "var_array_2_size_inventory"
+    },
+    {
+      "id": "499",
+      "name": "Array 3 Placeholder",
+      "symbol": "var_array_3_placeholder"
+    },
+    {
+      "id": "500",
+      "name": "Array 4 Placeholder",
+      "symbol": "var_array_4_placeholder"
+    },
+    {
+      "id": "501",
+      "name": "Array 5 Placeholder",
+      "symbol": "var_array_5_placeholder"
+    },
+    {
+      "id": "502",
+      "name": "Array 6 Placeholder",
+      "symbol": "var_array_6_placeholder"
+    },
+    {
+      "id": "503",
+      "name": "Array 7 Placeholder",
+      "symbol": "var_array_7_placeholder"
+    },
+    {
+      "id": "504",
+      "name": "Temporary 0",
+      "symbol": "var_temporary_0"
+    },
+    {
+      "id": "505",
+      "name": "Temporary 1",
+      "symbol": "var_temporary_1"
+    },
+    {
+      "id": "506",
+      "name": "Temporary 2",
+      "symbol": "var_temporary_2"
+    },
+    {
+      "id": "507",
+      "name": "Temporary 3",
+      "symbol": "var_temporary_3"
+    },
+    {
+      "id": "508",
+      "name": "Temporary 4",
+      "symbol": "var_temporary_4"
+    },
+    {
+      "id": "509",
+      "name": "Temporary 5",
+      "symbol": "var_temporary_5"
     },
     {
       "id": "510",
-      "name": "Temporary A",
-      "symbol": "var_temporary_a"
+      "name": "Temporary 6",
+      "symbol": "var_temporary_6"
     },
     {
       "id": "511",
-      "name": "Temporary B",
-      "symbol": "var_temporary_b"
+      "name": "Temporary 7",
+      "symbol": "var_temporary_7"
     }
   ]
 }
