@@ -3,53 +3,53 @@
   "variables": [
     {
       "id": "0",
-      "name": "Item 00 Empty",
-      "symbol": "var_item_00_empty"
+      "name": "Item 0 Empty",
+      "symbol": "var_item_0_empty"
     },
     {
       "id": "1",
-      "name": "Item 01 Lightbulb",
-      "symbol": "var_item_01_lightbulb"
+      "name": "Item 1 Lightbulb",
+      "symbol": "var_item_1_lightbulb"
     },
     {
       "id": "2",
-      "name": "Item 02 TV Remote",
-      "symbol": "var_item_02_tv_remote"
+      "name": "Item 2 TV Remote",
+      "symbol": "var_item_2_tv_remote"
     },
     {
       "id": "3",
-      "name": "Item 03 Bottle Alcohol",
-      "symbol": "var_item_03_bottle_alcohol"
+      "name": "Item 3 Bottle Alcohol",
+      "symbol": "var_item_3_bottle_alcohol"
     },
     {
       "id": "4",
-      "name": "Item 04 Branch Dry",
-      "symbol": "var_item_04_branch_dry"
+      "name": "Item 4 Branch Dry",
+      "symbol": "var_item_4_branch_dry"
     },
     {
       "id": "5",
-      "name": "Item 05 Branch Wet",
-      "symbol": "var_item_05_branch_wet"
+      "name": "Item 5 Branch Wet",
+      "symbol": "var_item_5_branch_wet"
     },
     {
       "id": "6",
-      "name": "Item 06 Torch",
-      "symbol": "var_item_06_torch"
+      "name": "Item 6 Torch",
+      "symbol": "var_item_6_torch"
     },
     {
       "id": "7",
-      "name": "Item 07 Basement Key",
-      "symbol": "var_item_07_basement_key"
+      "name": "Item 7 Basement Key",
+      "symbol": "var_item_7_basement_key"
     },
     {
       "id": "8",
-      "name": "Item 08 Camera",
-      "symbol": "var_item_08_camera"
+      "name": "Item 8 Camera",
+      "symbol": "var_item_8_camera"
     },
     {
       "id": "9",
-      "name": "Item 09 Screwdriver",
-      "symbol": "var_item_09_screwdriver"
+      "name": "Item 9 Screwdriver",
+      "symbol": "var_item_9_screwdriver"
     },
     {
       "id": "10",
@@ -640,6 +640,76 @@
       "id": "127",
       "name": "Item 127 Placeholder",
       "symbol": "var_item_127_placeholder"
+    },
+    {
+      "id": "128",
+      "name": "Inventory Slot 0 Reference",
+      "symbol": "var_inventory_slot_0_ref"
+    },
+    {
+      "id": "129",
+      "name": "Inventory Slot 1 Reference",
+      "symbol": "var_inventory_slot_1_ref"
+    },
+    {
+      "id": "130",
+      "name": "Inventory Slot 2 Reference",
+      "symbol": "var_inventory_slot_2_ref"
+    },
+    {
+      "id": "131",
+      "name": "Inventory Slot 3 Reference",
+      "symbol": "var_inventory_slot_3_ref"
+    },
+    {
+      "id": "132",
+      "name": "Inventory Slot 4 Reference",
+      "symbol": "var_inventory_slot_4_ref"
+    },
+    {
+      "id": "133",
+      "name": "Inventory Slot 5 Reference",
+      "symbol": "var_inventory_slot_5_ref"
+    },
+    {
+      "id": "134",
+      "name": "Inventory Slot 6 Reference",
+      "symbol": "var_inventory_slot_6_ref"
+    },
+    {
+      "id": "135",
+      "name": "Inventory Slot 7 Reference",
+      "symbol": "var_inventory_slot_7_ref"
+    },
+    {
+      "id": "136",
+      "name": "Inventory Slot 8 Reference",
+      "symbol": "var_inventory_slot_8_ref"
+    },
+    {
+      "id": "137",
+      "name": "Inventory Slot 9 Reference",
+      "symbol": "var_inventory_slot_9_ref"
+    },
+    {
+      "id": "138",
+      "name": "Inventory Slot 10 Reference",
+      "symbol": "var_inventory_slot_10_ref"
+    },
+    {
+      "id": "139",
+      "name": "Inventory Slot 11 Reference",
+      "symbol": "var_inventory_slot_11_ref"
+    },
+    {
+      "id": "510",
+      "name": "Temporary A",
+      "symbol": "var_temporary_a"
+    },
+    {
+      "id": "511",
+      "name": "Temporary B",
+      "symbol": "var_temporary_b"
     }
   ]
 }

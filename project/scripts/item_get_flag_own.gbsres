@@ -6,7 +6,7 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Item Data Variable",
+      "name": "Item",
       "passByReference": false
     },
     "V1": {
