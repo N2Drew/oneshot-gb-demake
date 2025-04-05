@@ -1,0 +1,63 @@
+{
+  "_resourceType": "script",
+  "id": "4d015382-3770-4328-9b02-aa71bd0c4276",
+  "name": "Variable Get By Index",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Index",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Return Value",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "variable_get_by_index",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "504",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "__collapse": false
+      },
+      "id": "20a6b4a7-cc82-47ee-bfc3-f1ad07c17dc0"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "references": [
+          {
+            "type": "variable",
+            "id": "504"
+          },
+          {
+            "type": "variable",
+            "id": "505"
+          }
+        ],
+        "script": "VM_GET_INDIRECT VAR_TEMPORARY_1, VAR_TEMPORARY_0",
+        "__collapse": false
+      },
+      "id": "1a3734e1-1838-4f68-8fbc-f32220401e03"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "variable",
+          "value": "505"
+        }
+      },
+      "id": "d1328f4d-9c4d-4226-b8e1-368792e1d095"
+    }
+  ]
+}

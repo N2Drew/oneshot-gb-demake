@@ -1,0 +1,62 @@
+{
+  "_resourceType": "script",
+  "id": "61671ccc-644e-49ac-b0f0-315a28cf9fce",
+  "name": "Variable Set By Index",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Index",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "New Value",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "variable_set_by_index",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "504",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "id": "ae2393df-8723-479d-bb2a-a64310edca83"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "505",
+        "value": {
+          "type": "variable",
+          "value": "V1"
+        }
+      },
+      "id": "ae0e7ed1-61d7-44ae-9406-9a2c843985da"
+    },
+    {
+      "command": "EVENT_GBVM_SCRIPT",
+      "args": {
+        "script": "VM_SET_INDIRECT VAR_TEMPORARY_0, VAR_TEMPORARY_1",
+        "references": [
+          {
+            "type": "variable",
+            "id": "504"
+          },
+          {
+            "type": "variable",
+            "id": "505"
+          }
+        ],
+        "__comment": false
+      },
+      "id": "155dbe82-c2b3-4043-b6bb-4ff827a29d1f"
+    }
+  ]
+}
