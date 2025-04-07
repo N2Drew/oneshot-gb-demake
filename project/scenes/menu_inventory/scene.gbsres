@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "99b7db6a-f742-4ec6-811d-af7b24d18c21",
+  "_index": 0,
+  "name": "Menu Inventory",
+  "backgroundId": "25050a38-d7c5-4a93-921f-82b18b671c64",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "menu_inventory",
+  "x": 144,
+  "y": 56,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf"
+}

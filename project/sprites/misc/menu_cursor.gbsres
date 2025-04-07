@@ -23,22 +23,9 @@
               "tiles": [
                 {
                   "id": "0dec512d-1c98-4c40-a0a9-33cc54277e13",
-                  "x": 0,
+                  "x": -1,
                   "y": 0,
                   "sliceX": 0,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "75367dfc-b529-44df-bdaa-215e3e5e82c1",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 8,
                   "sliceY": 0,
                   "flipX": false,
                   "flipY": false,
@@ -118,7 +105,7 @@
     }
   ],
   "numTiles": 1,
-  "canvasWidth": 16,
+  "canvasWidth": 24,
   "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": 0,

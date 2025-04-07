@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "28b0ce64-a028-44aa-987b-238e35223a92",
+  "name": "Trigger Slot 3",
+  "prefabId": "",
+  "x": 14,
+  "y": 5,
+  "symbol": "trigger_3",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 3
+}
