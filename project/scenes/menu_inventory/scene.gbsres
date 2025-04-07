@@ -15,7 +15,33 @@
   "symbol": "menu_inventory",
   "x": 144,
   "y": 56,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ef33e340-0e22-44c9-b0d2-a58f446e0b13",
+        "__collapse": true
+      },
+      "id": "04e4ec03-94c5-44d0-bd84-47e34b7edcdc"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "8ba0f82e-3a5a-42d4-a9a5-9d33b1dcd409",
+        "__collapse": true
+      },
+      "id": "40654298-05fc-4c3a-ab44-aca588bf7e01"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e2a4f191-9ed9-4ff2-a649-5f8d3b605069",
+        "__comment": false,
+        "__collapse": true
+      },
+      "id": "7d865e6c-8fd1-4a43-832d-d1b635224ed3"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
