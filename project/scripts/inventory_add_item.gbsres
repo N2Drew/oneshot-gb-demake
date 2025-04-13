@@ -1,0 +1,71 @@
+{
+  "_resourceType": "script",
+  "id": "f38e8d52-5cee-4f3d-a8ae-0691f06a4613",
+  "name": "Inventory Add Item",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Item ID",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "inventory_add_item",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "501"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "500"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "61671ccc-644e-49ac-b0f0-315a28cf9fce",
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "$variable[V0]$": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "499"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "501"
+                }
+              }
+            },
+            "id": "551cd7c2-a2fd-4a34-aacf-6459c332dfdf"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "501",
+              "__collapse": false
+            },
+            "id": "757c6f99-8bd1-4111-941e-9e8c1636f813"
+          }
+        ],
+        "false": []
+      },
+      "id": "69186c87-f28b-4625-b10f-24815be15f46"
+    }
+  ]
+}
