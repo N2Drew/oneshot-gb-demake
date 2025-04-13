@@ -16,7 +16,19 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_5",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "133"
+        }
+      },
+      "id": "e36b4712-205e-45e7-8f69-281c2143402f"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
