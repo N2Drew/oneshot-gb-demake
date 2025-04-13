@@ -20,34 +20,7 @@
           "frames": [
             {
               "id": "d9670093-4cd3-44c3-b5af-f48a0836bfb9",
-              "tiles": [
-                {
-                  "id": "72e39f6a-ff2e-4d73-87c4-f11a1efc61f3",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 0,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "6e8f1ac8-7ff2-4065-9a4f-e568c7e929d4",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 8,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                }
-              ]
+              "tiles": []
             }
           ]
         },

@@ -5,7 +5,7 @@
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_12",
+  "symbol": "game_init",
   "script": [
     {
       "command": "EVENT_GROUP",

@@ -1,11 +1,11 @@
 {
   "_resourceType": "script",
   "id": "8cc39356-b6f8-4cfe-b6f3-c4fb33933b12",
-  "name": "Inventory Slots Init",
+  "name": "Inventory Init Slot Data",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "inventory_slots_init",
+  "symbol": "inventory_init_slot_data",
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -108,19 +108,6 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "130",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "b4baa704-c00e-4c9f-9746-65303afdabca"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
               "variable": "135",
               "value": {
                 "type": "number",
@@ -182,6 +169,19 @@
               "__comment": false
             },
             "id": "0ca340b8-ee85-4218-ae97-50b10652bc97"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "140",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "dfd2288e-f912-440b-bb25-26a5155a8276"
           }
         ]
       },

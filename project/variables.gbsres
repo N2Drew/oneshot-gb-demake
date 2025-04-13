@@ -703,23 +703,8 @@
     },
     {
       "id": "140",
-      "name": "Inventory 12 Ref",
-      "symbol": "var_inventory_12_ref"
-    },
-    {
-      "id": "141",
-      "name": "Inventory 13 Ref",
-      "symbol": "var_inventory_13_ref"
-    },
-    {
-      "id": "142",
-      "name": "Inventory 14 Ref",
-      "symbol": "var_inventory_14_ref"
-    },
-    {
-      "id": "143",
-      "name": "Inventory 15 Ref",
-      "symbol": "var_inventory_15_ref"
+      "name": "Inventory 12 Terminator",
+      "symbol": "var_inventory_12_terminator"
     },
     {
       "id": "496",
@@ -728,28 +713,28 @@
     },
     {
       "id": "497",
-      "name": "Array 1 Size Items",
-      "symbol": "var_array_1_size_items"
+      "name": "Array 1 Items Start",
+      "symbol": "var_array_1_items_start"
     },
     {
       "id": "498",
-      "name": "Array 2 Size Inventory",
-      "symbol": "var_array_2_size_inventory"
+      "name": "Array 2 Items Size",
+      "symbol": "var_array_2_items_size"
     },
     {
       "id": "499",
-      "name": "Array 3 Placeholder",
-      "symbol": "var_array_3_placeholder"
+      "name": "Array 3 Inventory Start",
+      "symbol": "var_array_3_inventory_start"
     },
     {
       "id": "500",
-      "name": "Array 4 Placeholder",
-      "symbol": "var_array_4_placeholder"
+      "name": "Array 4 Inventory Size",
+      "symbol": "var_array_4_inventory_size"
     },
     {
       "id": "501",
-      "name": "Array 5 Placeholder",
-      "symbol": "var_array_5_placeholder"
+      "name": "Array 5 Inventory Count",
+      "symbol": "var_array_5_inventory_count"
     },
     {
       "id": "502",
