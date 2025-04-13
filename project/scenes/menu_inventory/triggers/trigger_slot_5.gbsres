@@ -9,7 +9,19 @@
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d9441eca-5fd8-41f1-acc2-2e949d5b118f",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "133"
+        }
+      },
+      "id": "4dda33f6-553c-40f6-b4fb-fc1ee2d7e494"
+    }
+  ],
   "leaveScript": [],
   "_index": 5
 }

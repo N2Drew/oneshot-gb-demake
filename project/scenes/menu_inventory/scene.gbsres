@@ -17,6 +17,17 @@
   "y": 56,
   "script": [
     {
+      "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+      "args": {
+        "speedIn": 0,
+        "speedOut": 0,
+        "speed": 0,
+        "allowFastForward": true,
+        "__collapse": true
+      },
+      "id": "8a926057-0811-4875-a370-c59bbd2386e6"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "8ba0f82e-3a5a-42d4-a9a5-9d33b1dcd409",

@@ -85,6 +85,35 @@
   "colorMode": "mono",
   "generateDebugFilesEnabled": true,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "ecad0182-e4ea-425d-89d3-7b6e965c51d0": {
+        "id": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+        "name": "Inventory Text",
+        "groups": [
+          "layout",
+          "behaviour",
+          "avatar"
+        ],
+        "args": {
+          "avatarId": "",
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 4,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 4,
+          "clearPrevious": true,
+          "showFrame": true,
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "notModal",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {}
 }

@@ -1,0 +1,511 @@
+{
+  "_resourceType": "script",
+  "id": "d9441eca-5fd8-41f1-acc2-2e949d5b118f",
+  "name": "Inventory On Trigger Slot",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Item ID",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "inventory_on_trigger_slot",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 16,
+        "__collapseCase0": false,
+        "value0": 0,
+        "__collapseCase1": false,
+        "value1": 1,
+        "__collapseCase2": false,
+        "value2": 2,
+        "__collapseCase3": false,
+        "value3": 3,
+        "__collapseCase4": false,
+        "value4": 4,
+        "__collapseCase5": false,
+        "value5": 5,
+        "__collapseCase6": false,
+        "value6": 6,
+        "__collapseCase7": false,
+        "value7": 7,
+        "__collapseCase8": false,
+        "value8": 8,
+        "__collapseCase9": false,
+        "value9": 9,
+        "__collapseCase10": false,
+        "value10": 10,
+        "__collapseCase11": false,
+        "value11": 11,
+        "__collapseCase12": false,
+        "value12": 12,
+        "__collapseCase13": false,
+        "value13": 13,
+        "__collapseCase14": false,
+        "value14": 14,
+        "__collapseCase15": false,
+        "value15": 15,
+        "__collapseElse": false,
+        "__comment": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                ""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0fb346e9-e582-463e-b379-3c4444a7d39a"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- LIGHTBULB -\nA large lightbulb. It's the sun."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+            },
+            "id": "8f448626-d8e4-4241-8204-b70a1aa39401"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- TELEVISION REMOTE -\nIt's too hard to read in the dark light."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+            },
+            "id": "8dedb3d8-fb5f-4d60-8277-e38f7145f76d"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- BOTTLE OF ALCOHOL -\nThe smell of the liquid is repugnant."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+            },
+            "id": "c936382f-6e10-4149-8a59-bc422605e287"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- DRY BRANCH -\nA flaky branch from the bathroom plant."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7558a0df-e640-4a8f-bf66-e759865e0eea"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- WET BRANCH -\nThe tip of is soaked with alcohol."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f1a9934e-0240-493b-91c2-9170ec02ff6e"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- TORCH -\nDoesn't give off much light."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ea9b04ab-a167-449f-8a44-70cf1e25bbe6"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- BASEMENT KEY -\nThis thing looks old."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7266737e-b0cd-48b5-8117-0fcef8283a75"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- CAMERA -\nA broken camera with a screwed-in lens."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5916b434-0f8e-4858-991a-3622f93562bb"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- SCREWDRIVER -\nOf the tri-wing type."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c4183449-2b70-44b1-9e13-62d9a72522b9"
+          }
+        ],
+        "true10": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- LENS -\nA large glass lens."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f7061ab3-25a3-4f2d-bf3f-aaf532ec27cd"
+          }
+        ],
+        "true11": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- EMPTY BOTTLE -\nThe smell of alcohol lingers."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2ebac119-27a9-40f3-a231-857051e67b86"
+          }
+        ],
+        "true12": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- BROKEN BATTERY -\nApparently a battery. It has broken glass."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c1fa111e-3c96-41e1-ac5e-ced7238173ac"
+          }
+        ],
+        "true13": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- EMPTY BATTERY -\nAn intact battery. It's currently empty. "
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0e6e12cc-f9ed-4558-99bc-11615ab082c2"
+          }
+        ],
+        "true14": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- CHARGED BATTERY -\nA working battery. It's at maximum power."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6f540a86-a88c-4473-ad1d-1b2ec94ce60e"
+          }
+        ],
+        "true15": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                "- BOTTLE OF SMOKE -\nIt's full of noxious fumes."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b98bfc4d-4e75-4c24-a87c-eac7efc1fdf4"
+          }
+        ],
+        "false": []
+      },
+      "id": "bd43643f-0659-4536-a760-4f8edd9ae08a"
+    }
+  ]
+}

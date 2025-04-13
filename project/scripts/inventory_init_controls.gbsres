@@ -20,6 +20,24 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+            "args": {
+              "speedIn": 0,
+              "speedOut": 0,
+              "speed": 1,
+              "allowFastForward": true,
+              "__collapse": false
+            },
+            "id": "4e146090-9d0d-4a0d-93d7-2841a11d92b0"
+          },
+          {
+            "command": "EVENT_OVERLAY_HIDE",
+            "args": {
+              "__collapse": true
+            },
+            "id": "5e4548de-edfe-42fe-bd52-ce146c6c13d2"
+          },
+          {
             "command": "EVENT_SCENE_POP_STATE",
             "args": {
               "fadeSpeed": 1,
