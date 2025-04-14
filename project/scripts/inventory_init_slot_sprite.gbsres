@@ -259,6 +259,40 @@
               "false": []
             },
             "id": "18b43e1a-e964-4d12-a704-db61a22d40f0"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "141"
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "0",
+                    "spriteStateId": "Selected",
+                    "loopAnim": false,
+                    "__collapse": true
+                  },
+                  "id": "ea35b236-5391-41a5-a0e2-3e63113bce24"
+                }
+              ],
+              "false": []
+            },
+            "id": "2683fd08-ed4f-4e86-a4ce-d1735a43fd45"
           }
         ],
         "false": []
