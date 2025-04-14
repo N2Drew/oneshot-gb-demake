@@ -182,6 +182,19 @@
               "__comment": false
             },
             "id": "dfd2288e-f912-440b-bb25-26a5155a8276"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "141",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true,
+              "__comment": false
+            },
+            "id": "84117c81-55c2-4f08-8bde-edd94d907784"
           }
         ]
       },

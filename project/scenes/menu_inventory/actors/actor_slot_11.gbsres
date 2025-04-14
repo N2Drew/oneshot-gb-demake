@@ -15,7 +15,19 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_11",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9dc314fa-463a-4884-b925-fa77e1f3367c",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "139"
+        }
+      },
+      "id": "3fb7d897-3192-4e2a-8554-ab538b456f07"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

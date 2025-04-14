@@ -707,6 +707,11 @@
       "symbol": "var_inventory_12_terminator"
     },
     {
+      "id": "141",
+      "name": "Inventory 13 Held Item",
+      "symbol": "var_inventory_13_held_item"
+    },
+    {
       "id": "496",
       "name": "Array 0 Current Index",
       "symbol": "var_array_0_current_index"
