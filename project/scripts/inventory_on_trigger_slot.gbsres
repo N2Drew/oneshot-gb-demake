@@ -318,19 +318,20 @@
               "__section": "text",
               "avatarId": "",
               "minHeight": 4,
-              "maxHeight": 7,
+              "maxHeight": 4,
               "textX": 1,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 4,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
+              "showFrame": true,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "notModal",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
             },
             "id": "c4183449-2b70-44b1-9e13-62d9a72522b9"
           }
