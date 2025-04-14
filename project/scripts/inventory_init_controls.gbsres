@@ -125,7 +125,7 @@
                 "type": "lt",
                 "valueA": {
                   "type": "number",
-                  "value": 5
+                  "value": 3
                 },
                 "valueB": {
                   "type": "property",
@@ -188,7 +188,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 13
+                  "value": 11
                 }
               },
               "__collapseElse": true,

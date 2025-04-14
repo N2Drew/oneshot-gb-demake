@@ -4,7 +4,7 @@
   "name": "Trigger Slot 2",
   "prefabId": "",
   "x": 10,
-  "y": 5,
+  "y": 3,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
   "width": 1,
