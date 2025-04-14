@@ -52,7 +52,7 @@
         "value15": 15,
         "__collapseElse": false,
         "__comment": false,
-        "__disableElse": true
+        "__disableElse": false
       },
       "children": {
         "true0": [
@@ -504,7 +504,1510 @@
             "id": "b98bfc4d-4e75-4c24-a87c-eac7efc1fdf4"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "V0",
+              "choices": 16,
+              "__collapseCase0": false,
+              "value0": 16,
+              "__collapseCase1": false,
+              "value1": 17,
+              "__collapseCase2": false,
+              "value2": 18,
+              "__collapseCase3": false,
+              "value3": 19,
+              "__collapseCase4": false,
+              "value4": 20,
+              "__collapseCase5": false,
+              "value5": 21,
+              "__collapseCase6": false,
+              "value6": 22,
+              "__collapseCase7": false,
+              "value7": 23,
+              "__collapseCase8": false,
+              "value8": 24,
+              "__collapseCase9": false,
+              "value9": 25,
+              "__collapseCase10": false,
+              "value10": 26,
+              "__collapseCase11": false,
+              "value11": 27,
+              "__collapseCase12": false,
+              "value12": 28,
+              "__collapseCase13": false,
+              "value13": 29,
+              "__collapseCase14": false,
+              "value14": 30,
+              "__collapseCase15": false,
+              "value15": 31,
+              "__collapseElse": false,
+              "__comment": false,
+              "__disableElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- BOTTLE OF ACID -\nIt's full of a thick liquid acid."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "2ff1a842-3579-4aaf-9b78-4a637d950002"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "- WET SPONGE -\nSoaked with acidic cleaning solution."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                  },
+                  "id": "3b106a79-818e-4d14-bc35-befc63f89604"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "- CROWBAR -\nMakeshift crowbar made from a pipe."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                  },
+                  "id": "d45f9cdf-d94a-40fc-8345-9dd964f2b9ce"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "- METAL ROD -\nIt weighs surprisingly little."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                  },
+                  "id": "0a060591-618a-450b-9d90-f6c632c41c83"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- SPONGE -\nA flat sponge with a rough surface."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "05f052ae-4b3a-43ef-a0a0-03dc8109e9ae"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- EMPTY SYRINGE -\nThe needle is particularly long."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5aee275a-dffe-4ca1-b36f-6335c093607b"
+                }
+              ],
+              "true6": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- FILLED SYRINGE -\nIt's full of the strange pond liquid."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "cd1bb437-9068-4a4f-b842-32fa90c4995c"
+                }
+              ],
+              "true7": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- AMBER -\nIt's glowing and has a black clover inside."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a631868f-7853-4414-af86-6ecbd0122760"
+                }
+              ],
+              "true8": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- STRANGE JOURNAL -\nIt's written in an unknown language."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "8013eedb-4f85-42ec-a076-aec6d7fb93cb"
+                }
+              ],
+              "true9": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "- FEATHER -\nA long feather with glowing edges."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                  },
+                  "id": "26477210-f590-47ab-b4ed-8fbad74ddf65"
+                }
+              ],
+              "true10": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- BOTTLE OF DYE -\nFilled with dark blue liquid used for dying."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6d0372bb-af72-47a3-a595-3a2b101f889c"
+                }
+              ],
+              "true11": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- TUBE OF WATER -\nThe label says \"water sample\"."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "117e846c-4a16-4f76-8890-5955ab246cc9"
+                }
+              ],
+              "true12": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- SEED -\nA seed apparently left behind by Maize."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "346fefb8-312f-4a6a-a18c-37686d7518ec"
+                }
+              ],
+              "true13": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- WOOL -\nIt's... kind of useless."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6489e642-0b84-4943-8cf8-bfb411130fb7"
+                }
+              ],
+              "true14": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- FEATHER PEN -\nMade from dipping a feather into ink."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "80b254ee-9560-4331-a4d7-2bd04ffaf571"
+                }
+              ],
+              "true15": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "text": [
+                      "- DIE -\nA die with glowing dots."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 4,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 4,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": 0,
+                    "speedOut": 0,
+                    "closeWhen": "notModal",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "dc26d170-031b-4031-b3b1-0ea6d0387367"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "V0",
+                    "choices": 16,
+                    "__collapseCase0": false,
+                    "value0": 32,
+                    "__collapseCase1": false,
+                    "value1": 33,
+                    "__collapseCase2": false,
+                    "value2": 34,
+                    "__collapseCase3": false,
+                    "value3": 35,
+                    "__collapseCase4": false,
+                    "value4": 36,
+                    "__collapseCase5": false,
+                    "value5": 37,
+                    "__collapseCase6": false,
+                    "value6": 38,
+                    "__collapseCase7": false,
+                    "value7": 39,
+                    "__collapseCase8": false,
+                    "value8": 40,
+                    "__collapseCase9": false,
+                    "value9": 41,
+                    "__collapseCase10": false,
+                    "value10": 42,
+                    "__collapseCase11": false,
+                    "value11": 43,
+                    "__collapseCase12": false,
+                    "value12": 44,
+                    "__collapseCase13": false,
+                    "value13": 45,
+                    "__collapseCase14": false,
+                    "value14": 46,
+                    "__collapseCase15": false,
+                    "value15": 47,
+                    "__collapseElse": false,
+                    "__comment": false,
+                    "__disableElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- BUTTON (?) -\nA simple button made from a coffee tin."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "5e2d9fa7-0126-4534-a1bc-34eb5cce62a5"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "- MAGNETIZED BUTTON (?) -\nA button with magnets loosely attached."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                        },
+                        "id": "c0976c8a-ee1e-4a3d-a226-a912c4944230"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "- TAPED BUTTON -\nThe magnets are secured with tape."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                        },
+                        "id": "a91714f0-4e5e-4c7d-bfe8-cd137e269ae1"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "- YOU TRIED -\nIt's the thought that counts."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                        },
+                        "id": "da035920-5ed3-4ca7-bfa2-847c01a2c924"
+                      }
+                    ],
+                    "true4": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- MAGNETS -\nAn assortment of colorful magnets."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "5e7f0de6-0bda-4a29-9f99-43d7f42e20aa"
+                      }
+                    ],
+                    "true5": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- METAL CAN -\nMade of aluminum. Says \"coffee grounds\"."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "f44673d6-fb45-448c-b1bb-00b3ce8be9ac"
+                      }
+                    ],
+                    "true6": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- SCISSORS -\nA pair of scissors found amidst hair."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a7ee7f7d-80bb-496f-a60e-df0a7ef2ae2b"
+                      }
+                    ],
+                    "true7": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- WEIRD FILM -\nA transparent sheet filled with numbers."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "0ac0981a-ff21-4dd8-9be1-6fcf2af17b0f"
+                      }
+                    ],
+                    "true8": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- CONCAVE LENS -\nA large lens, curved inward."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "702f4bad-61fa-48ca-99ff-9e1d107a41bb"
+                      }
+                    ],
+                    "true9": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "- CONVEX LENS -\nA large lens, curved outward."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                        },
+                        "id": "154fc4b1-4242-4f9c-8638-9f233708987f"
+                      }
+                    ],
+                    "true10": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- THIN LENS -\nA delicately thin lens."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7d7260e1-e249-4879-b339-277ffb8fa793"
+                      }
+                    ],
+                    "true11": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- THICK LENS -\nA large, thick lens."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c6674010-e1ae-473c-bf31-701815565e8f"
+                      }
+                    ],
+                    "true12": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- GLITTER GLUE -\nA small tube of green glitter glue."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "1077be95-63d5-4d5f-b016-5b99a7c6cee3"
+                      }
+                    ],
+                    "true13": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- PHOTO OF NIKO -\nNot a cat!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "68097b25-0a4b-4682-92c4-1d48f78b4853"
+                      }
+                    ],
+                    "true14": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- KIP'S LIBRARY CARD -\nThe name says \"Kip Silverpoint Ph.D.\"."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "3459571b-517d-4d5a-9f66-5c814ada9779"
+                      }
+                    ],
+                    "true15": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                          "text": [
+                            "- GAS MASK -\nA mask used to filter air for breathing."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 4,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 4,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": 0,
+                          "speedOut": 0,
+                          "closeWhen": "notModal",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "b99a0fc6-86cd-4041-816c-9d70a1c6492a"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "V0",
+                          "choices": 16,
+                          "__collapseCase0": false,
+                          "value0": 48,
+                          "__collapseCase1": false,
+                          "value1": 49,
+                          "__collapseCase2": false,
+                          "value2": 50,
+                          "__collapseCase3": false,
+                          "value3": 51,
+                          "__collapseCase4": false,
+                          "value4": 52,
+                          "__collapseCase5": false,
+                          "value5": 53,
+                          "__collapseCase6": false,
+                          "value6": 54,
+                          "__collapseCase7": false,
+                          "value7": 55,
+                          "__collapseCase8": false,
+                          "value8": 56,
+                          "__collapseCase9": false,
+                          "value9": 57,
+                          "__collapseCase10": false,
+                          "value10": 58,
+                          "__collapseCase11": false,
+                          "value11": 59,
+                          "__collapseCase12": false,
+                          "value12": 60,
+                          "__collapseCase13": false,
+                          "value13": 61,
+                          "__collapseCase14": false,
+                          "value14": 62,
+                          "__collapseCase15": false,
+                          "value15": 63,
+                          "__collapseElse": false,
+                          "__comment": false,
+                          "__disableElse": false,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- RUBBER GLOVES -\nDesigned to prevent chemical damage."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "1ed126fb-b46c-482d-b665-b3bb529b21e2"
+                            }
+                          ],
+                          "true1": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "- NOVELTY T-SHIRT -\n\"All I got was this lousy T-Shirt!\"."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                              },
+                              "id": "cf60c83f-c158-4766-a988-77c51dd23e47"
+                            }
+                          ],
+                          "true2": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "- \"KIP'S\" LIBRARY CARD -\nNiko's own photo is glued on."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                              },
+                              "id": "c1493fac-3671-4622-8765-e2b423c5e464"
+                            }
+                          ],
+                          "true3": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "- LIBRARY CARD (STICKY) -\nThere's glue all over her photo now..."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                              },
+                              "id": "ddb0bbb5-4f97-4009-a3f6-0a62e546a2bb"
+                            }
+                          ],
+                          "true4": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- PHOTO OF NIKO (STICKY) -\nThe back of the photo is covered in glue."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "695e35f9-c8cf-447f-be3d-d12f86c62278"
+                            }
+                          ],
+                          "true5": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- DIRT -\nA bag of dirt, for growing plants."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "bc48d38d-8e80-43bf-972d-71729fdf9128"
+                            }
+                          ],
+                          "true6": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- WATER PILL -\nGoes in water, supposedly."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "b77adfaf-99a8-4903-87a1-66be80bf76b3"
+                            }
+                          ],
+                          "true7": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- MEDICATED WATER -\nThe water pill is dissolved in it."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "013d92c2-4723-4240-ac1a-0bd93bb090cd"
+                            }
+                          ],
+                          "true8": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- CLOVER -\nA black clover."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "ae695cbf-4fa6-4f4b-a3ff-cf02b21ec62c"
+                            }
+                          ],
+                          "true9": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "- EMPTY TUBE -\nAn empty tube. Used to hold water."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0"
+                              },
+                              "id": "799fef25-bb2d-491d-ba5c-9cd8abf43cba"
+                            }
+                          ],
+                          "true10": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- BOTTLE OF POND WATER -\nIt has the consistency of glue."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "3cc5a497-e7d5-4cc8-9867-8dca7c94e25d"
+                            }
+                          ],
+                          "true11": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- GLOWING JOURNAL -\nIt's glowing now...?"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "bd73e5f6-e897-43d5-89be-064af03ba5f0"
+                            }
+                          ],
+                          "true12": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- MEMORY DISK -\nA floppy disk."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "5002dbce-3208-4783-9046-3c9d890d28b1"
+                            }
+                          ],
+                          "true13": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- MEMORY DISK (BACKUP) -\nA floppy disk containing a backup."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": true
+                              },
+                              "id": "b28d23e4-d663-4417-a387-0b1ccbd98bea"
+                            }
+                          ],
+                          "true14": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- CHARGED BATTERY -\nA working rechargable battery."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "3e708a8b-9d59-4713-8cee-16b9cd7af2fa"
+                            }
+                          ],
+                          "true15": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                                "text": [
+                                  "- MUSIC BOX -\nA wind-up music box."
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 4,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 4,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": 0,
+                                "speedOut": 0,
+                                "closeWhen": "notModal",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "9091b104-fc9c-4707-b66a-c0c56cc5182a"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_COMMENT",
+                              "args": {
+                                "text": "For custom items, continue this unholy nested switch chain here.\nOnly up to 128 items are supported."
+                              },
+                              "id": "246087e9-49c1-499b-84a1-064984ddad4c"
+                            }
+                          ]
+                        },
+                        "id": "a719c86e-8e99-49cc-afa9-917e71a382fd"
+                      }
+                    ]
+                  },
+                  "id": "8bb45641-52cc-4871-a99c-133195161fb9"
+                }
+              ]
+            },
+            "id": "4a0e2bf0-af44-4f6f-8251-3744d8f8dca8"
+          }
+        ]
       },
       "id": "bd43643f-0659-4536-a760-4f8edd9ae08a"
     }
