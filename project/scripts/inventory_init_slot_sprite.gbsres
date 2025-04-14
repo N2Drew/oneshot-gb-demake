@@ -288,6 +288,31 @@
                     "__collapse": true
                   },
                   "id": "ea35b236-5391-41a5-a0e2-3e63113bce24"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "sub",
+                      "valueA": {
+                        "type": "property",
+                        "target": "0",
+                        "property": "xpos"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "y": {
+                      "type": "property",
+                      "target": "0",
+                      "property": "ypos"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "4a764c24-c9c0-4290-8acd-73f0a83332ca"
                 }
               ],
               "false": []

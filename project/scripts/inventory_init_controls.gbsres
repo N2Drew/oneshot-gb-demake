@@ -26,7 +26,7 @@
               "speedOut": 0,
               "speed": 1,
               "allowFastForward": true,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "4e146090-9d0d-4a0d-93d7-2841a11d92b0"
           },
@@ -76,8 +76,8 @@
                   "property": "xpos"
                 }
               },
-              "__collapseElse": true,
-              "__disableElse": true
+              "__collapseElse": false,
+              "__disableElse": false
             },
             "children": {
               "true": [
@@ -98,7 +98,24 @@
                   "id": "a3312a69-b9ea-4345-98e3-4e750928af2c"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "103f1577-fad3-47c4-ad8a-f453b4ec60e6"
+                }
+              ]
             },
             "id": "6d9fcb79-f07d-438d-8821-da8e9ff4ff58"
           }
@@ -133,8 +150,8 @@
                   "property": "ypos"
                 }
               },
-              "__collapseElse": true,
-              "__disableElse": true,
+              "__collapseElse": false,
+              "__disableElse": false,
               "__collapse": false
             },
             "children": {
@@ -151,12 +168,29 @@
                       "type": "number",
                       "value": -4
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "24b7f2ca-d14d-4a76-ba97-f7b4abc1ff1b"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "__collapse": true
+                  },
+                  "id": "3e9fc898-0424-4214-b9fa-ac38d8697ae7"
+                }
+              ]
             },
             "id": "6b80889d-05fb-4917-9a0c-0b287cbf255c"
           }
@@ -191,8 +225,8 @@
                   "value": 11
                 }
               },
-              "__collapseElse": true,
-              "__disableElse": true
+              "__collapseElse": false,
+              "__disableElse": false
             },
             "children": {
               "true": [
@@ -213,7 +247,24 @@
                   "id": "bccdafe4-f626-48db-8b00-aeae25292d24"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -8
+                    },
+                    "__collapse": true
+                  },
+                  "id": "326ee219-e30a-402c-a23e-6f0d2ecb6a7d"
+                }
+              ]
             },
             "id": "8f9d5065-e214-4616-96d5-22605d324f85"
           }
@@ -248,8 +299,9 @@
                   "value": 14
                 }
               },
-              "__collapseElse": true,
-              "__disableElse": true
+              "__collapseElse": false,
+              "__disableElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -270,7 +322,24 @@
                   "id": "dc6c3383-5df7-4c6a-9207-75b11498c5fe"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": -12
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "9f74e37a-0945-4b32-8a96-5e8314783545"
+                }
+              ]
             },
             "id": "8c2a1673-0900-4ba2-afed-cd8d4174e0b6"
           }
