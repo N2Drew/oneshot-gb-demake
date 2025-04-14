@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "2a49f30c-fcd0-4df0-b4a2-affa31fc45f1",
   "name": "items/item_2_remote",
-  "symbol": "sprite_items_item_start_rem",
+  "symbol": "item_2_remote",
   "numFrames": 3,
   "filename": "items/item_2_remote.png",
   "checksum": "d55509ffbd06d88ce677c4e7d8d995ea8e5887a3",

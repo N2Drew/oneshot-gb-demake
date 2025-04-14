@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "50c401b2-39ec-4be1-b3c9-349fdaf77d8a",
   "name": "items/item_11_bottle-empty",
-  "symbol": "sprite_items_item_start_bot_0",
+  "symbol": "item_11_bottle_empty",
   "numFrames": 3,
   "filename": "items/item_11_bottle-empty.png",
   "checksum": "cfb191d90619e291c6c4db532e452f6e4abd4790",

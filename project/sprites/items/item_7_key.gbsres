@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "29aec286-b567-4bfd-9dc0-b2efc3f69029",
   "name": "items/item_7_key",
-  "symbol": "sprite_items_item_start_key",
+  "symbol": "item_7_key",
   "numFrames": 3,
   "filename": "items/item_7_key.png",
   "checksum": "6a5208d9bda4688f7564508daf0429e2f76c27fe",

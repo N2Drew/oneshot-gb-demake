@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "bb5d52e2-8da7-4a36-af97-328284decb7d",
   "name": "items/item_9_screwdriver",
-  "symbol": "sprite_items_item_9_screwdr",
+  "symbol": "item_9_screwdriver",
   "numFrames": 3,
   "filename": "items/item_9_screwdriver.png",
   "checksum": "1e13e43ab6f1ecab5ae34371d4565ca402688bb1",

@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "206728f2-52f6-43b3-b04c-0b9b0394745d",
   "name": "items/item_10_lens",
-  "symbol": "sprite_items_item_10_lens",
+  "symbol": "item_10_lens",
   "numFrames": 3,
   "filename": "items/item_10_lens.png",
   "checksum": "96c8f94eb61e4cb8293cf6bf7be1884a44f4542a",

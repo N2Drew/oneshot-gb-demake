@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "12cc5f8a-e054-41c0-87b9-60e7697bf2f7",
   "name": "items/item_1_lightbulb",
-  "symbol": "sprite_items_item_start_lig",
+  "symbol": "item_1_lightbulb",
   "numFrames": 3,
   "filename": "items/item_1_lightbulb.png",
   "checksum": "d8cdfab5a671b998022d929d735847ec63c08c10",

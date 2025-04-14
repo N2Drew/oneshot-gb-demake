@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "850ea458-4fe6-4912-824b-50d45c8a21f0",
   "name": "items/item_5_branch-wet",
-  "symbol": "sprite_items_item_start_bra_0",
+  "symbol": "item_5_branch_wet",
   "numFrames": 3,
   "filename": "items/item_5_branch-wet.png",
   "checksum": "326075f7bef86e4d18c8c7646b32a011395d4283",

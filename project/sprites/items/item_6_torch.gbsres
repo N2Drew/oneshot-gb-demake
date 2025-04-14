@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "f306c125-ee4d-4c3c-8da6-72fd77056911",
   "name": "items/item_6_torch",
-  "symbol": "sprite_items_item_start_tor",
+  "symbol": "item_6_torch",
   "numFrames": 3,
   "filename": "items/item_6_torch.png",
   "checksum": "15020ad52948bf8d0736621be297f9130b52f7f8",

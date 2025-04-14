@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "5281b6ef-97c9-4e38-9d34-e680ebcdc95a",
   "name": "items/item_4_branch-dry",
-  "symbol": "sprite_items_item_start_bra",
+  "symbol": "item_4_branch_dry",
   "numFrames": 3,
   "filename": "items/item_4_branch-dry.png",
   "checksum": "84242c7d2ebee715849ae15ec5cb5ddc0823be2f",

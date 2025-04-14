@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "84195f7e-26eb-4450-bff4-4901b37e27cf",
   "name": "items/item_8_camera",
-  "symbol": "sprite_items_item_8_camera",
+  "symbol": "item_8_camera",
   "numFrames": 3,
   "filename": "items/item_8_camera.png",
   "checksum": "9b6875eecd8c0753cb6942fa31f795a10e910f88",
