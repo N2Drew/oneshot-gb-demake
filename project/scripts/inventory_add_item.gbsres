@@ -7,7 +7,7 @@
     "V0": {
       "id": "V0",
       "name": "Item ID",
-      "passByReference": true
+      "passByReference": false
     }
   },
   "actors": {},
