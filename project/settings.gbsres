@@ -113,6 +113,32 @@
           "closeDelayFrames": 30
         }
       }
+    },
+    "GUD_EVENT_TEXT": {
+      "96a8787c-fd4d-4844-9cc9-b4295b914f6e": {
+        "id": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
+        "name": "Inventory Combine Text",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 4,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 4,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
     }
   },
   "scriptEventDefaultPresets": {}

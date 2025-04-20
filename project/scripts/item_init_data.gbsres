@@ -15,392 +15,200 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "0",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "b5ae8374-8d8a-4b7a-92dc-c5f2aa0c664a"
+            "id": "9c69e8c6-7f3f-4305-b3c7-016544ac7b4d"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "1",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "17ef61d0-7a18-421b-ad1e-fb26669a7adb"
+            "id": "09f3b34e-df2c-49b8-b37b-27e11d04a5a3"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "2",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "69e30b22-d7fe-46ed-81c1-f6354a60e4be"
+            "id": "dd2e671d-a285-4ff0-b66b-5044477a0dc3"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "3",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "e0b3e177-6529-4f25-8c81-0e81010e509b"
+            "id": "194dd1e5-60b8-4504-9ec0-8ee4b27e0ff6"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "4",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "7786d768-7ffb-4595-bed2-4d04b0f253ff"
+            "id": "5bc729fa-fdc4-4824-bb1d-e2a1959810b4"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "5",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "47bc3ca8-8b46-4bfe-80f6-0af61fe00aa1"
+            "id": "bae8fd5f-3a5e-4bac-b587-717072adc340"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "6",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "d076a9b4-bb61-417c-b9d4-bbab0622e536"
+            "id": "7ab3f4f9-ccb8-4e88-8f3d-c569e7da2307"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "7",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "66aaf9ca-25e4-4585-942b-b79ad162be5d"
+            "id": "3a0b3b8d-9dae-4ac7-8964-9deacb7d2352"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "8",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": true,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "6fc641a7-43d5-4c9d-b92c-caf36e365dbc"
+            "id": "9905859c-3623-45eb-8efe-a25906a372d5"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "9",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": true,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "2f0b555c-0e8c-4b10-8ea9-7cdec3ae3291"
+            "id": "90f902b5-8277-4128-9568-33578c4b62a9"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "10",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "a7ca61c6-96df-4b2b-be1b-2d27fb323d3b"
+            "id": "a68a7272-7496-4cef-b876-de41a0879eeb"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "11",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "ad212fb2-ffe0-4d8a-87b5-553e29cfda1b"
+            "id": "bd9e590e-ea97-459f-acd2-1a1e7d4a66f5"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "12",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "2e1a68b7-7692-42b6-bf2d-310c377ffb8b"
+            "id": "78dfe055-9e55-451b-a6c7-951c5aa972a2"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "13",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "c8239003-7051-4f9d-bb19-a15a08db58cf"
+            "id": "795ad776-d717-4c1e-969f-47ed454ee5c9"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "14",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "e64b5f04-49c5-4aa3-a48a-00d761e22e16"
+            "id": "bed8f4f8-9743-4959-892e-b78cb96feddd"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "15",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "6201183d-a464-4c9c-8243-739f4fe2c562"
+            "id": "0a999841-a1f7-40c1-a1b0-280e4bb6dd8d"
           }
         ]
       },
-      "id": "e49f9a58-019f-4d14-a587-c559ba9bff3e"
+      "id": "36dea797-701a-4eff-8b35-63e3a644d9db"
     },
     {
       "command": "EVENT_GROUP",
@@ -410,392 +218,200 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "16",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": true,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "dcb75011-554b-4148-a30f-7248e99a431d"
+            "id": "e41befc9-c88c-44e1-8f00-1bab4c34e4f4"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "17",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "96aeca9c-531e-42a0-89e9-d5be38580665"
+            "id": "443bf786-b9e3-4c78-a3ae-a5907c8089e1"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "18",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "c1b7f6ef-f0ab-4247-8df4-8241939a87dd"
+            "id": "a2aa4214-cb03-4845-9be1-fd26904bbe48"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "19",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "53a96a5f-9549-4b02-abff-5042332d5204"
+            "id": "efa1fd37-b051-4de4-a592-66671091cc0b"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "20",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": true,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "40d63ead-8b88-4735-b874-c682a275ce6a"
+            "id": "d97d6643-7cae-4d05-90da-d299b2c4d662"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "21",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "0e034a31-ae52-4ce0-87ed-16c2b0083c79"
+            "id": "a23f85d1-0470-481c-a1ca-4bc7126cd455"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "22",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "dc8f4c6f-86d9-4648-b0f2-b750584d3323"
+            "id": "9d90dc02-916f-4b9e-8448-649acd330b2f"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "23",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "b71f9e63-df12-4b62-828d-36eea3f0ee04"
+            "id": "9d23d27f-5295-4b57-9894-0c4a604e6cdb"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "24",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "f63082cf-05ab-4811-99bf-c4560529b099"
+            "id": "b4307151-8bdd-4800-95c1-b29b52d24ff6"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "25",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "dd70fbc5-233c-45e0-85a3-a502edb596db"
+            "id": "2553f6e7-fd29-45f7-8118-c899e263a2d4"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "26",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": true,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "8395fadd-1992-483d-9ee8-8c4d3845f7bf"
+            "id": "c134cde6-e712-4a8d-9325-552be248c869"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "27",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": true,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "8a4acca8-6485-47b8-b274-eaa075bf6924"
+            "id": "266363dc-a10b-4788-8805-38f76016ff27"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "28",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "ce3148b4-466b-4f73-a967-3c9905e43c5c"
+            "id": "3a9747fa-9a5e-4b4c-834a-57ac643302a3"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "29",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "d76e641e-af5b-4756-a99a-88efb255e347"
+            "id": "4685203f-af2b-4f5c-bad8-307697e3f3b6"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "30",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "1cbb9d6d-127c-4a0f-8b84-98b03f5505db"
+            "id": "a678dc38-97fd-4d5e-9761-4e79a7664e0e"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "31",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": false,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "1f831b94-5e01-4fc7-9b0d-c39e93b64cd4"
+            "id": "e96ae0d7-2f18-4bb7-b3fc-14e01c2c2493"
           }
         ]
       },
-      "id": "4a1aa545-8fc2-4e00-9237-86cc03242a2f"
+      "id": "1577423f-8030-4178-ba57-f79dddb3fefd"
     },
     {
       "command": "EVENT_GROUP",
@@ -805,392 +421,200 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "32",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "dcdba9fb-6133-4e60-b38c-f56fde4ad146"
+            "id": "12f95ea0-095a-4d2a-8886-b0f354ef3a80"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "33",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "2d3db08f-1447-4d63-8040-9c2d762291cf"
+            "id": "30aa00aa-2626-4f49-8100-ab0d6e2af26f"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "34",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "68c7cf78-96c5-4fb1-bd9b-8f9821cc2eaa"
+            "id": "1dbba0aa-66b7-40b2-8c5b-853616f8f5aa"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "35",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "9811dfe1-07f4-48af-9454-b1c2ece9820e"
+            "id": "251c3ce3-bf95-49dd-8943-5513b88e6f79"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "36",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "b5fd8bb5-f9ee-45f6-bc2f-5bacd22d5a87"
+            "id": "18662253-cf63-4dc7-af2e-f531a29ce7bd"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "37",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "9de1bf9c-502f-494b-bea2-af7629da1748"
+            "id": "105f0451-0ffe-4935-9fbe-21c8677e7112"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "38",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "c708220b-14f9-46d7-b272-d9d236521eb4"
+            "id": "9ade797b-dd87-4a56-bc5d-148651825132"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "39",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "0f6ff03c-7b74-490f-ba2e-adc2a537433c"
+            "id": "13b145a1-5046-44fc-8838-e37c0817ba4d"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "40",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "8dd1effe-d650-4cc7-a353-9ce268e3ca1f"
+            "id": "43ca16a1-c87f-4257-bbe8-101a18cde678"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "41",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "6bcf92af-422d-49d3-9b4e-b51919168cc4"
+            "id": "e47b7524-0da3-47b6-a5d3-0e0df4a069dc"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "42",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "6b3c34e5-de72-40a7-acac-a5931a98ea2e"
+            "id": "6ef0bb6e-fdbf-4cd8-aa49-61c305a670a6"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "43",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "62d3f2f4-3115-400e-8785-c06d44043a61"
+            "id": "421aa9ee-43d0-40e0-8f3b-ba9442376448"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "44",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": true,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "7f09d68b-e43c-4c75-b299-5d9732dcecc9"
+            "id": "ea4ad1a5-0d06-4fda-a4c7-d43e09f9333f"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "45",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "e5b9035c-1233-4dbd-8a91-70732c4658c3"
+            "id": "0fd65255-a96e-4ac0-aa77-194d762aa348"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "46",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": true,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "36c80cd5-0dea-4684-a086-b5a569dcf401"
+            "id": "f68e18e6-134b-458a-b2b4-c47446796a56"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "47",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": false,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "63ceab72-b42b-43eb-aa5b-47b280fb19e8"
+            "id": "dab1bbc3-f032-4eac-9586-08ba9dc37fbb"
           }
         ]
       },
-      "id": "bbc16539-0f57-4ac3-895f-83c1659903e6"
+      "id": "f4f2138f-acc2-48c9-9150-30b6493932f5"
     },
     {
       "command": "EVENT_GROUP",
@@ -1200,393 +624,200 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "48",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "3bf5c361-da65-47c1-bf4e-7992dc4c9a8a"
+            "id": "5a8e54b5-e154-419c-9eef-c1f5d7830804"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "49",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "027811c2-d786-4bfc-accf-e9f8d2717ef6"
+            "id": "313e54b7-58e2-44e5-a048-50617412467d"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "50",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "10e45ec2-1c93-4f36-ae0e-fc0af1ed8244"
+            "id": "b4d6972c-8bda-40b1-bbb4-039242ec9598"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "51",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": true,
-              "flag9": true,
-              "flag10": false,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "ad5e27bb-2925-44dc-9315-eb13ea909454"
+            "id": "16dd1902-6a86-4bb6-b144-c12f9ee1a02d"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "52",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
-              "__collapse": true,
-              "__comment": false
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
             },
-            "id": "1931d3b4-c776-44f6-925d-16bd81584b02"
+            "id": "21b59098-d386-4925-ad97-16d1241745a0"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "53",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "15e8b506-7aab-43b1-8ae0-1ac65ba47f1e"
+            "id": "fbcc2d20-5c3e-4065-9b84-a3b1af7fd074"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "54",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": true,
-              "flag9": false,
-              "flag10": true,
-              "flag11": true,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "5143fae4-7424-409f-bf62-85d1f41a6eb4"
+            "id": "2f0d3885-20f4-4ef2-8a9f-b8e13b049eed"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "55",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": false,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "160da9db-257e-483e-9890-2ab0c5b4757f"
+            "id": "8749441e-7541-404c-b2ed-68a30d13faa0"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "56",
-              "flag1": false,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "ccdc6da9-3424-476b-a3c8-11f607087dcd"
+            "id": "f9b0b6fa-ace9-4ef4-a04a-2a4cdba929e2"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "57",
-              "flag1": true,
-              "flag2": false,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "bdec3d05-be38-46ca-a52d-566f0362d974"
+            "id": "56f5f384-2366-499f-ad5a-4bd1c7009cba"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "58",
-              "flag1": false,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "99772605-9370-457b-bbef-99f5a772d439"
+            "id": "528f5f13-ce9c-4b3b-87e2-ecadbc548dd5"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "59",
-              "flag1": true,
-              "flag2": true,
-              "flag3": false,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "86226d0d-032f-486a-8a01-48d8f98382a3"
+            "id": "2fd911bb-c78a-4511-b1ae-17c29f9d5031"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "60",
-              "flag1": false,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "7ce7d18d-e026-4053-9d10-c8ec173a4b6b"
+            "id": "6013a758-4afc-4de6-8bc3-19605c0c9f15"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "61",
-              "flag1": true,
-              "flag2": false,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "48aef6b9-8d46-4753-a940-9adc057d6334"
+            "id": "7989884f-2c15-4877-ad25-30ecc5f1882a"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "62",
-              "flag1": false,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "c312e71e-b437-4af8-a814-1096bda01cd8"
+            "id": "277b4159-a253-4052-8799-4e41e56438f8"
           },
           {
-            "command": "EVENT_SET_FLAGS",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "63",
-              "flag1": true,
-              "flag2": true,
-              "flag3": true,
-              "flag4": true,
-              "flag5": true,
-              "flag6": true,
-              "flag7": false,
-              "flag8": false,
-              "flag9": false,
-              "flag10": false,
-              "flag11": false,
-              "flag12": false,
-              "flag13": false,
-              "flag14": false,
-              "flag15": false,
-              "flag16": false,
+              "value": {
+                "type": "number",
+                "value": 0
+              },
               "__collapse": true
             },
-            "id": "c5c02fe7-a339-40af-9ce5-b1d25680c1bf"
+            "id": "cab75d1e-dfef-4760-b9e7-63fe2f73b400"
           }
         ]
       },
-      "id": "c63e9328-08e1-411d-95d3-f97be1bc4562"
+      "id": "92ee6f25-7e02-4811-996b-308910b3b705"
     }
   ]
 }

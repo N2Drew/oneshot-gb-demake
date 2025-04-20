@@ -128,24 +128,64 @@
                           "actorId": "0",
                           "spriteStateId": "Selected",
                           "loopAnim": false,
-                          "__collapse": true
+                          "__collapse": true,
+                          "__comment": false
                         },
                         "id": "a68937da-7bb6-4316-9548-5ba207f2233e"
                       },
                       {
-                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "command": "EVENT_IF",
                         "args": {
-                          "customEventId": "baed64e8-d6b5-453b-a8fa-02ef555925af",
-                          "$variable[V0]$": {
-                            "type": "variable",
-                            "value": "141"
+                          "condition": {
+                            "type": "lt",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "141"
+                            },
+                            "valueB": {
+                              "type": "variable",
+                              "value": "V0"
+                            }
                           },
-                          "$variable[V1]$": {
-                            "type": "variable",
-                            "value": "V0"
-                          }
+                          "__collapseElse": false
                         },
-                        "id": "1204b4e6-85f7-425f-8b6f-a34dc3a56800"
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "a0d069ed-a0f9-43db-9d89-63baa12e656a",
+                                "$variable[V0]$": {
+                                  "type": "variable",
+                                  "value": "141"
+                                },
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "V0"
+                                }
+                              },
+                              "id": "1204b4e6-85f7-425f-8b6f-a34dc3a56800"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "a0d069ed-a0f9-43db-9d89-63baa12e656a",
+                                "$variable[V0]$": {
+                                  "type": "variable",
+                                  "value": "V0"
+                                },
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "141"
+                                }
+                              },
+                              "id": "7309c6ec-adc8-4700-a6d6-4adbb7f96d21"
+                            }
+                          ]
+                        },
+                        "id": "b2b7d916-36a8-4d2e-ba47-ab7bac10774f"
                       }
                     ]
                   },
