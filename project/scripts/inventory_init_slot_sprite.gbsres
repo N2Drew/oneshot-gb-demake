@@ -62,12 +62,13 @@
       "children": {
         "true0": [
           {
-            "command": "EVENT_COMMENT",
+            "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
-              "text": "Do nothing on empty slots",
-              "__collapse": true
+              "actorId": "0",
+              "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+              "__collapse": false
             },
-            "id": "8ea7e4d6-b786-4926-809f-3f8fa9e2c14f"
+            "id": "d19d241c-3567-45c5-8711-5f61b6227e61"
           }
         ],
         "true1": [
