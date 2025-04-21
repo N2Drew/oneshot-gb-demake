@@ -695,7 +695,7 @@ const compile = (input, helpers) => {
                 baseCharCode + 1
             )}\\n${String.fromCharCode(baseCharCode + 2)}${String.fromCharCode(
                 baseCharCode + 3
-            )}${textCodeSetSpeed(2)}${textCodeGotoRel(1, -1)}${textCodeSetFont(
+            )}${textCodeSetSpeed(1)}${textCodeGotoRel(1, -1)}${textCodeSetFont(
                 0
             )}${text}`;
 
