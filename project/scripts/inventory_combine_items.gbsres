@@ -105,7 +105,7 @@
                   "args": {
                     "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
-                      "Niko dips the branch into the alcohol."
+                      "!S1!Niko dips the branch into the alcohol."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -128,7 +128,7 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "333ddfd4-3d6f-4db3-9005-96b316bcb426"
+                  "id": "db4466c8-5e48-4761-b042-3606cc0919ae"
                 }
               ]
             },
@@ -875,7 +875,7 @@
                   "args": {
                     "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
-                      "I can't combine those..."
+                      "I can't combine those...\n($V0$ << 8) | $V1$ = $506$"
                     ],
                     "__section": "text",
                     "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
@@ -903,14 +903,17 @@
               ],
               "false": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "GUD_EVENT_TEXT",
                   "args": {
-                    "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+                    "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
                       "Those can't be combined.\n($V0$ << 8) | $V1$ = $506$"
                     ],
                     "__section": "text",
                     "avatarId": "",
+                    "avatarPos": "right",
+                    "avatarX": 0,
+                    "avatarY": 0,
                     "minHeight": 4,
                     "maxHeight": 4,
                     "textX": 1,
@@ -918,16 +921,16 @@
                     "textHeight": 4,
                     "position": "bottom",
                     "clearPrevious": true,
-                    "showFrame": true,
+                    "showFrame": "true",
                     "speedIn": 0,
                     "speedOut": 0,
-                    "closeWhen": "notModal",
+                    "closeWhen": "key",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
-                  "id": "c3ab0c08-e4de-48ba-a180-5bcf3b0d5e83"
+                  "id": "02e64020-6a9c-45b2-98b3-fc6cad6d6111"
                 }
               ]
             },
@@ -936,43 +939,6 @@
         ]
       },
       "id": "904453fb-9722-4053-b939-404727ab5b40"
-    },
-    {
-      "command": "EVENT_GROUP",
-      "args": {},
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_COMMENT",
-            "args": {
-              "text": "TODO: Reloading inventory not completely working as intended",
-              "__collapse": true
-            },
-            "id": "70b45a1a-5f8a-424d-bf6d-85f4efabd6cd"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "141",
-              "value": {
-                "type": "number",
-                "value": 0
-              },
-              "__collapse": true
-            },
-            "id": "46314c21-99bc-4565-917e-6081c1216bf5"
-          },
-          {
-            "command": "GUD_EVENT_CALL_SCENE_INIT",
-            "args": {
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "48755258-c8f0-4d9e-8ac8-fdead07a309a"
-          }
-        ]
-      },
-      "id": "52b5edfd-6065-4cef-be2e-9b970d61f584"
     }
   ]
 }

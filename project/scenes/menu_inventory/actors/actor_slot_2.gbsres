@@ -23,6 +23,10 @@
         "$variable[V0]$": {
           "type": "variable",
           "value": "130"
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 2
         }
       },
       "id": "bc400f1a-8b44-479a-bd2c-a4bea3b71bae"

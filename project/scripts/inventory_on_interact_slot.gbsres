@@ -8,6 +8,11 @@
       "id": "V0",
       "name": "Item ID",
       "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Slot Index",
+      "passByReference": false
     }
   },
   "actors": {
@@ -186,6 +191,70 @@
                           ]
                         },
                         "id": "b2b7d916-36a8-4d2e-ba47-ab7bac10774f"
+                      },
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {},
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "141",
+                                "value": {
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                "__collapse": true
+                              },
+                              "id": "3ef40d60-dd47-458e-9f24-a4b7de3b2a3f"
+                            },
+                            {
+                              "command": "GUD_EVENT_CALL_SCENE_INIT",
+                              "args": {
+                                "__collapse": true,
+                                "__comment": false
+                              },
+                              "id": "ffd6c3c2-a2a6-4ee6-87db-72582838f3b8"
+                            },
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "4d015382-3770-4328-9b02-aa71bd0c4276",
+                                "$variable[V0]$": {
+                                  "type": "add",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "499"
+                                  },
+                                  "valueB": {
+                                    "type": "variable",
+                                    "value": "V1"
+                                  }
+                                },
+                                "$variable[V1]$": {
+                                  "type": "variable",
+                                  "value": "506"
+                                },
+                                "__collapse": true
+                              },
+                              "id": "f2065c3e-71e2-4f6d-9706-80da6d02115d"
+                            },
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "d9441eca-5fd8-41f1-acc2-2e949d5b118f",
+                                "$variable[V0]$": {
+                                  "type": "variable",
+                                  "value": "506"
+                                },
+                                "__collapse": true
+                              },
+                              "id": "2e18dac0-6898-4446-9716-08a4691d8859"
+                            }
+                          ]
+                        },
+                        "id": "329d3b0c-faf1-438b-8365-d3661547c011"
                       }
                     ]
                   },
