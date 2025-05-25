@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "temp_init_scene",
-  "x": 320,
-  "y": 56,
+  "x": 60,
+  "y": 200,
   "script": [
     {
       "command": "EVENT_IF",

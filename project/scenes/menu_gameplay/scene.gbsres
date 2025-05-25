@@ -1,0 +1,51 @@
+{
+  "_resourceType": "scene",
+  "id": "d30e3cdf-fb90-407d-b4ab-58a41fcafd40",
+  "_index": 4,
+  "name": "Menu Gameplay",
+  "backgroundId": "77929557-a3c7-4db5-8d7b-4258107f1a40",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_menu_gameplay",
+  "x": 432,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "__collapse": true
+      },
+      "id": "edd8df18-606f-4068-8aa8-b861b738a653"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "04b4724a-3dca-45c5-9e00-d15ad5da4f90",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1,
+        "__collapse": true
+      },
+      "id": "21d8c662-5d52-48ef-959f-21debbf0cdcc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

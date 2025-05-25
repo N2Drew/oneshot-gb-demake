@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "399f7b7f-cd8e-4e90-b8e5-97e02f4e9cfa",
+  "_index": 6,
+  "name": "Menu Fast Travel",
+  "backgroundId": "62b54dd6-f076-4d61-8a81-1c41b1971531",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_menu_fast_travel",
+  "x": 800,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

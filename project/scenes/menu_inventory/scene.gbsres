@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "menu_inventory",
-  "x": 144,
-  "y": 56,
+  "symbol": "scene_menu_inventory",
+  "x": 984,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
@@ -39,5 +39,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf"
+  "playerSpriteSheetId": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf",
+  "autoFadeEventCollapse": false
 }

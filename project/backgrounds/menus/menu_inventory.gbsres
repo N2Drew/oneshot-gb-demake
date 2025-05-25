@@ -2,7 +2,7 @@
   "_resourceType": "background",
   "id": "25050a38-d7c5-4a93-921f-82b18b671c64",
   "name": "menus/menu_inventory",
-  "symbol": "bg_menus_menu_inventory",
+  "symbol": "bg_menu_inventory",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
