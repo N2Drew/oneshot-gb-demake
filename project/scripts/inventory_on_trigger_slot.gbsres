@@ -398,7 +398,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BROKEN BATTERY -\nApparently a battery. It has broken glass."
+                "- BROKEN BATTERY -\nA battery. It has some broken glass in it."
               ],
               "__section": "text",
               "avatarId": "",
@@ -454,7 +454,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CHARGED BATTERY -\nA working battery. It's at maximum power."
+                "- CHARGED BATTERY -\nA working battery at maximum power."
               ],
               "__section": "text",
               "avatarId": "",
