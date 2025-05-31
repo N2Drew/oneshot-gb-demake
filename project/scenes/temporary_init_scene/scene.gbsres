@@ -35,14 +35,6 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "ef33e340-0e22-44c9-b0d2-a58f446e0b13",
-              "__collapse": true
-            },
-            "id": "279ce402-ff6d-4274-a30f-16a41344a267"
-          },
-          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "L0",

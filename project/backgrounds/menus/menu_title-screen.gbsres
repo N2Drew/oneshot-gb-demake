@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "menus/menu_title-screen.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

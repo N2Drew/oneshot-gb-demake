@@ -35,6 +35,14 @@
         ],
         "false": [
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ef33e340-0e22-44c9-b0d2-a58f446e0b13",
+              "__collapse": true
+            },
+            "id": "4d82431f-a330-49a7-912e-06abee0f4565"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "010c24f3-85a7-4c6f-8b48-a659cbb50861",
