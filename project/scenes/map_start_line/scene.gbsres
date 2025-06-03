@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "6b7c9b33-438b-4e96-9869-c43412d4aae4",
+  "_index": 7,
+  "name": "Map Start Line",
+  "backgroundId": "305511e6-bdba-418c-a3ad-b7efef9a41da",
+  "tilesetId": "",
+  "width": 44,
+  "height": 27,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "004a4+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_start_line",
+  "x": 60,
+  "y": 368,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
