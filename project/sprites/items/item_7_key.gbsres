@@ -5,7 +5,7 @@
   "symbol": "item_7_key",
   "numFrames": 3,
   "filename": "items/item_7_key.png",
-  "checksum": "6a5208d9bda4688f7564508daf0429e2f76c27fe",
+  "checksum": "f14683387957d3a590e375f13c2a2af5399f6fce",
   "width": 48,
   "height": 16,
   "states": [
@@ -189,7 +189,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "objPalette": "OBP1",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -202,7 +202,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "objPalette": "OBP1",
                   "paletteIndex": 0,
                   "priority": false
                 },

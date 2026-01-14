@@ -189,7 +189,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "objPalette": "OBP1",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -202,7 +202,7 @@
                   "palette": 0,
                   "flipX": false,
                   "flipY": false,
-                  "objPalette": "OBP0",
+                  "objPalette": "OBP1",
                   "paletteIndex": 0,
                   "priority": false
                 },
@@ -411,7 +411,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 5,
+  "numTiles": 3,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
