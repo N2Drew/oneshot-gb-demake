@@ -1,0 +1,19 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "bee98a3f-3fa7-4cbe-bd41-49d78ce850ea",
+  "name": "Trigger Inventory Slot",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d9441eca-5fd8-41f1-acc2-2e949d5b118f",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "128"
+        }
+      },
+      "id": "630c93b3-ded2-4ac0-a452-a0559942452c"
+    }
+  ],
+  "leaveScript": []
+}

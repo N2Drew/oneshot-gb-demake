@@ -1,50 +1,22 @@
 {
   "_resourceType": "actor",
-  "id": "5e4e97bc-6fe2-4300-8de1-8a28cf592a90",
+  "id": "f0ae3897-4c3a-44ac-9c69-cdf9f9ca7eac",
   "name": "Actor Slot 0",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-  "prefabId": "",
+  "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
+  "prefabId": "96a2d993-f943-414c-a886-15d42ee1c05c",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_0",
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "9dc314fa-463a-4884-b925-fa77e1f3367c",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "128"
-        },
-        "$variable[V1]$": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "a61834c9-18c2-4c0f-ab7d-4961807bddad"
-    }
-  ],
-  "startScript": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "128"
-        }
-      },
-      "id": "309e0a1f-3295-41a5-8f87-26c4757fe964"
-    }
-  ],
+  "script": [],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

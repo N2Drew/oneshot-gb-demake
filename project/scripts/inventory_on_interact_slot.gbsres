@@ -39,7 +39,8 @@
         },
         "__collapseElse": true,
         "__comment": false,
-        "__disableElse": true
+        "__disableElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

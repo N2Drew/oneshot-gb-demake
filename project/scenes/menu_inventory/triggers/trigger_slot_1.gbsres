@@ -1,27 +1,25 @@
 {
   "_resourceType": "trigger",
-  "id": "20877ecb-ac4c-452a-9010-4b69e3588009",
+  "id": "8b647a1d-f3c4-46e2-9878-540914ec1c00",
   "name": "Trigger Slot 1",
-  "prefabId": "",
+  "prefabId": "bee98a3f-3fa7-4cbe-bd41-49d78ce850ea",
   "x": 6,
   "y": 3,
   "symbol": "trigger_1",
-  "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+  "prefabScriptOverrides": {
+    "630c93b3-ded2-4ac0-a452-a0559942452c": {
+      "id": "630c93b3-ded2-4ac0-a452-a0559942452c",
       "args": {
-        "customEventId": "d9441eca-5fd8-41f1-acc2-2e949d5b118f",
         "$variable[V0]$": {
           "type": "variable",
           "value": "129"
         }
-      },
-      "id": "96a946e7-c34e-415f-8b7e-112e2dc8332f"
+      }
     }
-  ],
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
   "leaveScript": [],
   "_index": 1
 }

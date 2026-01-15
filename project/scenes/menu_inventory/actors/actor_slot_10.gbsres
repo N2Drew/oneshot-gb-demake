@@ -1,50 +1,45 @@
 {
   "_resourceType": "actor",
-  "id": "0913c63a-00e6-4680-86eb-750593492413",
+  "id": "3a237a7a-d468-48d5-929e-58c13e3426c5",
   "name": "Actor Slot 10",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-  "prefabId": "",
+  "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
+  "prefabId": "96a2d993-f943-414c-a886-15d42ee1c05c",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
-  "symbol": "actor_10",
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+  "prefabScriptOverrides": {
+    "0e0444ac-5f7a-425c-842d-48205c014b81": {
+      "id": "0e0444ac-5f7a-425c-842d-48205c014b81",
       "args": {
-        "customEventId": "9dc314fa-463a-4884-b925-fa77e1f3367c",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "138"
-        },
         "$variable[V1]$": {
           "type": "number",
           "value": 10
-        }
-      },
-      "id": "a3f87089-f749-4699-9ae1-59708a2e2fd3"
-    }
-  ],
-  "startScript": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
+        },
         "$variable[V0]$": {
           "type": "variable",
           "value": "138"
         }
-      },
-      "id": "c9093185-1353-4413-b882-9acf65d71ad5"
+      }
+    },
+    "ebecb20b-4bda-4dd3-8ec8-e399162cfd17": {
+      "id": "ebecb20b-4bda-4dd3-8ec8-e399162cfd17",
+      "args": {
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "138"
+        }
+      }
     }
-  ],
+  },
+  "symbol": "actor_10",
+  "script": [],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

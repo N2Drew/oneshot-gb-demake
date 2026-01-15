@@ -1,50 +1,45 @@
 {
   "_resourceType": "actor",
-  "id": "f3cd947c-ddb1-4ff0-bed4-ad93f72de8dc",
+  "id": "6e54c5d6-9715-4a2a-b7a7-294c45f80594",
   "name": "Actor Slot 5",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-  "prefabId": "",
+  "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
+  "prefabId": "96a2d993-f943-414c-a886-15d42ee1c05c",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
-  "symbol": "actor_5",
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+  "prefabScriptOverrides": {
+    "0e0444ac-5f7a-425c-842d-48205c014b81": {
+      "id": "0e0444ac-5f7a-425c-842d-48205c014b81",
       "args": {
-        "customEventId": "9dc314fa-463a-4884-b925-fa77e1f3367c",
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "133"
-        },
         "$variable[V1]$": {
           "type": "number",
           "value": 5
-        }
-      },
-      "id": "cfb6b38a-2231-41b4-acd3-6ee1238d0fd5"
-    }
-  ],
-  "startScript": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
+        },
         "$variable[V0]$": {
           "type": "variable",
           "value": "133"
         }
-      },
-      "id": "e36b4712-205e-45e7-8f69-281c2143402f"
+      }
+    },
+    "ebecb20b-4bda-4dd3-8ec8-e399162cfd17": {
+      "id": "ebecb20b-4bda-4dd3-8ec8-e399162cfd17",
+      "args": {
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "133"
+        }
+      }
     }
-  ],
+  },
+  "symbol": "actor_5",
+  "script": [],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
