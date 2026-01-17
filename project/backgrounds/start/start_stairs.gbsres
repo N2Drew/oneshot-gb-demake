@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f23a1d85-3d8a-4011-82f4-19f9a4ba4aed",
+  "name": "start/start_stairs",
+  "symbol": "bg_start_start_stairs",
+  "width": 62,
+  "height": 37,
+  "imageWidth": 496,
+  "imageHeight": 296,
+  "filename": "start/start_stairs.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "96ef3543-ca60-4694-8424-74c783a9db99",
+  "name": "start/start_basement-2",
+  "symbol": "bg_start_start_basement_2",
+  "width": 50,
+  "height": 20,
+  "imageWidth": 400,
+  "imageHeight": 160,
+  "filename": "start/start_basement-2.png",
+  "tileColors": "",
+  "autoColor": false
+}

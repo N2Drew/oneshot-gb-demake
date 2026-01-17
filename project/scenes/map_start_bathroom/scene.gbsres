@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+  "_index": 9,
+  "name": "Map Start Bathroom",
+  "backgroundId": "e9fb80f4-3324-4f0a-8d1c-19790739440f",
+  "tilesetId": "",
+  "width": 32,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00300+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 60,
+  "y": 608,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
+  "_index": 11,
+  "name": "Map Start Stairs",
+  "backgroundId": "f23a1d85-3d8a-4011-82f4-19f9a4ba4aed",
+  "tilesetId": "",
+  "width": 62,
+  "height": 37,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "008f6+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 848,
+  "y": 848,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
