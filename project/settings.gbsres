@@ -138,6 +138,30 @@
           "closeDelayTime": 0.5,
           "closeDelayFrames": 30
         }
+      },
+      "a13b69bb-fd6a-4fb8-8293-2b853fa5d234": {
+        "id": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
+        "name": "Map Character Text",
+        "groups": [
+          "layout",
+          "behaviour"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 4,
+          "textX": 1,
+          "textY": 1,
+          "textHeight": 2,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
       }
     }
   },

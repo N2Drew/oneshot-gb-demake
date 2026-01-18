@@ -4,19 +4,206 @@
   "_index": 7,
   "name": "Map Start Bedroom",
   "backgroundId": "3ff625ea-bc33-4e3b-9f39-f44b7caca104",
-  "tilesetId": "",
+  "tilesetId": "02682508-4825-4fc7-8f80-11df6533d844",
   "width": 44,
   "height": 27,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "0016c+0f18+0014+0f18+0010+0f1c+0010+0f1c+0010+0f9+00!0f9+008+0f!0010+0f9+00f+0f2+00!0f!0010+0f!001a+0f!0010+0f5+0016+0f!0014+0f!00!0f4+008+0f8+00!0f!0014+0fb+002+0fb+001e+0f4+00172+",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": null,
   "symbol": "scene_start_bedroom",
   "x": 344,
   "y": 608,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "0f4e4df1-c405-4f5e-b0ae-e7d5fe13b360"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "c4828d85-67b5-4505-84d1-f2de6b5ff33d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "fee16122-266c-4760-ba81-c833b5fc63cf"
+          },
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
+              "text": [
+                "...",
+                "H-hello?"
+              ],
+              "__section": "text",
+              "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
+              "avatarPos": "right",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 2,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "105f7c10-6579-4a58-af55-4cd20e96cc88"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "8b47b569-2938-4fa7-b85f-96d34b7ed2ad"
+          },
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
+              "text": [
+                "....."
+              ],
+              "__section": "text",
+              "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
+              "avatarPos": "right",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 2,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a0f4824e-d8b6-4058-bf30-33802d8a2fee"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d6b01eb2-fc59-47cc-b49f-dc9c7ace02e5",
+              "__collapse": true
+            },
+            "id": "8e826323-6572-459f-b947-8e5b6b5fe815"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "e3882ad7-7f58-45f8-90e2-71eed6892751"
+          }
+        ],
+        "false": []
+      },
+      "id": "052bdd5b-07a3-47d3-ac69-24709d46e6c7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d6b01eb2-fc59-47cc-b49f-dc9c7ace02e5",
+              "__collapse": true
+            },
+            "id": "ff5b7e61-ceec-4e03-b887-9da84b1a1fb7"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "53700655-c9a7-4839-89f5-9f76abb6b907"
+          }
+        ],
+        "false": []
+      },
+      "id": "f2a67ef6-d707-4309-b5bf-4f32b4792f43"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
 }

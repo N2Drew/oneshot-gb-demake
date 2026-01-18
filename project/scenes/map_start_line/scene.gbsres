@@ -4,7 +4,7 @@
   "_index": 6,
   "name": "Map Start Line",
   "backgroundId": "305511e6-bdba-418c-a3ad-b7efef9a41da",
-  "tilesetId": "",
+  "tilesetId": "02682508-4825-4fc7-8f80-11df6533d844",
   "width": 44,
   "height": 27,
   "type": "TOPDOWN",
@@ -37,7 +37,7 @@
           "value": 13
         },
         "direction": "right",
-        "fadeSpeed": 1
+        "fadeSpeed": 0
       },
       "id": "f184217a-9daa-4960-ac2e-3c68410b34ae"
     }
