@@ -712,6 +712,56 @@
       "symbol": "var_inventory_13_held_item"
     },
     {
+      "id": "142",
+      "name": "Inventory 14 Placeholder",
+      "symbol": "var_inventory_14_placeholde"
+    },
+    {
+      "id": "143",
+      "name": "Inventory 15 Placeholder",
+      "symbol": "var_inventory_15_placeholde"
+    },
+    {
+      "id": "144",
+      "name": "Map 0 Door Controller",
+      "symbol": "var_map_0_door_controller"
+    },
+    {
+      "id": "145",
+      "name": "Map 1 Event Index",
+      "symbol": "var_map_1_event_index"
+    },
+    {
+      "id": "146",
+      "name": "Map 2 Placeholder",
+      "symbol": "var_map_2_placeholder"
+    },
+    {
+      "id": "147",
+      "name": "Map 3 Placeholder",
+      "symbol": "var_map_3_placeholder"
+    },
+    {
+      "id": "148",
+      "name": "Map 4 Placeholder",
+      "symbol": "var_map_4_placeholder"
+    },
+    {
+      "id": "149",
+      "name": "Map 5 Placeholder",
+      "symbol": "var_map_5_placeholder"
+    },
+    {
+      "id": "150",
+      "name": "Map 6 Placeholder",
+      "symbol": "var_map_6_placeholder"
+    },
+    {
+      "id": "151",
+      "name": "Map 7 Placeholder",
+      "symbol": "var_map_7_placeholer"
+    },
+    {
       "id": "496",
       "name": "Array 0 Current Index",
       "symbol": "var_array_0_current_index"
