@@ -111,6 +111,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+            "args": {
+              "speedIn": 0,
+              "speedOut": 0,
+              "speed": 1,
+              "allowFastForward": true,
+              "__collapse": true
+            },
+            "id": "543f5ef1-4ef4-421b-8e25-c0ef3380e8da"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "144",

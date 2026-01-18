@@ -58,7 +58,16 @@
         "__scriptTabs": "press"
       },
       "children": {
-        "true": []
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "deef1606-53c9-4f06-bb5c-94319c5d8197",
+              "__collapse": true
+            },
+            "id": "f8942471-c676-4969-b272-9d7cd208d7fc"
+          }
+        ]
       },
       "id": "f19256bd-d3b6-45eb-b521-f463bed7db9f"
     },
