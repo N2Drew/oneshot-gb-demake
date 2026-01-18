@@ -1,7 +1,7 @@
 {
   "_resourceType": "actorPrefab",
   "id": "8969f767-9ea4-4321-9f42-8806e5ae35a5",
-  "name": "Actor Overworld Controller",
+  "name": "Actor Map Controls",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
