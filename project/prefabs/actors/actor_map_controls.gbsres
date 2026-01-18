@@ -25,19 +25,10 @@
                 "type": "variable",
                 "value": "141"
               },
-              "__collapse": true
+              "__collapse": false,
+              "$actor[0]$": "$self$"
             },
             "id": "0775d9b0-0ed5-4557-8eb7-7add12cac04a"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_STATE",
-            "args": {
-              "actorId": "$self$",
-              "spriteStateId": "Active",
-              "loopAnim": false,
-              "__collapse": true
-            },
-            "id": "15899fb9-4d33-40d2-bb96-350b2c384755"
           }
         ]
       },
