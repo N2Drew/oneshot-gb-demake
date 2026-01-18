@@ -18,6 +18,15 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "player",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "09e4c397-a9f0-4738-b667-71b8d96dddf6"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
