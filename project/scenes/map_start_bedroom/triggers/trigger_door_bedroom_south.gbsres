@@ -1,0 +1,31 @@
+{
+  "_resourceType": "trigger",
+  "id": "965bddcb-973b-4fbd-a239-7e7850bb1988",
+  "name": "Trigger Door Bedroom South",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 23,
+  "y": 17,
+  "symbol": "trigger_14",
+  "prefabScriptOverrides": {
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "9c8e0f85-d89e-4f27-9a3e-d1eb20b5b4ca",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "down"
+      }
+    }
+  },
+  "width": 2,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -1,0 +1,31 @@
+{
+  "_resourceType": "trigger",
+  "id": "6a1c0d89-371f-4a7c-93e7-e136e8d3cd18",
+  "name": "Trigger Door Stairs East",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 52,
+  "y": 28,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "22f8867d-df4c-4eeb-a29e-cbcf9198b255",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "right"
+      }
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}

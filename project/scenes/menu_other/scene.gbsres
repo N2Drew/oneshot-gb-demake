@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "04b4724a-3dca-45c5-9e00-d15ad5da4f90",
-  "_index": 5,
+  "_index": 4,
   "name": "Menu Other",
   "backgroundId": "d3fa20e7-8eeb-40ac-acb8-014ca169d589",
   "tilesetId": "",
@@ -29,18 +29,18 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "236ccd64-2098-4d22-b1c5-1403ff676ef7",
+        "sceneId": "6b7c9b33-438b-4e96-9869-c43412d4aae4",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 15
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 13
         },
         "direction": "",
         "fadeSpeed": 1,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3b8003c5-c810-4271-be0b-67becfe5bd8c"
     }

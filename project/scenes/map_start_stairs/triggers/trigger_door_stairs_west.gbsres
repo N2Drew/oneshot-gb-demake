@@ -1,0 +1,31 @@
+{
+  "_resourceType": "trigger",
+  "id": "71c54aea-0a58-4c82-baaf-e39db040072e",
+  "name": "Trigger Door Stairs West",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 9,
+  "y": 8,
+  "symbol": "trigger_17",
+  "prefabScriptOverrides": {
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "9c8e0f85-d89e-4f27-9a3e-d1eb20b5b4ca",
+        "x": {
+          "type": "number",
+          "value": 49
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "left"
+      }
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

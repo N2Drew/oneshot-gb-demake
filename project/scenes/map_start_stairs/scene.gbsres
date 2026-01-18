@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
-  "_index": 11,
+  "_index": 10,
   "name": "Map Start Stairs",
   "backgroundId": "f23a1d85-3d8a-4011-82f4-19f9a4ba4aed",
   "tilesetId": "",
@@ -18,5 +18,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca"
 }

@@ -1,0 +1,109 @@
+{
+  "_resourceType": "trigger",
+  "id": "0edf5ada-0c23-4c9e-984f-9108376ebb01",
+  "name": "Trigger Door Bedroom West",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 9,
+  "y": 14,
+  "symbol": "trigger_12",
+  "prefabScriptOverrides": {
+    "ce88be25-684a-4bd5-a394-a2a5c272dc4e": {
+      "id": "ce88be25-684a-4bd5-a394-a2a5c272dc4e",
+      "args": {
+        "direction": "left",
+        "sceneId": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "0f075bc1-ce61-457c-b3f4-b385bc1f67a3": {
+      "id": "0f075bc1-ce61-457c-b3f4-b385bc1f67a3",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 1
+        }
+      }
+    },
+    "4c5ab5c2-7f9a-4a94-baff-95a536a69aa3": {
+      "id": "4c5ab5c2-7f9a-4a94-baff-95a536a69aa3",
+      "args": {
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      }
+    },
+    "90be15ba-bc5d-4bcd-8564-176b23e02842": {
+      "id": "90be15ba-bc5d-4bcd-8564-176b23e02842",
+      "args": {
+        "direction": "left",
+        "sceneId": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "d7d6769b-7bdf-4fc8-a22c-872de5830751": {
+      "id": "d7d6769b-7bdf-4fc8-a22c-872de5830751",
+      "args": {
+        "sceneId": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+        "direction": "left",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "4fc288e4-761e-4dab-b0e7-7d53c963c888": {
+      "id": "4fc288e4-761e-4dab-b0e7-7d53c963c888",
+      "args": {
+        "sceneId": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+        "direction": "left",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "5cb11e56-10ff-418f-bb0f-2de4d5aaaaab",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "left"
+      }
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

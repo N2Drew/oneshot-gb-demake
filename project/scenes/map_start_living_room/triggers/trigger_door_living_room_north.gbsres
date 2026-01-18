@@ -1,0 +1,39 @@
+{
+  "_resourceType": "trigger",
+  "id": "fd88e06e-0805-4096-a173-a5e2c01c4990",
+  "name": "Trigger Door Living Room North",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 23,
+  "y": 12,
+  "symbol": "trigger_15",
+  "prefabScriptOverrides": {
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "up"
+      }
+    },
+    "c004dfe4-3e55-4f0d-bb98-af9b5aa25e43": {
+      "id": "c004dfe4-3e55-4f0d-bb98-af9b5aa25e43",
+      "args": {
+        "text": [
+          ""
+        ]
+      }
+    }
+  },
+  "width": 2,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

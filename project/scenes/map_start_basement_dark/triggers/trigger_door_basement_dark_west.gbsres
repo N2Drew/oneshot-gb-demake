@@ -1,0 +1,31 @@
+{
+  "_resourceType": "trigger",
+  "id": "2ed4eddb-ac6f-4233-9e96-a7f6b78316d2",
+  "name": "Trigger Door Basement Dark West",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 9,
+  "y": 11,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
+        "x": {
+          "type": "number",
+          "value": 51
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        },
+        "direction": "left"
+      }
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

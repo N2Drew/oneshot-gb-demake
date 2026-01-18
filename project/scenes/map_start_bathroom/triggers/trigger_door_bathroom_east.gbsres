@@ -1,0 +1,117 @@
+{
+  "_resourceType": "trigger",
+  "id": "22aa4752-4541-4c8f-94c0-6bf047c44351",
+  "name": "Trigger Door Bathroom East",
+  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "x": 22,
+  "y": 14,
+  "symbol": "trigger_13",
+  "prefabScriptOverrides": {
+    "ce88be25-684a-4bd5-a394-a2a5c272dc4e": {
+      "id": "ce88be25-684a-4bd5-a394-a2a5c272dc4e",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "right"
+      }
+    },
+    "0f075bc1-ce61-457c-b3f4-b385bc1f67a3": {
+      "id": "0f075bc1-ce61-457c-b3f4-b385bc1f67a3",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": -1
+        }
+      }
+    },
+    "4c5ab5c2-7f9a-4a94-baff-95a536a69aa3": {
+      "id": "4c5ab5c2-7f9a-4a94-baff-95a536a69aa3",
+      "args": {
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      }
+    },
+    "90be15ba-bc5d-4bcd-8564-176b23e02842": {
+      "id": "90be15ba-bc5d-4bcd-8564-176b23e02842",
+      "args": {
+        "direction": "right",
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "d7d6769b-7bdf-4fc8-a22c-872de5830751": {
+      "id": "d7d6769b-7bdf-4fc8-a22c-872de5830751",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "right"
+      }
+    },
+    "4fc288e4-761e-4dab-b0e7-7d53c963c888": {
+      "id": "4fc288e4-761e-4dab-b0e7-7d53c963c888",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "direction": "right",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "40a63ebd-f72d-480b-86dc-35ee4681763b": {
+      "id": "40a63ebd-f72d-480b-86dc-35ee4681763b",
+      "args": {
+        "text": [
+          "enter door"
+        ]
+      }
+    },
+    "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3": {
+      "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "direction": "right"
+      }
+    }
+  },
+  "width": 1,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

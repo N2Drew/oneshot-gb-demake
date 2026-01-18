@@ -104,6 +104,26 @@
         ]
       },
       "id": "ea55f4bd-84be-4238-998a-d3eca4e62522"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "144",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "fdb697cd-b578-4a60-96d5-ac2ed0547881"
+          }
+        ]
+      },
+      "id": "dc19582d-db7b-4d99-9c80-b17aaa3a62a5"
     }
   ]
 }

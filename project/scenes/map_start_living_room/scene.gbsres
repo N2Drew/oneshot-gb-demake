@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9c8e0f85-d89e-4f27-9a3e-d1eb20b5b4ca",
-  "_index": 10,
+  "_index": 9,
   "name": "Map Start Living Room",
   "backgroundId": "2ca91974-9d71-4c5f-9c13-33224d0aa59d",
   "tilesetId": "",
@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0018e+0f4+0038+0f4+0024+0f1c+0020+0f1c+0016+0ff+002+0f1b+0010+0ff+002+0f1b+0010+0fb+009+0f4+005+0f6+00!0f8+0010+0fb+00e+0f2+00a+0f7+0010+0f!00b+0f4+00!0f5+0015+0f!0010+0f!0010+0f6+006+0ff+0010+0fb+0011+0fc+001e+0f!003+0f2+00d+0fb+001e+0fd+006+0fb+002a+0f!00d+0f4+002a+0f!0010+0f!002a+0f7+00a+0f!002a+0f!009+0f6+00!0f!002a+0f12+001ec+",
+  "collisions": "0018e+0f4+0038+0f4+0024+0f1c+0020+0f1c+0016+0f2c+0010+0f2c+0010+0fb+009+0f4+005+0f6+00!0f8+0010+0fb+00e+0f2+00a+0f7+0010+0f!00b+0f4+00!0f5+0015+0f!0010+0f!0010+0f6+006+0ff+0010+0fb+0011+0fc+001e+0f!003+0f2+00d+0fb+001e+0fd+006+0fb+002a+0f!00d+0f4+002a+0f!0010+0f!002a+0f7+00a+0f!002a+0f!009+0f6+00!0f!002a+0f12+001ec+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 344,

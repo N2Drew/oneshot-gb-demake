@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "6b7c9b33-438b-4e96-9869-c43412d4aae4",
-  "_index": 7,
+  "_index": 6,
   "name": "Map Start Line",
   "backgroundId": "305511e6-bdba-418c-a3ad-b7efef9a41da",
   "tilesetId": "",
@@ -15,8 +15,35 @@
   "symbol": "scene_start_line",
   "x": 344,
   "y": 368,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "d3247802-fe9c-4a46-be50-7167ad4ade80"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "right",
+        "fadeSpeed": 1
+      },
+      "id": "f184217a-9daa-4960-ac2e-3c68410b34ae"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
 }
