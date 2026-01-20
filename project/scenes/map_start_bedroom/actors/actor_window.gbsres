@@ -15,7 +15,91 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_window",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "141"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "text": [
+                "!S0!⑧⑧⑧⑧②!S1![ In the faint light, Niko can\n!S0!⑧⑧⑥!S1!glimpse the face of the remote... ]",
+                "!S0!⑧⑧⑧⑧②!S1![ All of the numbers except\n!S0!⑧⑧⑧⑧③!S1!0, 0, 0 and 0 are missing. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "avatarPos": "left",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+            },
+            "id": "40d7c5e4-2761-48ca-aff7-16c7af1806cb"
+          }
+        ],
+        "false": [
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "text": [
+                "!S0!⑧⑧⑧⑥!S1![ A soft glowing light trickles\n!S0!⑧⑧⑧⑧⑧②!S1!through the window. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "avatarPos": "left",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+            },
+            "id": "8d84ea7a-86c5-4c10-a329-b10242d96743"
+          }
+        ]
+      },
+      "id": "5ce15427-3012-4afe-b953-e1d775d95fc7"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

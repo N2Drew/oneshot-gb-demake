@@ -733,8 +733,8 @@
     },
     {
       "id": "146",
-      "name": "Map 2 Placeholder",
-      "symbol": "var_map_2_placeholder"
+      "name": "Map 2 Item Flags",
+      "symbol": "var_map_2_item_flags"
     },
     {
       "id": "147",

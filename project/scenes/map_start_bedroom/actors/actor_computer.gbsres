@@ -15,7 +15,60 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_computer",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
+              "text": [
+                "It won't turn on."
+              ],
+              "__section": "text",
+              "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
+              "avatarPos": "right",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 2,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b7d8e6b5-cef9-43e9-83f7-5b85df6e6d90"
+          }
+        ]
+      },
+      "id": "b5f548e7-d603-4475-a076-caca76861d02"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

@@ -2,7 +2,7 @@
   "_resourceType": "project",
   "name": "R&D1Shot",
   "author": "N2Drew",
-  "notes": "",
+  "notes": "msg_input = \"[ Dusty books. ]\"\nmsg_width = 0\n\nspace_chars = ['⓪', '①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧']\nwidth_chars = {\n    2: \" !',.:;Iil|¡¦·\",\n    3: \"()-1L[\\\\]`fjt´¹ÌÍÎÏìí\",\n    4: \"\\\"$*+/02356789<=>?ABCDEFGHJKOPQRSTUVXYZ^_abcdeghknopqrsuvxyz{}¢¥§¨ª¬­¯°±²³µ¸º¿ÀÁÂÃÄÅÇÈÉÊËÒÓÔÕÖ×ÙÚÛÜÝÞàáâãäåçèéêëîïñòóôõö÷ùúûüýþÿ\",\n    5: \"%&4@N~£«»ÐÑßð\",\n    6: \"#MWmw¤¶ÆØæø\",\n    7: \"¼½\",\n    8: \"©®¾\"\n}\n\nfor c in msg_input:\n    for key, value in width_chars.items():\n        if c in value:\n            msg_width += key\n    \npad_width = (160 - msg_width) // 2\npad_chars = \"\"\nfor i, c in reversed(list(enumerate(space_chars))):\n    parts = pad_width // i\n    for j in range(parts):\n        pad_chars += space_chars[i]\n    pad_width -= i * parts\n    if pad_width == 0:\n        break\n    \noutput_msg = f\"!S0!{pad_chars}!S1!{msg_input}\"\nprint(output_msg)",
   "_version": "4.1.0",
   "_release": "1"
 }
