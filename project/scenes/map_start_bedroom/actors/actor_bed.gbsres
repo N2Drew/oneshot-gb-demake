@@ -41,7 +41,8 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+        "__collapse": true
       },
       "id": "53c863d8-5c30-4a1e-a957-c0ebe5e4a271"
     }

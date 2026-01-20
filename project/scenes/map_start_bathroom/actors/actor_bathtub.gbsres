@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_21",
+  "symbol": "actor_bathtub",
   "script": [
     {
       "command": "GUD_EVENT_TEXT",
@@ -41,7 +41,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "830b8d60-4a6e-41df-b2f3-fd806e5da317"
     }

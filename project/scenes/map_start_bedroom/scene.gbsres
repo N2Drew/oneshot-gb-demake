@@ -165,6 +165,70 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__comment": false,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "bbc0de3d-9ee9-4dc6-ac30-7af1a87141a1"
+          },
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "text": [
+                "!S0!④!S1![ Niko hears the sound of a door unlocking. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "avatarPos": "left",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a358afed-b4cc-495b-bdc9-088ab9c2aa3d"
+          }
+        ],
+        "false": []
+      },
+      "id": "b3556e06-1867-4fcd-a571-191a6473292d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
           "type": "gt",
           "valueA": {
             "type": "variable",

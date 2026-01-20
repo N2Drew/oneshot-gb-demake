@@ -169,12 +169,12 @@
     {
       "id": "33",
       "name": "Item 33 Button Magnet",
-      "symbol": "var_item_33_magnet_button"
+      "symbol": "var_item_33_button_magnet"
     },
     {
       "id": "34",
       "name": "Item 34 Button Taped",
-      "symbol": "var_item_34_"
+      "symbol": "var_item_34_button_taped"
     },
     {
       "id": "35",

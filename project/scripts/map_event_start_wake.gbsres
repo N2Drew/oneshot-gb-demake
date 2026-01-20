@@ -5,7 +5,7 @@
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_14",
+  "symbol": "map_event_start_wake",
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -182,7 +182,7 @@
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
         "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "89fed931-64ca-4a3b-9c40-e2e4ee340ef2"
     }

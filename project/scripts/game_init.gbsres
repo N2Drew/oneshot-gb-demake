@@ -45,7 +45,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "02f9629b-834c-4305-8c09-74f7053d270e"
           },
@@ -57,7 +57,7 @@
                 "type": "number",
                 "value": 64
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0658ccb1-1088-4a56-98c6-0169c20d2ac0"
           }
@@ -85,7 +85,7 @@
                   "value": "498"
                 }
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "a8c3989e-86e3-499c-acce-fb9619a34236"
           },
@@ -97,7 +97,7 @@
                 "type": "number",
                 "value": 12
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "a37ee0d2-93e2-4491-934e-8f7320a35d5f"
           }
@@ -117,7 +117,7 @@
               "speedOut": 0,
               "speed": 1,
               "allowFastForward": true,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "543f5ef1-4ef4-421b-8e25-c0ef3380e8da"
           },
@@ -128,7 +128,8 @@
               "value": {
                 "type": "number",
                 "value": 4
-              }
+              },
+              "__collapse": true
             },
             "id": "fdb697cd-b578-4a60-96d5-ac2ed0547881"
           }

@@ -81,7 +81,8 @@
                     "value": {
                       "type": "number",
                       "value": 0
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "d716e07a-4e09-4d62-b049-89bc9b40736f"
                 }
@@ -122,7 +123,8 @@
                           "value": {
                             "type": "variable",
                             "value": "V0"
-                          }
+                          },
+                          "__collapse": true
                         },
                         "id": "d63d5ebe-9b32-478a-ace7-fecdce289138"
                       }

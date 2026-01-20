@@ -92,7 +92,8 @@
                     "value": {
                       "type": "true"
                     },
-                    "__comment": false
+                    "__comment": false,
+                    "__collapse": true
                   },
                   "id": "2f0fa868-f369-46a4-9fdd-0165ca3f3bd1"
                 },
@@ -102,7 +103,8 @@
                     "variable": "507",
                     "value": {
                       "type": "true"
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "73027d3c-35e0-4869-9553-26237324c769"
                 }
@@ -184,7 +186,8 @@
           {
             "command": "EVENT_DEC_VALUE",
             "args": {
-              "variable": "501"
+              "variable": "501",
+              "__collapse": true
             },
             "id": "2c8a4c87-b2d5-45e4-ad70-63589ca843c8"
           }

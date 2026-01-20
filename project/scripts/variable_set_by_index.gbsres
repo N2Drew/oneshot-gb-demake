@@ -25,7 +25,8 @@
         "value": {
           "type": "variable",
           "value": "V0"
-        }
+        },
+        "__collapse": true
       },
       "id": "ae2393df-8723-479d-bb2a-a64310edca83"
     },
@@ -36,7 +37,8 @@
         "value": {
           "type": "variable",
           "value": "V1"
-        }
+        },
+        "__collapse": true
       },
       "id": "ae0e7ed1-61d7-44ae-9406-9a2c843985da"
     },

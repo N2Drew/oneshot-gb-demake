@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
   "name": "characters/niko",
-  "symbol": "sprite_character_niko",
+  "symbol": "character_niko",
   "numFrames": 3,
   "filename": "characters/niko.png",
   "checksum": "b40553b122e9fd0ae7100bf3914478dc69a52c6f",

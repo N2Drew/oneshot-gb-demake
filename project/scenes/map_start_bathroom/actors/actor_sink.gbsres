@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_sink",
   "script": [
     {
       "command": "GUD_EVENT_TEXT",
@@ -41,7 +41,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "16ac6a49-d6f9-468b-982e-941b3287b708"
     }

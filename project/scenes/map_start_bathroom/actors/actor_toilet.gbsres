@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_20",
+  "symbol": "actor_toilet",
   "script": [
     {
       "command": "GUD_EVENT_TEXT",
@@ -41,7 +41,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "296b9555-8dfb-4bce-82d8-54130fdca80f"
     }

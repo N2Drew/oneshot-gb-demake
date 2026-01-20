@@ -5,7 +5,7 @@
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_15",
+  "symbol": "map_init_pause_menu",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",

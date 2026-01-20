@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_18",
+  "symbol": "actor_plant",
   "script": [
     {
       "command": "EVENT_IF_FLAGS_COMPARE",
@@ -51,7 +51,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "f9aec8fa-701b-41d5-9d07-6160af19efc7"
           }
@@ -83,7 +84,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "8cb21c8f-e409-4e34-9d9a-33275fc041f2"
           },
@@ -117,7 +119,8 @@
               "flag13": false,
               "flag14": false,
               "flag15": false,
-              "flag16": false
+              "flag16": false,
+              "__collapse": true
             },
             "id": "a9ef7327-0f0a-4100-ae4d-ea05a5714847"
           }

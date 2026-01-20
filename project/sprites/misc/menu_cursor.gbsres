@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf",
   "name": "misc/menu_cursor",
-  "symbol": "sprite_misc_menu_cursor",
+  "symbol": "misc_menu_cursor",
   "numFrames": 1,
   "filename": "misc/menu_cursor.png",
   "checksum": "590243890fb4d60eb572905c436cb6145844a626",

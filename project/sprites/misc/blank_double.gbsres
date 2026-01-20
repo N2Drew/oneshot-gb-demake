@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "53cb280d-bfb9-4f28-9d91-b7521416ad23",
   "name": "misc/blank_double",
-  "symbol": "sprite_misc_blank_double",
+  "symbol": "misc_blank_double",
   "numFrames": 2,
   "filename": "misc/blank_double.png",
   "checksum": "04401555470108a6187a91fc4128b0973b43f81f",

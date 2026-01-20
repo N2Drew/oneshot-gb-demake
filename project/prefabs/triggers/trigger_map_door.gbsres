@@ -56,7 +56,8 @@
                         "command": "EVENT_ACTOR_GET_DIRECTION",
                         "args": {
                           "actorId": "$self$",
-                          "direction": "144"
+                          "direction": "144",
+                          "__collapse": true
                         },
                         "id": "2f53ad97-658a-4dbc-a461-b4558346e38e"
                       },
@@ -73,7 +74,8 @@
                             "value": 0
                           },
                           "direction": "",
-                          "fadeSpeed": 1
+                          "fadeSpeed": 1,
+                          "__collapse": true
                         },
                         "id": "4b1e612a-db4a-4c14-bf9b-d67b8a914ca3"
                       }
@@ -86,7 +88,8 @@
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": 0.1,
-                    "frames": 30
+                    "frames": 30,
+                    "__collapse": true
                   },
                   "id": "cc42b9d0-87ad-46e5-bb5f-9088d9cd3849"
                 }
@@ -114,7 +117,8 @@
         "value": {
           "type": "number",
           "value": 4
-        }
+        },
+        "__collapse": true
       },
       "id": "4e3edf3c-753d-4ff8-8417-62c50cd03601"
     }

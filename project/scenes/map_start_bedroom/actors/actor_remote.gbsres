@@ -42,7 +42,8 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+        "__collapse": true
       },
       "id": "b6f00e11-fb1a-4493-b69a-0c85edbe1373"
     },
@@ -76,7 +77,8 @@
         "flag13": false,
         "flag14": false,
         "flag15": false,
-        "flag16": false
+        "flag16": false,
+        "__collapse": true
       },
       "id": "1a0345c1-1f51-4005-a42a-c31ed804aa6d"
     },
@@ -84,7 +86,7 @@
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "3fa2b4cf-df26-4ec8-8752-b8dc8c579a9b"
     }
@@ -103,7 +105,8 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true
             },
             "id": "e4d185a0-c445-4946-b11f-cda033d2b8dd"
           }

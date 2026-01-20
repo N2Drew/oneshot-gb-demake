@@ -60,7 +60,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "__collapse": true
             },
             "id": "40d7c5e4-2761-48ca-aff7-16c7af1806cb"
           }
@@ -91,7 +92,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc"
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "__collapse": true
             },
             "id": "8d84ea7a-86c5-4c10-a329-b10242d96743"
           }
