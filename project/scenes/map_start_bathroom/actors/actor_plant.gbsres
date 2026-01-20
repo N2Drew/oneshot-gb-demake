@@ -1,0 +1,137 @@
+{
+  "_resourceType": "actor",
+  "id": "1bfda40f-859a-428c-a2ef-dc56c41d2b9b",
+  "name": "Actor Plant",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "146",
+        "flag": 3,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "text": [
+                "!S0!⑧⑧⑧⑧⑧②!S1![ A withered plant sits\n!S0!⑧⑧⑧⑧⑧⑤!S1!here, stiff and dry. ]",
+                "!S0!⑧⑧⑧⑧⑧⑥!S1![ There's no need to\n!S0!⑧⑧⑧⑧⑧①!S1!do anything else to it. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "avatarPos": "left",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f9aec8fa-701b-41d5-9d07-6160af19efc7"
+          }
+        ],
+        "false": [
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "text": [
+                "!S0!⑧⑧⑧⑧⑧②!S1![ A withered plant sits\n!S0!⑧⑧⑧⑧⑧⑤!S1!here, stiff and dry. ]",
+                "!S0!⑧⑧⑧⑧⑧②!S1![ A branch snaps off. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "avatarPos": "left",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8cb21c8f-e409-4e34-9d9a-33275fc041f2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f38e8d52-5cee-4f3d-a8ae-0691f06a4613",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "0d1f766f-cfb2-4216-918d-d3a6b87a533a"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "146",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": true,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "a9ef7327-0f0a-4100-ae4d-ea05a5714847"
+          }
+        ]
+      },
+      "id": "c44298b9-2e11-462d-aa1e-1242c4f0f5d5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 12,
+  "_index": 1
+}

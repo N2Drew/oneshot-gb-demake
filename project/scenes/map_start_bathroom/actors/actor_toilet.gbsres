@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "dabe993f-c86c-4165-b24d-497f2c4cc50c",
+  "name": "Actor Toilet",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [
+    {
+      "command": "GUD_EVENT_TEXT",
+      "args": {
+        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+        "text": [
+          "!S0!⑧⑧⑧!S1![ There's no water in the toilet. ]"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "avatarPos": "left",
+        "avatarX": 0,
+        "avatarY": 0,
+        "minHeight": 1,
+        "maxHeight": 2,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 2,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "296b9555-8dfb-4bce-82d8-54130fdca80f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 11,
+  "y": 12,
+  "_index": 3
+}

@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "e2ef448c-9793-4241-a9a4-a1ab0b879cfc",
+  "name": "Actor Bathtub",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_21",
+  "script": [
+    {
+      "command": "GUD_EVENT_TEXT",
+      "args": {
+        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+        "text": [
+          "!S0!⑧⑧⑧⑧⑧④!S1![ The tub won't run. ]"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "avatarPos": "left",
+        "avatarX": 0,
+        "avatarY": 0,
+        "minHeight": 1,
+        "maxHeight": 2,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 2,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "830b8d60-4a6e-41df-b2f3-fd806e5da317"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 14,
+  "_index": 4
+}
