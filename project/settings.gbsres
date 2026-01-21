@@ -112,6 +112,32 @@
           "closeDelayTime": 0.5,
           "closeDelayFrames": 30
         }
+      },
+      "66daa8c4-fccf-49af-ac10-8cf4e0aa5805": {
+        "id": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+        "name": "Bracketed Text",
+        "groups": [
+          "layout",
+          "behaviour",
+          "avatar"
+        ],
+        "args": {
+          "avatarId": "",
+          "position": "top",
+          "minHeight": 1,
+          "maxHeight": 2,
+          "textX": 0,
+          "textY": 0,
+          "textHeight": 2,
+          "clearPrevious": true,
+          "showFrame": false,
+          "speedIn": 0,
+          "speedOut": 0,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
       }
     },
     "GUD_EVENT_TEXT": {
@@ -155,35 +181,6 @@
           "textHeight": 2,
           "clearPrevious": true,
           "showFrame": "true",
-          "speedIn": 0,
-          "speedOut": 0,
-          "closeWhen": "key",
-          "closeButton": "a",
-          "closeDelayTime": 0.5,
-          "closeDelayFrames": 30
-        }
-      },
-      "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc": {
-        "id": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
-        "name": "Map Bracketed Text",
-        "groups": [
-          "layout",
-          "behaviour",
-          "avatar"
-        ],
-        "args": {
-          "avatarId": "",
-          "avatarPos": "left",
-          "avatarX": 0,
-          "avatarY": 0,
-          "position": "top",
-          "minHeight": 1,
-          "maxHeight": 2,
-          "textX": 0,
-          "textY": 0,
-          "textHeight": 2,
-          "clearPrevious": true,
-          "showFrame": false,
           "speedIn": 0,
           "speedOut": 0,
           "closeWhen": "key",

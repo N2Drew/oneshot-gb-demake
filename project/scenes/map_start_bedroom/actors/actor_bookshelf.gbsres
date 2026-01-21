@@ -17,17 +17,15 @@
   "symbol": "actor_bookshelff",
   "script": [
     {
-      "command": "GUD_EVENT_TEXT",
+      "command": "EVENT_TEXT",
       "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
         "text": [
           "!S0!⑧⑧⑧⑧⑧⑧⑤!S1![ Dusty books. ]",
           "!S0!⑧⑧⑧②!S1![ It's too dark to read in here. ]"
         ],
         "__section": "text",
         "avatarId": "",
-        "avatarPos": "left",
-        "avatarX": 0,
-        "avatarY": 0,
         "minHeight": 1,
         "maxHeight": 2,
         "textX": 0,
@@ -42,10 +40,9 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
         "__collapse": true
       },
-      "id": "957db580-b15a-4eca-8572-82c4c9124c0a"
+      "id": "72a265a4-afc8-4daf-8b64-b5980fb30832"
     }
   ],
   "startScript": [],

@@ -17,17 +17,15 @@
   "symbol": "actor_remote",
   "script": [
     {
-      "command": "GUD_EVENT_TEXT",
+      "command": "EVENT_TEXT",
       "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
         "text": [
           "!S0!⑧⑧⑧⑥!S1![ There's a TV remote here. ]",
           "!S0!⑧⑧⑧⑧⑧⑧!S1![ Niko picks it up. ]"
         ],
         "__section": "text",
         "avatarId": "",
-        "avatarPos": "left",
-        "avatarX": 0,
-        "avatarY": 0,
         "minHeight": 1,
         "maxHeight": 2,
         "textX": 0,
@@ -42,10 +40,9 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
         "__collapse": true
       },
-      "id": "b6f00e11-fb1a-4493-b69a-0c85edbe1373"
+      "id": "6bb09fc9-58ec-4d61-841d-601ec4425632"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

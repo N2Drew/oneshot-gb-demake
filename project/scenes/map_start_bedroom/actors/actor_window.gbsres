@@ -35,17 +35,15 @@
       "children": {
         "true": [
           {
-            "command": "GUD_EVENT_TEXT",
+            "command": "EVENT_TEXT",
             "args": {
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
               "text": [
                 "!S0!⑧⑧⑧⑧②!S1![ In the faint light, Niko can\n!S0!⑧⑧⑥!S1!glimpse the face of the remote... ]",
                 "!S0!⑧⑧⑧⑧②!S1![ All of the numbers except\n!S0!⑧⑧⑧⑧③!S1!0, 0, 0 and 0 are missing. ]"
               ],
               "__section": "text",
               "avatarId": "",
-              "avatarPos": "left",
-              "avatarX": 0,
-              "avatarY": 0,
               "minHeight": 1,
               "maxHeight": 2,
               "textX": 0,
@@ -60,24 +58,21 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
               "__collapse": true
             },
-            "id": "40d7c5e4-2761-48ca-aff7-16c7af1806cb"
+            "id": "c5ef3717-f7c2-485c-aa50-de55c175ea5f"
           }
         ],
         "false": [
           {
-            "command": "GUD_EVENT_TEXT",
+            "command": "EVENT_TEXT",
             "args": {
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
               "text": [
                 "!S0!⑧⑧⑧⑥!S1![ A soft glowing light trickles\n!S0!⑧⑧⑧⑧⑧②!S1!through the window. ]"
               ],
               "__section": "text",
               "avatarId": "",
-              "avatarPos": "left",
-              "avatarX": 0,
-              "avatarY": 0,
               "minHeight": 1,
               "maxHeight": 2,
               "textX": 0,
@@ -92,10 +87,9 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
               "__collapse": true
             },
-            "id": "8d84ea7a-86c5-4c10-a329-b10242d96743"
+            "id": "c18bfd37-02f6-4e57-bbac-4ebba1289e70"
           }
         ]
       },

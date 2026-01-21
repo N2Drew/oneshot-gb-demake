@@ -191,17 +191,14 @@
             "id": "bbc0de3d-9ee9-4dc6-ac30-7af1a87141a1"
           },
           {
-            "command": "GUD_EVENT_TEXT",
+            "command": "EVENT_TEXT",
             "args": {
-              "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
               "text": [
                 "!S0!④!S1![ Niko hears the sound of a door unlocking. ]"
               ],
               "__section": "text",
               "avatarId": "",
-              "avatarPos": "left",
-              "avatarX": 0,
-              "avatarY": 0,
               "minHeight": 1,
               "maxHeight": 2,
               "textX": 0,
@@ -218,7 +215,7 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "a358afed-b4cc-495b-bdc9-088ab9c2aa3d"
+            "id": "df2c56f8-5284-4588-ac5e-c4af8558c304"
           }
         ],
         "false": []

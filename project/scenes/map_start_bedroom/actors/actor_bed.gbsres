@@ -17,16 +17,14 @@
   "symbol": "actor_bed",
   "script": [
     {
-      "command": "GUD_EVENT_TEXT",
+      "command": "EVENT_TEXT",
       "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
         "text": [
           "!S0!⑧⑧⑧⑧②!S1![ Niko just woke up here. ]"
         ],
         "__section": "text",
         "avatarId": "",
-        "avatarPos": "left",
-        "avatarX": 0,
-        "avatarY": 0,
         "minHeight": 1,
         "maxHeight": 2,
         "textX": 0,
@@ -41,10 +39,9 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__presetId": "5daf29fe-8142-4ce0-90bc-f5a5069bb2cc",
         "__collapse": true
       },
-      "id": "53c863d8-5c30-4a1e-a957-c0ebe5e4a271"
+      "id": "92ef2a8f-5542-4062-9f33-2119d17bc81c"
     }
   ],
   "startScript": [],
