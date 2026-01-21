@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "12218ed1-a87f-4c40-a5ab-acaf3ec65cfa",
+  "name": "Actor Locked Door",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_locked_door",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+        "text": [
+          "!S0!⑧⑧⑧⑧⑧③!S1![ The door is locked. ]"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 1,
+        "maxHeight": 2,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 2,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2e7707f9-011c-494a-8c6e-54bc44cb5480"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 18,
+  "_index": 6
+}
