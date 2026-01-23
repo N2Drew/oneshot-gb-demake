@@ -35,12 +35,94 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_RNG_SEED",
+            "args": {
+              "__collapse": true
+            },
+            "id": "c31840e4-7d37-4c7a-8351-6bff878bc3b2"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "($508$ == $509$) || ($508$ == $510$) || ($508$ == $511$) || ($509$ == $510$) || ($509$ == $511$) || ($510$ == $511$)"
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "508",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "17fcc9d7-1ad9-4eea-b9b3-3b9111a4b5af"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "509",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "afa5d4f4-0587-4d01-be4a-005cbe55e822"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "510",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "ed948493-90e7-4af4-8a5e-fcf3dfcddc6e"
+                },
+                {
+                  "command": "EVENT_VARIABLE_MATH",
+                  "args": {
+                    "vectorX": "511",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": "0",
+                    "maxValue": 9,
+                    "clamp": false,
+                    "__collapse": true
+                  },
+                  "id": "0c588b87-2625-4180-bafa-7b7948194471"
+                }
+              ]
+            },
+            "id": "55c26167-e29c-4dc7-9095-8f440da897c6"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
               "text": [
                 "!S0!⑧⑧⑧⑧②!S1![ In the faint light, Niko can\n!S0!⑧⑧⑥!S1!glimpse the face of the remote... ]",
-                "!S0!⑧⑧⑧⑧②!S1![ All of the numbers except\n!S0!⑧⑧⑧⑧③!S1!0, 0, 0 and 0 are missing. ]"
+                "!S0!⑧⑧⑧⑧②!S1![ All of the numbers except\n!S0!⑧⑧⑧⑧③!S1!$508$, $509$, $510$ and $511$ are missing. ]"
               ],
               "__section": "text",
               "avatarId": "",
@@ -58,7 +140,8 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__comment": false
             },
             "id": "c5ef3717-f7c2-485c-aa50-de55c175ea5f"
           }
