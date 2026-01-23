@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_bookshelff",
+  "symbol": "actor_bookshelf",
   "script": [
     {
       "command": "EVENT_TEXT",
