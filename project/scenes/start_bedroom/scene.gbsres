@@ -165,6 +165,46 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d6b01eb2-fc59-47cc-b49f-dc9c7ace02e5",
+              "__collapse": true
+            },
+            "id": "ff5b7e61-ceec-4e03-b887-9da84b1a1fb7"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "53700655-c9a7-4839-89f5-9f76abb6b907"
+          }
+        ],
+        "false": []
+      },
+      "id": "f2a67ef6-d707-4309-b5bf-4f32b4792f43"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
@@ -221,46 +261,6 @@
         "false": []
       },
       "id": "b3556e06-1867-4fcd-a571-191a6473292d"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gt",
-          "valueA": {
-            "type": "variable",
-            "value": "145"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "d6b01eb2-fc59-47cc-b49f-dc9c7ace02e5",
-              "__collapse": true
-            },
-            "id": "ff5b7e61-ceec-4e03-b887-9da84b1a1fb7"
-          },
-          {
-            "command": "EVENT_FADE_IN",
-            "args": {
-              "speed": 1,
-              "__collapse": true
-            },
-            "id": "53700655-c9a7-4839-89f5-9f76abb6b907"
-          }
-        ],
-        "false": []
-      },
-      "id": "f2a67ef6-d707-4309-b5bf-4f32b4792f43"
     }
   ],
   "playerHit1Script": [],

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3994e574-94f9-494a-9443-11be73a9244a",
+  "name": "start/start_pc_cutscene-1",
+  "symbol": "bg_start_pc_cutscene_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "start/start_pc_cutscene-1.png",
+  "tileColors": ""
+}

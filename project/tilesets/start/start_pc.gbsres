@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "9b257df4-c6d6-4f09-8d64-f4cdc199f308",
+  "name": "start/start_pc",
+  "symbol": "tileset_start_start_pc",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "start/start_pc.png"
+}
