@@ -20,7 +20,8 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 1,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true
       },
       "id": "d3247802-fe9c-4a46-be50-7167ad4ade80"
     },
@@ -37,7 +38,8 @@
           "value": 13
         },
         "direction": "right",
-        "fadeSpeed": 0
+        "fadeSpeed": 0,
+        "__collapse": true
       },
       "id": "f184217a-9daa-4960-ac2e-3c68410b34ae"
     }
@@ -45,5 +47,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "autoFadeEventCollapse": true
 }

@@ -490,5 +490,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "7df563da-9bb9-4ba1-9104-fd178de8bdc7"
+  "playerSpriteSheetId": "7df563da-9bb9-4ba1-9104-fd178de8bdc7",
+  "autoFadeEventCollapse": true
 }
