@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "fd88e06e-0805-4096-a173-a5e2c01c4990",
   "name": "Trigger Door Living Room North",
-  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "prefabId": "",
   "x": 23,
   "y": 12,
   "symbol": "trigger_15",
@@ -33,7 +33,171 @@
   },
   "width": 2,
   "height": 1,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "or",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 0
+                        }
+                      },
+                      "valueB": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 2
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "or",
+                            "valueA": {
+                              "type": "gt",
+                              "valueA": {
+                                "type": "variable",
+                                "value": "144"
+                              },
+                              "valueB": {
+                                "type": "number",
+                                "value": 3
+                              }
+                            },
+                            "valueB": {
+                              "type": "eq",
+                              "valueA": {
+                                "type": "property",
+                                "target": "player",
+                                "property": "direction"
+                              },
+                              "valueB": {
+                                "type": "expression",
+                                "value": "(($144$ + 2) % 4)"
+                              }
+                            }
+                          },
+                          "__collapseElse": false,
+                          "__comment": false,
+                          "__disableElse": true,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_GET_DIRECTION",
+                              "args": {
+                                "actorId": "$self$",
+                                "direction": "144",
+                                "__collapse": true
+                              },
+                              "id": "f9b65cfd-a8ed-4158-b320-bcf98683fc5b",
+                              "children": {}
+                            },
+                            {
+                              "command": "EVENT_SWITCH_SCENE",
+                              "args": {
+                                "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+                                "x": {
+                                  "type": "number",
+                                  "value": 23
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 17
+                                },
+                                "direction": "up",
+                                "fadeSpeed": 1,
+                                "__collapse": true
+                              },
+                              "id": "c4fa1105-5f49-4d2b-b45f-b6b0b1d6473c",
+                              "children": {}
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "28c55ac6-ffed-4426-ab98-562b1bee724b"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "7a4db683-bbf6-4e3c-b760-c71e34cdf1b6"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.1,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "c307bdd6-aa24-44a1-9c4b-e585d8bc2463",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "2b733b6b-0b76-4c3a-a689-258be915d594"
+          }
+        ]
+      },
+      "id": "e06d59d2-f4d6-4856-b5f4-8aaa95489124"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "T0"
+      },
+      "id": "d9870037-845b-4691-9357-231954dccf67",
+      "children": {}
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "144",
+        "value": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "b3126aeb-1f5f-42ce-955d-2c81dd30e345",
+      "children": {}
+    }
+  ],
   "_index": 0
 }

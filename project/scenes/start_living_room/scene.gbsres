@@ -15,7 +15,80 @@
   "symbol": "scene_start_living_room",
   "x": 344,
   "y": 848,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__comment": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "9ef440ea-cae4-4023-8b5a-c27d16bdcebe"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "796f4150-af1d-4f36-b231-5e3b15e74dad"
+          },
+          {
+            "command": "GUD_EVENT_TEXT",
+            "args": {
+              "__presetId": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
+              "text": [
+                "Helloooo?\n...anyone?"
+              ],
+              "__section": "text",
+              "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
+              "avatarPos": "right",
+              "avatarX": 0,
+              "avatarY": 0,
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 2,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "494448b4-74f6-4fde-b7e7-1e2be837c36f"
+          }
+        ],
+        "false": []
+      },
+      "id": "5d36e3c4-2f29-4b96-8e62-c32bbc5278a2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
