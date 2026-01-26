@@ -91,7 +91,8 @@
               "$variable[V0]$": {
                 "type": "number",
                 "value": 4
-              }
+              },
+              "__collapse": true
             },
             "id": "0d1f766f-cfb2-4216-918d-d3a6b87a533a"
           },

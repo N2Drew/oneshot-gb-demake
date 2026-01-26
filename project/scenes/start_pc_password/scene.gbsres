@@ -326,7 +326,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "ea97b920-c1b9-434a-93db-760b7d623ae0",
-              "__collapse": false,
+              "__collapse": true,
               "$actor[0]$": "349bf9fd-f805-40fd-bad6-61fc20266b25",
               "$actor[1]$": "15f05703-5759-4d4d-b6f1-d34cf2c9aa54",
               "$actor[2]$": "94fad284-c2e2-474f-be22-7e8f9e724d1a",
@@ -358,7 +358,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "ea97b920-c1b9-434a-93db-760b7d623ae0",
-              "__collapse": false,
+              "__collapse": true,
               "$actor[0]$": "349bf9fd-f805-40fd-bad6-61fc20266b25",
               "$actor[1]$": "15f05703-5759-4d4d-b6f1-d34cf2c9aa54",
               "$actor[2]$": "94fad284-c2e2-474f-be22-7e8f9e724d1a",
