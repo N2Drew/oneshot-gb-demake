@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "a59e1cb5-0a8e-4cdf-b206-207bc26f274b",
+  "name": "Actor Kitchen",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "53cb280d-bfb9-4f28-9d91-b7521416ad23",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_kitchen",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+        "text": [
+          "!S0!⑧⑧⑧⑧④!S1![ The sink won't turn on. ]"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 1,
+        "maxHeight": 2,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 2,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "72203727-5d2a-466b-8655-1720fcc079a3"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 33,
+  "y": 21,
+  "_index": 3
+}

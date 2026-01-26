@@ -1,0 +1,134 @@
+{
+  "_resourceType": "actor",
+  "id": "3dd9bd79-8bcd-4647-b584-aebedfda7620",
+  "name": "Actor Fridge",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_fridge",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "146",
+        "flag": 2,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+              "text": [
+                "!S0!⑧⑧⑧⑤!S1![ The refrigerator is empty. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0c996909-9c2d-4683-97ff-0c3efe40f035"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+              "text": [
+                "!S0!⑧⑧⑧④!S1![ Inside is a bottle of alcohol. ]",
+                "!S0!⑧⑧⑧⑧⑧⑧④!S1![ Niko takes it. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "ee013544-7198-48e0-8d61-508cbcc95495"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "146",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "4e5a639b-da4c-475f-b230-5e5f26dc65c6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f38e8d52-5cee-4f3d-a8ae-0691f06a4613",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": true
+            },
+            "id": "6a438f47-dcbe-4f48-bf33-6678b8d97f45"
+          }
+        ]
+      },
+      "id": "0f8762b4-2a7e-4d5b-90bf-752ed3915fe8"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 44,
+  "y": 19,
+  "_index": 5
+}

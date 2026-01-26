@@ -1,0 +1,165 @@
+{
+  "_resourceType": "actor",
+  "id": "c46be6c2-4b6d-41f8-b0b0-b67c8eb7f52c",
+  "name": "Actor Key",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2ecfd181-6e78-4972-915c-5080821416c4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 31,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_key",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+        "text": [
+          "!S0!⑧⑧⑧⑧③!S1![ Something on the ground\n!S0!⑧⑧⑧⑧③!S1!glimmers in the firelight. ]",
+          "!S0!⑧②!S1![ It appears to be a small metallic object,\n!S0!⑧⑧⑥!S1!wedged into a crack in the floor. ]",
+          "!S0!⑧⑧⑧⑧⑧⑧!S1![ Niko digs it out. ]"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 1,
+        "maxHeight": 2,
+        "textX": 0,
+        "textY": 0,
+        "textHeight": 2,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "6f334900-7cc0-4392-bc66-152b7a99b886"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f38e8d52-5cee-4f3d-a8ae-0691f06a4613",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 7
+        },
+        "__collapse": true
+      },
+      "id": "3338db74-051e-4deb-861c-8e3d78876963"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "146",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": true,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "cbb4f020-ff8c-418c-8cf2-50c166f6b778"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "c1ce2d5a-5c6f-440a-86a6-605075a77781"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "1b8d73f8-27d0-4d6d-ab76-5aeb2ca14dff"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "146",
+        "flag": 6,
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "52829967-69c3-4195-aa44-61c86a2a5df6"
+          }
+        ],
+        "false": []
+      },
+      "id": "0dd092ab-3ca2-42a3-8816-c56e985cda99"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": true
+            },
+            "id": "c42862a2-b0a0-4cdc-b4fc-f7518fc4f4e3"
+          }
+        ],
+        "false": []
+      },
+      "id": "07a3ced1-f76a-4cf0-8758-c5dcff38039c"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 35,
+  "y": 14,
+  "_index": 9
+}
