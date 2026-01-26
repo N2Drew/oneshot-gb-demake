@@ -102,9 +102,9 @@
               "customEventId": "00d02407-c478-416c-b567-f5dae50f50ff",
               "$variable[V0]$": {
                 "type": "number",
-                "value": 0
+                "value": 2
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "8f657206-d89f-4175-8105-aa437f30d6a5"
           },
