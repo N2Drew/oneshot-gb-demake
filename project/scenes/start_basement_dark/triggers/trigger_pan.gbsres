@@ -1,0 +1,104 @@
+{
+  "_resourceType": "trigger",
+  "id": "7db9622e-86eb-4424-814f-b38f8e3c1893",
+  "name": "Trigger Pan",
+  "prefabId": "",
+  "x": 24,
+  "y": 11,
+  "symbol": "trigger_pan",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 6
+          }
+        },
+        "__collapseElse": true,
+        "__comment": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "0a37cd74-e58d-4827-942e-99dc80b122f4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 255,
+              "__collapse": true
+            },
+            "id": "122f6fed-c2e9-4cf0-85a1-ac73d16773de"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "b642a086-2918-48cc-9916-8dbdc2d072ab"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "3a4be9b2-2d08-4602-8e66-c3c43f0dc4f3"
+          },
+          {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 2,
+              "axis": [
+                "x",
+                "y"
+              ],
+              "__collapse": true
+            },
+            "id": "4414070f-42c8-4a63-9784-aac8bfc6fb67"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "6d82798c-4569-49ee-afe1-0bf26e58d364"
+          }
+        ],
+        "false": []
+      },
+      "id": "193aac4b-fc31-4dc3-b13d-ece3919a4a03"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
