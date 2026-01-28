@@ -3,7 +3,7 @@
   "id": "71c54aea-0a58-4c82-baaf-e39db040072e",
   "name": "Trigger Door Stairs West",
   "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
-  "x": 9,
+  "x": 8,
   "y": 8,
   "symbol": "trigger_17",
   "prefabScriptOverrides": {

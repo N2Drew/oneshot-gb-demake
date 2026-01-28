@@ -27,6 +27,18 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "145",
+        "value": {
+          "type": "number",
+          "value": 6
+        },
+        "__collapse": true
+      },
+      "id": "71467b43-fb38-430a-9b8e-8f98132a66ae"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

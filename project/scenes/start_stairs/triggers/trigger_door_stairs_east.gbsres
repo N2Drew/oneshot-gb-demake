@@ -3,7 +3,7 @@
   "id": "6a1c0d89-371f-4a7c-93e7-e136e8d3cd18",
   "name": "Trigger Door Stairs East",
   "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
-  "x": 52,
+  "x": 53,
   "y": 28,
   "symbol": "trigger_20",
   "prefabScriptOverrides": {
