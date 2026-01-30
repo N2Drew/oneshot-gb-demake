@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "2502ceb1-2dd6-4e43-93e8-2d32475d02b8",
-  "name": "",
+  "name": "Actor Sun",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "12cc5f8a-e054-41c0-87b9-60e7697bf2f7",
@@ -55,14 +55,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "d41248fc-7ed8-4db7-9672-8a67d32bd2bd",
+        "sceneId": "fb195c37-b7fc-421f-9335-df292b814571",
         "x": {
           "type": "number",
-          "value": 37
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 11
+          "value": 0
         },
         "direction": "right",
         "fadeSpeed": 1,

@@ -13,7 +13,7 @@
   "collisions": "00166+0f22+0010+0f22+0010+0f22+0010+0f22+0010+0f!0020+0f!0010+0f22+00166+",
   "autoFadeSpeed": 1,
   "symbol": "scene_start_basement_bright",
-  "x": 1368,
+  "x": 1448,
   "y": 1032,
   "script": [
     {
@@ -32,6 +32,66 @@
         "true": []
       },
       "id": "f4c56ff0-5ce7-45e4-85ea-89c185310fdf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "145"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 7
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "f3454c23-2c25-4306-9c49-fdfddb55f443"
+          },
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 4,
+              "__collapse": true
+            },
+            "id": "e8a130a3-baf6-42b5-a60a-4128cfb6aa48"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "fade_style",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "6d43a33f-d25d-46b8-aa9b-7c770a9429a3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_FADE_IN",
+            "args": {
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "efea114b-b472-4357-906f-a6970356521d"
+          }
+        ]
+      },
+      "id": "988a6e93-f21c-44cf-97d2-5714aae76783"
     }
   ],
   "playerHit1Script": [],
