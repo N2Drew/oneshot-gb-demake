@@ -13,7 +13,7 @@
   "collisions": "00108+0fe+0012+0fe+0012+0f10+0010+0f10+0010+0f!002+0f2+002+0f2+002+0f5+0010+0f!00c+0f3+0010+0f5+00a+0f!0010+0f10+00108+",
   "autoFadeSpeed": 1,
   "symbol": "scene_start_bathroom",
-  "x": 60,
+  "x": 144,
   "y": 608,
   "script": [],
   "playerHit1Script": [],

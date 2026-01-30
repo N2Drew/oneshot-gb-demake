@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_start_pc_cutscene_1",
-  "x": 904,
+  "x": 984,
   "y": 608,
   "script": [
     {

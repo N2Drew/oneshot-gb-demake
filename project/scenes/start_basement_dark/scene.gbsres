@@ -13,8 +13,8 @@
   "collisions": "00166+0f22+0010+0f22+0010+0f22+0010+0f22+0010+0f!0020+0f!0010+0f22+00166+",
   "autoFadeSpeed": 1,
   "symbol": "scene_start_basement_dark",
-  "x": 1368,
-  "y": 848,
+  "x": 1448,
+  "y": 1032,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

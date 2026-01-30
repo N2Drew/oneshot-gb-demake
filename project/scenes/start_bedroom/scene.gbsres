@@ -11,9 +11,9 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "0016c+0f18+0014+0f18+0010+0f1c+0010+0f1c+0010+0f9+00!0f9+008+0f!0010+0f9+00f+0f2+00!0f!0010+0f!001a+0f!0010+0f5+0016+0f!0014+0f!00!0f4+008+0f8+00!0f!0014+0fb+002+0fb+001e+0f4+00172+",
-  "autoFadeSpeed": null,
+  "autoFadeSpeed": 1,
   "symbol": "scene_start_bedroom",
-  "x": 344,
+  "x": 424,
   "y": 608,
   "script": [
     {

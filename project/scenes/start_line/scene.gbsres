@@ -13,7 +13,7 @@
   "collisions": "004a4+",
   "autoFadeSpeed": 1,
   "symbol": "scene_start_line",
-  "x": 344,
+  "x": 424,
   "y": 368,
   "script": [
     {
