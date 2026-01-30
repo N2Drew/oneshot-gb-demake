@@ -1,0 +1,106 @@
+{
+  "_resourceType": "scene",
+  "id": "1735958a-fd4b-489f-95cb-74dec153d63a",
+  "_index": 20,
+  "name": "Start Exit Door 1",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_start_exit_door_1",
+  "x": 240,
+  "y": 960,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "141"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "bc19cc14-b3c5-4cbf-adb3-f2c573cdc5b8"
+          },
+          {
+            "command": "EVENT_ENGINE_FIELD_SET",
+            "args": {
+              "engineFieldKey": "fade_style",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "cd987374-721c-4524-bda2-dc6ed2af581e"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b9a861fc-c4a6-4bfa-bc51-0ea2e9c82cd4",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": 0,
+              "__collapse": true
+            },
+            "id": "f2c6089c-c392-4393-9079-c3e044dfa68f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_AWAIT_INPUT",
+            "args": {
+              "input": [
+                "a",
+                "b"
+              ],
+              "__collapse": true
+            },
+            "id": "7a31baa5-e6ce-4243-9f01-14d4d4d1c44a"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": 1,
+              "__collapse": true
+            },
+            "id": "f50393a9-b67a-437c-8879-f9af76f1e8bf"
+          }
+        ]
+      },
+      "id": "15bf427c-a2ff-4fac-b36a-cb5d6aa98de1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

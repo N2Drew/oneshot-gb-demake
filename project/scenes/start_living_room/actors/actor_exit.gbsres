@@ -15,7 +15,33 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_exit",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      },
+      "id": "75218f6e-a5f0-4664-aa41-8a7f9644a28c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1735958a-fd4b-489f-95cb-74dec153d63a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1,
+        "__collapse": true
+      },
+      "id": "8b041d42-84fd-41f5-bf5b-92ed5246198e"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
