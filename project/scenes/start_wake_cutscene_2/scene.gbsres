@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "70ef5bc9-7dd0-423a-9fd9-13d1f788488c",
+  "_index": 23,
+  "name": "Start Wake Cutscene 2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_start_wake_cutscene_2",
+  "x": 240,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "41d4d0f8-9de9-4939-afce-06c48f2fd525"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6b7c9b33-438b-4e96-9869-c43412d4aae4",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "right",
+        "fadeSpeed": 1,
+        "__collapse": true
+      },
+      "id": "dafd671c-86e5-413b-b8d3-554a0fa46099"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+}

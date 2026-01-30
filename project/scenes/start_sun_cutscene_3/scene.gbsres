@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "598e244c-1c20-427d-8aa2-fc27c6f8b7d3",
+  "_index": 18,
+  "name": "Start Sun Cutscene 3",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "start_sun_cutscene_3",
+  "x": 1872,
+  "y": 1120,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "672d4c23-762d-4bb6-a6a3-9922d8b3db36"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "742d7e1e-8dac-44f4-9bf3-756ca806af63",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
+        "fadeSpeed": 0,
+        "__collapse": true
+      },
+      "id": "452aa75e-a151-4218-9abf-9636c173aac9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+}

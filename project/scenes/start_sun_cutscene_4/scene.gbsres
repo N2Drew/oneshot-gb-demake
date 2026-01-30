@@ -1,0 +1,64 @@
+{
+  "_resourceType": "scene",
+  "id": "742d7e1e-8dac-44f4-9bf3-756ca806af63",
+  "_index": 19,
+  "name": "Start Sun Cutscene 4",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "start_sun_cutscene_4",
+  "x": 2056,
+  "y": 1120,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "c833a1ab-4261-4904-9f52-189ac5276502"
+    },
+    {
+      "command": "EVENT_ENGINE_FIELD_SET",
+      "args": {
+        "engineFieldKey": "fade_style",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "36aadd9a-4cab-45fb-85d3-d898de51db40"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d41248fc-7ed8-4db7-9672-8a67d32bd2bd",
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "right",
+        "fadeSpeed": 4,
+        "__collapse": true
+      },
+      "id": "bfa6dcbd-a8b3-44ac-a477-fb7968e4effc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
+  "autoFadeEventCollapse": true
+}
