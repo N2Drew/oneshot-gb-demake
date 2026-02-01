@@ -1,0 +1,19 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "633f23b1-0ecc-4244-b97d-74f2cb56da16",
+  "name": "Actor Sun Cutscene",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "df177abe-5ab7-4c5f-8874-35e482fc365b",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

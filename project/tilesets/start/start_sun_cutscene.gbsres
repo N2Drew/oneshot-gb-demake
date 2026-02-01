@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5280a347-21b7-4d0d-adb0-7c609fe8d7ee",
+  "name": "start/start_sun_cutscene",
+  "symbol": "tileset_start_start_sun_cut",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "start/start_sun_cutscene.png"
+}

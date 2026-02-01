@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "09fb725d-aa97-4534-9b2d-a7fad4dfce3f",
+  "name": "start/start_sun_cutscene-4",
+  "symbol": "bg_start_sun_cutscene_4",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "start/start_sun_cutscene-4.png",
+  "tileColors": "",
+  "autoColor": false
+}
