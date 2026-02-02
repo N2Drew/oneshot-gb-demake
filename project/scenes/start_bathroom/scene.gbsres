@@ -15,9 +15,59 @@
   "symbol": "scene_start_bathroom",
   "x": 144,
   "y": 608,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "lte",
+            "valueA": {
+              "type": "number",
+              "value": 14
+            },
+            "valueB": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            }
+          },
+          "valueB": {
+            "type": "lte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 17
+            }
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "7f04a483-8cfb-4185-b623-c3c656704140",
+              "__collapse": false
+            },
+            "id": "a2445ecf-e2e9-4b49-9acb-91bbcff5bf97"
+          }
+        ],
+        "false": []
+      },
+      "id": "e8303755-62e8-4343-98d3-db4c6fea7bd0"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca"
 }

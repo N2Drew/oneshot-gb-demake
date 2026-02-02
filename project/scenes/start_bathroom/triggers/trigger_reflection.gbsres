@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "528b18d8-6b4d-4134-bfe9-89786eeb7792",
+  "name": "Trigger Reflection",
+  "prefabId": "",
+  "x": 14,
+  "y": 12,
+  "symbol": "trigger_reflection",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "7f04a483-8cfb-4185-b623-c3c656704140",
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "25f494a8-08b4-4ee5-8756-f70ac91bf80c"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
+        "__collapse": false
+      },
+      "id": "9ba46e0e-2a4b-41f9-a2f9-4750605bab84"
+    }
+  ],
+  "_index": 1
+}
