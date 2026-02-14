@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "96f7c2d1-dade-47d3-9ec2-0ea515ef52c4",
+  "name": "start/start_wake_cutscene-2",
+  "symbol": "bg_start_wake_cutscene_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "start/start_wake_cutscene-2.png",
+  "tileColors": "",
+  "autoColor": false
+}
