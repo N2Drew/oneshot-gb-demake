@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "2ed4eddb-ac6f-4233-9e96-a7f6b78316d2",
   "name": "Trigger Door Basement Dark West",
-  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "prefabId": "",
   "x": 9,
   "y": 11,
   "symbol": "trigger_18",
@@ -25,7 +25,130 @@
   },
   "width": 1,
   "height": 1,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true",
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "and",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "direction",
+                          "value": "left"
+                        }
+                      },
+                      "valueB": {
+                        "type": "and",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 9
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 11
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
+                          "x": {
+                            "type": "number",
+                            "value": 51
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 28
+                          },
+                          "direction": "left",
+                          "fadeSpeed": 1,
+                          "__collapse": true
+                        },
+                        "id": "7b511cd8-420a-4d09-a209-22961e87cf3e",
+                        "children": {}
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0a2628e9-30aa-4eda-be93-cff831261a2f"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": true
+                  },
+                  "id": "4f0293a6-26b7-482e-bd33-d3d741b190a5",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "e659a2e1-4288-4b79-a737-05e790616c2a"
+          }
+        ]
+      },
+      "id": "18b04e0e-ecb3-4334-a0d5-2f2347d8cf28"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "T0"
+      },
+      "id": "7a4f3e0e-fd29-44a6-ae8c-a276eb82d2b5",
+      "children": {}
+    }
+  ],
   "_index": 0
 }

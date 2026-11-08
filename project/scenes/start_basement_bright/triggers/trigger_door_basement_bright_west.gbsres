@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "1d2aedf8-bd5d-4680-a53d-2667be6dc2f9",
   "name": "Trigger Door Basement Bright West",
-  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "prefabId": "",
   "x": 9,
   "y": 11,
   "symbol": "trigger_19",
@@ -21,11 +21,243 @@
         },
         "direction": "left"
       }
+    },
+    "db81e4d0-f1f2-4dc8-a152-c5800acf481a": {
+      "id": "db81e4d0-f1f2-4dc8-a152-c5800acf481a",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "eq",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "direction"
+            },
+            "valueB": {
+              "type": "direction",
+              "value": "left"
+            }
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 49
+              }
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 14
+              }
+            }
+          }
+        }
+      }
+    },
+    "f1fa736c-e955-4e85-a828-1bb68ad759a8": {
+      "id": "f1fa736c-e955-4e85-a828-1bb68ad759a8",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "eq",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "direction"
+            },
+            "valueB": {
+              "type": "direction",
+              "value": "left"
+            }
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 10
+              }
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 11
+              }
+            }
+          }
+        }
+      }
+    },
+    "8b7358de-8d35-440e-bd1a-669995088d7e": {
+      "id": "8b7358de-8d35-440e-bd1a-669995088d7e",
+      "args": {
+        "sceneId": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
+        "direction": "left",
+        "x": {
+          "type": "number",
+          "value": 51
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        }
+      }
     }
   },
   "width": 1,
   "height": 1,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true",
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "and",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "direction",
+                          "value": "left"
+                        }
+                      },
+                      "valueB": {
+                        "type": "and",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 9
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 11
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
+                          "x": {
+                            "type": "number",
+                            "value": 51
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 28
+                          },
+                          "direction": "left",
+                          "fadeSpeed": 1,
+                          "__collapse": true
+                        },
+                        "id": "66e20fb9-0c49-48b1-9e69-e56e8a323437",
+                        "children": {}
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f5ba6bc2-bd3b-4961-ba31-66d4b5243241"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": true
+                  },
+                  "id": "345783bc-ba83-438f-af29-8eec6bc75bb7",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "bf87dbf4-8000-4ca7-b001-934f55ff3221"
+          }
+        ]
+      },
+      "id": "0debd608-b025-495b-b007-f7830157bbf9"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "T0"
+      },
+      "id": "94db84e8-98a2-429f-a0ed-5005eb4518ad",
+      "children": {}
+    }
+  ],
   "_index": 0
 }

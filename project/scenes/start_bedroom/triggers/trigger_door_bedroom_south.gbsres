@@ -108,7 +108,8 @@
             "args": {
               "variable": "T0",
               "__scriptTabs": "true",
-              "__collapse": false
+              "__collapse": false,
+              "__comment": false
             },
             "children": {
               "true": [
@@ -121,19 +122,8 @@
                         "command": "EVENT_IF",
                         "args": {
                           "condition": {
-                            "type": "or",
+                            "type": "and",
                             "valueA": {
-                              "type": "gt",
-                              "valueA": {
-                                "type": "variable",
-                                "value": "144"
-                              },
-                              "valueB": {
-                                "type": "number",
-                                "value": 3
-                              }
-                            },
-                            "valueB": {
                               "type": "eq",
                               "valueA": {
                                 "type": "property",
@@ -141,28 +131,43 @@
                                 "property": "direction"
                               },
                               "valueB": {
-                                "type": "expression",
-                                "value": "(($144$ + 2) % 4)"
+                                "type": "direction",
+                                "value": "down"
+                              }
+                            },
+                            "valueB": {
+                              "type": "and",
+                              "valueA": {
+                                "type": "eq",
+                                "valueA": {
+                                  "type": "property",
+                                  "target": "player",
+                                  "property": "xpos"
+                                },
+                                "valueB": {
+                                  "type": "number",
+                                  "value": 23
+                                }
+                              },
+                              "valueB": {
+                                "type": "eq",
+                                "valueA": {
+                                  "type": "property",
+                                  "target": "player",
+                                  "property": "ypos"
+                                },
+                                "valueB": {
+                                  "type": "number",
+                                  "value": 17
+                                }
                               }
                             }
                           },
-                          "__collapseElse": false,
-                          "__comment": false,
-                          "__disableElse": true,
-                          "__collapse": false
+                          "__collapseElse": true,
+                          "__disableElse": true
                         },
                         "children": {
                           "true": [
-                            {
-                              "command": "EVENT_ACTOR_GET_DIRECTION",
-                              "args": {
-                                "actorId": "$self$",
-                                "direction": "144",
-                                "__collapse": true
-                              },
-                              "id": "b0f36260-d31c-494d-9e5a-e68564005ab5",
-                              "children": {}
-                            },
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
@@ -179,13 +184,13 @@
                                 "fadeSpeed": 1,
                                 "__collapse": true
                               },
-                              "id": "293a284b-2522-41e5-8d65-376d4e2faeb0",
+                              "id": "04ce6b6a-e715-4106-84ee-69a596c1f7c9",
                               "children": {}
                             }
                           ],
                           "false": []
                         },
-                        "id": "8e6d92cf-e5d2-4c26-bcdc-b625974bccd6"
+                        "id": "c0320b7e-4053-41b4-b2d3-9026accfd6bc"
                       },
                       {
                         "command": "EVENT_WAIT",
@@ -200,16 +205,16 @@
                           },
                           "__collapse": true
                         },
-                        "id": "6bf6a748-457f-47e5-b700-ef74992982ab",
+                        "id": "ff479476-7a4c-4bba-bb25-38a94388ed03",
                         "children": {}
                       }
                     ]
                   },
-                  "id": "7fa34b4c-5ae0-4b4c-afe3-3b81cc4163c7"
+                  "id": "7db75af0-0c50-4054-b4c7-5b8a0b4c8674"
                 }
               ]
             },
-            "id": "48179523-0095-4eea-9301-362c2d3844bf"
+            "id": "cfd63738-192b-4380-9c51-0da0a7957eb5"
           }
         ]
       },
@@ -223,19 +228,6 @@
         "variable": "T0"
       },
       "id": "f015d743-9df8-448c-8a34-0efbbfa93b78",
-      "children": {}
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "144",
-        "value": {
-          "type": "number",
-          "value": 4
-        },
-        "__collapse": true
-      },
-      "id": "9fef179b-6e57-45ea-84a7-a3a3a2e1a310",
       "children": {}
     }
   ],

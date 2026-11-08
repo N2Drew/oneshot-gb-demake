@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "22aa4752-4541-4c8f-94c0-6bf047c44351",
   "name": "Trigger Door Bathroom East",
-  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "prefabId": "",
   "x": 22,
   "y": 14,
   "symbol": "trigger_13",
@@ -111,7 +111,128 @@
   },
   "width": 1,
   "height": 1,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "and",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "direction",
+                          "value": "right"
+                        }
+                      },
+                      "valueB": {
+                        "type": "and",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 21
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 14
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "d2c71288-7a22-496d-976e-48cd20f38301",
+                          "x": {
+                            "type": "number",
+                            "value": 9
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "direction": "right",
+                          "fadeSpeed": 1,
+                          "__collapse": true
+                        },
+                        "id": "7843b9d5-71ad-4588-b6ef-1fd4a12bb7f5",
+                        "children": {}
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "51900e3f-1ef1-4083-b9b9-fa63375053a4"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": true
+                  },
+                  "id": "a158a8f3-7aa8-4f63-84ce-2ec76a9a0b4e",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "1d5f80db-2575-4ddf-b1eb-b0f32c22102c"
+          }
+        ]
+      },
+      "id": "324a12ed-4e17-432d-bab3-d17d04eaf800"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "T0"
+      },
+      "id": "0d6d3e96-b2bb-40d1-a0ae-ed6760783a58",
+      "children": {}
+    }
+  ],
   "_index": 0
 }

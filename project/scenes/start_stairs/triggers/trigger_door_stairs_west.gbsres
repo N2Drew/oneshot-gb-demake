@@ -2,7 +2,7 @@
   "_resourceType": "trigger",
   "id": "71c54aea-0a58-4c82-baaf-e39db040072e",
   "name": "Trigger Door Stairs West",
-  "prefabId": "74f775ab-3b12-4649-a19e-59ed01773fca",
+  "prefabId": "",
   "x": 8,
   "y": 8,
   "symbol": "trigger_17",
@@ -21,11 +21,196 @@
         },
         "direction": "left"
       }
+    },
+    "8b7358de-8d35-440e-bd1a-669995088d7e": {
+      "id": "8b7358de-8d35-440e-bd1a-669995088d7e",
+      "args": {
+        "sceneId": "9c8e0f85-d89e-4f27-9a3e-d1eb20b5b4ca",
+        "direction": "left",
+        "x": {
+          "type": "number",
+          "value": 49
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        }
+      }
+    },
+    "f1fa736c-e955-4e85-a828-1bb68ad759a8": {
+      "id": "f1fa736c-e955-4e85-a828-1bb68ad759a8",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "eq",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "direction"
+            },
+            "valueB": {
+              "type": "direction",
+              "value": "left"
+            }
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 8
+              }
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 8
+              }
+            }
+          }
+        }
+      }
     }
   },
   "width": 1,
   "height": 1,
-  "script": [],
-  "leaveScript": [],
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true",
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LOOP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "and",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "direction"
+                        },
+                        "valueB": {
+                          "type": "direction",
+                          "value": "left"
+                        }
+                      },
+                      "valueB": {
+                        "type": "and",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 8
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 8
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__disableElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "9c8e0f85-d89e-4f27-9a3e-d1eb20b5b4ca",
+                          "x": {
+                            "type": "number",
+                            "value": 49
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "direction": "left",
+                          "fadeSpeed": 1,
+                          "__collapse": true
+                        },
+                        "id": "68057ac0-0e32-451f-87d7-af6335b18b9d",
+                        "children": {}
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "75f10e5c-8675-4487-b7f9-d14fa68576a0"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": true
+                  },
+                  "id": "f802c52a-8cdf-4895-babf-d579633ce7cc",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "7afe758b-3093-48a1-83fd-b12ca259120f"
+          }
+        ]
+      },
+      "id": "4e575411-00d0-4ae6-be93-a5cf8ac48974"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_THREAD_STOP",
+      "args": {
+        "variable": "T0"
+      },
+      "id": "f029bebd-6dd3-4e7f-8e7c-1b2f320bc393",
+      "children": {}
+    }
+  ],
   "_index": 0
 }

@@ -57,7 +57,8 @@
           }
         },
         "__collapseElse": true,
-        "__disableElse": true
+        "__disableElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -135,7 +136,8 @@
             "command": "EVENT_THREAD_START",
             "args": {
               "variable": "T0",
-              "__scriptTabs": "true"
+              "__scriptTabs": "true",
+              "__comment": false
             },
             "children": {
               "true": [
@@ -148,19 +150,8 @@
                         "command": "EVENT_IF",
                         "args": {
                           "condition": {
-                            "type": "or",
+                            "type": "and",
                             "valueA": {
-                              "type": "gt",
-                              "valueA": {
-                                "type": "variable",
-                                "value": "144"
-                              },
-                              "valueB": {
-                                "type": "number",
-                                "value": 3
-                              }
-                            },
-                            "valueB": {
                               "type": "eq",
                               "valueA": {
                                 "type": "property",
@@ -168,28 +159,43 @@
                                 "property": "direction"
                               },
                               "valueB": {
-                                "type": "expression",
-                                "value": "(($144$ + 2) % 4)"
+                                "type": "direction",
+                                "value": "right"
+                              }
+                            },
+                            "valueB": {
+                              "type": "and",
+                              "valueA": {
+                                "type": "eq",
+                                "valueA": {
+                                  "type": "property",
+                                  "target": "player",
+                                  "property": "xpos"
+                                },
+                                "valueB": {
+                                  "type": "number",
+                                  "value": 49
+                                }
+                              },
+                              "valueB": {
+                                "type": "eq",
+                                "valueA": {
+                                  "type": "property",
+                                  "target": "player",
+                                  "property": "ypos"
+                                },
+                                "valueB": {
+                                  "type": "number",
+                                  "value": 14
+                                }
                               }
                             }
                           },
-                          "__collapseElse": false,
-                          "__comment": false,
-                          "__disableElse": true,
-                          "__collapse": false
+                          "__collapseElse": true,
+                          "__disableElse": true
                         },
                         "children": {
                           "true": [
-                            {
-                              "command": "EVENT_ACTOR_GET_DIRECTION",
-                              "args": {
-                                "actorId": "$self$",
-                                "direction": "144",
-                                "__collapse": true
-                              },
-                              "id": "2bc698d2-acda-45c1-b930-faba6a725eea",
-                              "children": {}
-                            },
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
@@ -206,13 +212,13 @@
                                 "fadeSpeed": 1,
                                 "__collapse": true
                               },
-                              "id": "d3085dd0-e40d-4f8e-a8c1-c57a07d96379",
+                              "id": "e221e0d7-bdcd-4dd6-bc1e-7e19ec586925",
                               "children": {}
                             }
                           ],
                           "false": []
                         },
-                        "id": "1ce363c0-0496-46b4-8f1f-e96c48989fd9"
+                        "id": "0df38bde-95ce-427a-81b5-6c35fd5129e4"
                       },
                       {
                         "command": "EVENT_WAIT",
@@ -227,16 +233,16 @@
                           },
                           "__collapse": true
                         },
-                        "id": "60387114-253e-4f47-9a21-5feaadcaeaa2",
+                        "id": "e5b10fe7-9414-4538-acab-496dfa77f5d3",
                         "children": {}
                       }
                     ]
                   },
-                  "id": "f6c4fd32-197e-4a47-a1c6-2d6cb18fa2e8"
+                  "id": "15e6bea2-a8b8-46d8-871d-6a1d42d5ea52"
                 }
               ]
             },
-            "id": "4eaaf647-4e2d-4c23-b238-35a6d619a513"
+            "id": "2db0d69a-e0c0-4b80-ab4f-3e0ae81088ac"
           }
         ],
         "false": [
@@ -309,19 +315,6 @@
         "variable": "T0"
       },
       "id": "d0d1cb21-6334-405a-a50b-6ef084766d4e",
-      "children": {}
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "144",
-        "value": {
-          "type": "number",
-          "value": 4
-        },
-        "__collapse": true
-      },
-      "id": "c819b7c7-1940-4fa4-a732-19b08d45669c",
       "children": {}
     }
   ],

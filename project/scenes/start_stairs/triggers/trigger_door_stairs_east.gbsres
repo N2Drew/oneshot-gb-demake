@@ -30,7 +30,8 @@
       "command": "EVENT_THREAD_START",
       "args": {
         "variable": "T0",
-        "__scriptTabs": "true"
+        "__scriptTabs": "true",
+        "__comment": false
       },
       "children": {
         "true": [
@@ -43,19 +44,8 @@
                   "command": "EVENT_IF",
                   "args": {
                     "condition": {
-                      "type": "or",
+                      "type": "and",
                       "valueA": {
-                        "type": "gt",
-                        "valueA": {
-                          "type": "variable",
-                          "value": "144"
-                        },
-                        "valueB": {
-                          "type": "number",
-                          "value": 3
-                        }
-                      },
-                      "valueB": {
                         "type": "eq",
                         "valueA": {
                           "type": "property",
@@ -63,34 +53,50 @@
                           "property": "direction"
                         },
                         "valueB": {
-                          "type": "expression",
-                          "value": "(($144$ + 2) % 4)"
+                          "type": "direction",
+                          "value": "right"
+                        }
+                      },
+                      "valueB": {
+                        "type": "and",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 51
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "number",
+                            "value": 28
+                          }
                         }
                       }
                     },
-                    "__collapseElse": false,
-                    "__comment": false,
-                    "__disableElse": true,
-                    "__collapse": false
+                    "__collapseElse": true,
+                    "__disableElse": true
                   },
                   "children": {
                     "true": [
-                      {
-                        "command": "EVENT_ACTOR_GET_DIRECTION",
-                        "args": {
-                          "actorId": "$self$",
-                          "direction": "144",
-                          "__collapse": true
-                        },
-                        "id": "a737c77f-941b-46fb-b2ba-2b8812a85eb2",
-                        "children": {}
-                      },
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
                           "variable": "146",
                           "flag": 0,
-                          "__collapseElse": false
+                          "__collapseElse": false,
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
@@ -141,7 +147,7 @@
                     ],
                     "false": []
                   },
-                  "id": "e3b03800-9c2d-415c-a321-ef2bea7856d9"
+                  "id": "46502ca8-7c02-47fd-8949-5e4178146466"
                 },
                 {
                   "command": "EVENT_WAIT",
@@ -156,16 +162,16 @@
                     },
                     "__collapse": true
                   },
-                  "id": "94b416ab-16e5-4652-a2b9-9f8137adeaaf",
+                  "id": "62ec5af8-637a-446b-9b5f-0a2c50f0cc76",
                   "children": {}
                 }
               ]
             },
-            "id": "ff243bf7-9eb0-473e-9278-2d4647b3ccfc"
+            "id": "380fb289-7bdb-49a1-88b2-888f2c6c9411"
           }
         ]
       },
-      "id": "a467fcd7-1847-44a8-91c3-7f73c624d70e"
+      "id": "2f9b5cad-2604-4d91-8b59-e5ec9e54c178"
     }
   ],
   "leaveScript": [
@@ -175,19 +181,6 @@
         "variable": "T0"
       },
       "id": "e25f4371-f4dc-41f6-9034-02e94070e547",
-      "children": {}
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "144",
-        "value": {
-          "type": "number",
-          "value": 4
-        },
-        "__collapse": true
-      },
-      "id": "d443db15-5031-43a6-9007-e718e487d230",
       "children": {}
     }
   ],
