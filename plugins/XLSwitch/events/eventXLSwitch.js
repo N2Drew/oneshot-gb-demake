@@ -1,23 +1,27 @@
-export const id = "EVENT_XL_SWITCH";
-export const name = "XL Switch";
-export const groups = ["EVENT_GROUP_CONTROL_FLOW","Cormorant42"];
+const { isConstScriptValue } = require("shared/lib/scriptValue/types");
+const l10n = require("../helpers/l10n").default;
 
-export const autoLabel = (fetchArg) => {
+const id = "EVENT_XL_SWITCH";
+const name = "XL Switch";
+const groups = ["EVENT_GROUP_CONTROL_FLOW"];
+
+const autoLabel = (fetchArg) => {
   return `Switch ${fetchArg("variable")} with ${fetchArg("choices")} Options`;
 };
 
-// Copied from lib/events, modified to increase editor constraints
-export const fields = [].concat(
+const fields = [].concat(
   [
     {
       key: "variable",
-      label: "Variable",
+      label: l10n("FIELD_VARIABLE"),
+      description: l10n("FIELD_VARIABLE_DESC"),
       type: "variable",
       defaultValue: "LAST_VARIABLE",
     },
     {
       key: "choices",
-      label: "Number of options",
+      label: l10n("FIELD_NUMBER_OF_OPTIONS"),
+      description: l10n("FIELD_NUMBER_OF_OPTIONS_DESC"),
       type: "number",
       min: 1,
       max: 512,
@@ -29,7 +33,6 @@ export const fields = [].concat(
     .reduce((arr, _, i) => {
       arr.push({
         key: `__collapseCase${i}`,
-        label: `When: $$value${i}$$`,
         conditions: [
           {
             key: "choices",
@@ -38,24 +41,20 @@ export const fields = [].concat(
         ],
         type: "collapsable",
         defaultValue: false,
-      });
-      arr.push({
-        key: `value${i}`,
-        label: "Value",
-        conditions: [
+        fields: [
           {
-            key: `__collapseCase${i}`,
-            ne: true,
-          },
-          {
-            key: "choices",
-            gt: i,
+            key: `value${i}`,
+            label: l10n("FIELD_WHEN"),
+            description: l10n("FIELD_VALUE_SWITCH_DESC"),
+            type: "constvalue",
+            min: -32768,
+            max: 32767,
+            defaultValue: {
+              type: "number",
+              value: i + 1,
+            },
           },
         ],
-        type: "number",
-        min: -32768,
-        max: 32767,
-        defaultValue: i + 1,
       });
       arr.push({
         key: `true${i}`,
@@ -76,7 +75,7 @@ export const fields = [].concat(
   [
     {
       key: "__collapseElse",
-      label: "Else:",
+      label: l10n("FIELD_ELSE"),
       type: "collapsable",
       defaultValue: false,
       conditions: [
@@ -100,30 +99,29 @@ export const fields = [].concat(
       ],
       type: "events",
     },
-  ]
+  ],
 );
 
-export const compile = (input, helpers) => {
-  const { caseVariableValue, _addComment } = helpers;
+const compile = (input, helpers) => {
+  const { caseVariableConstValue } = helpers;
   const falsePath = input.__disableElse ? [] : input.false;
-
-  _addComment("Large Switch");
 
   const choiceLookup = Array(input.choices)
     .fill()
-    .reduce((memo, _, i) => {
-      const value = input[`value${i}`];
-      const key = Number.isInteger(parseInt(value, 10)) ? value : i + 1;
-      if (!memo[key]) {
-        return {
-          ...memo,
-          [key]: input[`true${i}`],
-        };
-      }
-      return memo;
-    }, {});
+    .map((_, i) => {
+      const value = isConstScriptValue(input[`value${i}`])
+        ? input[`value${i}`]
+        : {
+            type: "number",
+            value: i + 1,
+          };
+      return {
+        value,
+        branch: input[`true${i}`],
+      };
+    });
 
-  caseVariableValue(input.variable, choiceLookup, falsePath);
+  caseVariableConstValue(input.variable, choiceLookup, falsePath);
 };
 
 module.exports = {
@@ -132,5 +130,4 @@ module.exports = {
   groups,
   fields,
   compile,
-  waitUntilAfterInitFade: false,
 };
