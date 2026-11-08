@@ -33,8 +33,8 @@
             "value": "V0"
           },
           "valueB": {
-            "type": "number",
-            "value": 0
+            "type": "constant",
+            "value": "8330d850-54db-4723-a548-04abdf7afa66"
           }
         },
         "__collapseElse": true,
@@ -79,8 +79,8 @@
                   "args": {
                     "variable": "141",
                     "value": {
-                      "type": "number",
-                      "value": 0
+                      "type": "constant",
+                      "value": "8330d850-54db-4723-a548-04abdf7afa66"
                     },
                     "__collapse": true
                   },
@@ -98,8 +98,8 @@
                         "value": "141"
                       },
                       "valueB": {
-                        "type": "number",
-                        "value": 0
+                        "type": "constant",
+                        "value": "8330d850-54db-4723-a548-04abdf7afa66"
                       }
                     },
                     "__collapseElse": false
@@ -205,8 +205,8 @@
                               "args": {
                                 "variable": "141",
                                 "value": {
-                                  "type": "number",
-                                  "value": 0
+                                  "type": "constant",
+                                  "value": "8330d850-54db-4723-a548-04abdf7afa66"
                                 },
                                 "__collapse": true
                               },
