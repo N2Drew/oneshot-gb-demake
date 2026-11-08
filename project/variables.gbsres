@@ -842,5 +842,426 @@
       "symbol": "var_temporary_7"
     }
   ],
-  "constants": []
+  "constants": [
+    {
+      "id": "8330d850-54db-4723-a548-04abdf7afa66",
+      "name": "ITEM_0_NOTHING",
+      "symbol": "const_item_0_nothing",
+      "value": 0
+    },
+    {
+      "id": "56f62057-cbbe-4901-88ad-25dbfdae9a1c",
+      "name": "ITEM_1_LIGHTBULB",
+      "symbol": "const_item_1_lightbulb",
+      "value": 1
+    },
+    {
+      "id": "d15bfea8-62b2-4826-ac5e-a5706ffe5499",
+      "name": "ITEM_2_TV_REMOTE",
+      "symbol": "const_item_2_tv_remote",
+      "value": 2
+    },
+    {
+      "id": "d22c18e8-78d4-4cf5-9ca8-e916b3862b3a",
+      "name": "ITEM_3_BOTTLE_ALCOHOL",
+      "symbol": "const_item_3_bottle_alcohol",
+      "value": 3
+    },
+    {
+      "id": "462bce83-78d4-4943-8a43-5a920611c653",
+      "name": "ITEM_4_BRANCH_DRY",
+      "symbol": "const_item_4_branch_dry",
+      "value": 4
+    },
+    {
+      "id": "5ff96c2f-7683-4fcb-a7d9-f18577a2d872",
+      "name": "ITEM_5_BRANCH_WET",
+      "symbol": "const_item_5_branch_wet",
+      "value": 5
+    },
+    {
+      "id": "28e984d4-4d78-4eeb-97a6-afbdb6999626",
+      "name": "ITEM_6_TORCH",
+      "symbol": "const_item_6_torch",
+      "value": 6
+    },
+    {
+      "id": "1e4bd73a-a447-40c3-9636-d3264f2b0434",
+      "name": "ITEM_7_BASEMENT_KEY",
+      "symbol": "const_item_7_basement_key",
+      "value": 7
+    },
+    {
+      "id": "7e9862a8-eeb3-4a43-95b5-07c544d8a9ec",
+      "name": "ITEM_8_CAMERA",
+      "symbol": "const_item_8_camera",
+      "value": 8
+    },
+    {
+      "id": "0ce1ab30-5ff1-49a4-af9d-57acb3bb369d",
+      "name": "ITEM_9_SCREWDRIVER",
+      "symbol": "const_item_9_screwdriver",
+      "value": 9
+    },
+    {
+      "id": "d84738b0-2f00-49f4-8a31-d4d195eb8838",
+      "name": "ITEM_10_LENS",
+      "symbol": "const_item_10_lens",
+      "value": 10
+    },
+    {
+      "id": "feeb5b32-d35c-41b0-b68a-af60080ec945",
+      "name": "ITEM_11_BOTTLE_EMPTY",
+      "symbol": "const_item_11_bottle_empty",
+      "value": 11
+    },
+    {
+      "id": "d2db3300-bc38-407e-90f4-780182aaf7ce",
+      "name": "ITEM_12_BATTERY",
+      "symbol": "const_item_12_battery",
+      "value": 12
+    },
+    {
+      "id": "a3d3498f-2256-4485-ad60-a4c96e66334a",
+      "name": "ITEM_13_BATTERY_EMPTY",
+      "symbol": "const_item_13_battery_empty",
+      "value": 13
+    },
+    {
+      "id": "8b9767db-2431-488b-9522-a6f8359cc8d5",
+      "name": "ITEM_14_BATTERY_FULL",
+      "symbol": "const_item_14_battery_full",
+      "value": 14
+    },
+    {
+      "id": "73df5200-bf94-4a37-89ad-23200e68cf38",
+      "name": "ITEM_15_BOTTLE_SMOKE",
+      "symbol": "const_item_15_bottle_smoke",
+      "value": 15
+    },
+    {
+      "id": "8642aedc-528f-40b6-81a5-291a3e21efd8",
+      "name": "ITEM_16_BOTTLE_ACID",
+      "symbol": "const_item_16_bottle_acid",
+      "value": 16
+    },
+    {
+      "id": "974bd609-01a9-4f00-a68f-5e0a19352cd2",
+      "name": "ITEM_17_SPONGE_WET",
+      "symbol": "const_item_17_sponge_wet",
+      "value": 17
+    },
+    {
+      "id": "bd0f94dd-8c45-42d3-ab92-b6f8c68977af",
+      "name": "ITEM_18_CROWBAR",
+      "symbol": "const_item_18_crowbar",
+      "value": 18
+    },
+    {
+      "id": "96151c54-c63f-43b6-b339-59859aab77c5",
+      "name": "ITEM_19_METAL_ROD",
+      "symbol": "const_item_19_metal_rod",
+      "value": 19
+    },
+    {
+      "id": "b05e9ccf-2005-4308-8ff6-47dc9a72c2a7",
+      "name": "ITEM_20_SPONGE_DRY",
+      "symbol": "const_item_20_sponge_dry",
+      "value": 20
+    },
+    {
+      "id": "8af9d465-b3f4-4edb-8e76-2fe00fd57ce2",
+      "name": "ITEM_21_SYRINGE_EMPTY",
+      "symbol": "const_item_21_syringe_empty",
+      "value": 21
+    },
+    {
+      "id": "ca16868c-8052-4cea-9b44-f55e7c4aaea3",
+      "name": "ITEM_22_SYRINGE_FULL",
+      "symbol": "const_item_22_syringe_full",
+      "value": 22
+    },
+    {
+      "id": "1c2d4bef-8aeb-4882-876c-ce890891dd08",
+      "name": "ITEM_23_AMBER",
+      "symbol": "const_item_23_amber",
+      "value": 23
+    },
+    {
+      "id": "dbb2cc91-d978-4240-a9a5-9ce2f125f827",
+      "name": "ITEM_24_JOURNAL_WEIRD",
+      "symbol": "const_item_24_journal_weird",
+      "value": 24
+    },
+    {
+      "id": "d96dfc38-dca4-44c2-afa5-151a88d49b09",
+      "name": "ITEM_25_FEATHER",
+      "symbol": "const_item_25_feather",
+      "value": 25
+    },
+    {
+      "id": "b0ad87c5-0677-4604-89dc-9d19bc28b179",
+      "name": "ITEM_26_BOTTLE_DYE",
+      "symbol": "const_item_26_bottle_dye",
+      "value": 26
+    },
+    {
+      "id": "05c6215d-3954-490f-a252-a4c4a296fd3c",
+      "name": "ITEM_27_TUBE_WATER",
+      "symbol": "const_item_27_tube_water",
+      "value": 27
+    },
+    {
+      "id": "e294bbb9-6682-49da-869b-3cd68f1fe954",
+      "name": "ITEM_28_SEED",
+      "symbol": "const_item_28_seed",
+      "value": 28
+    },
+    {
+      "id": "5dcf529b-2f63-423c-93ee-a50a34e63d11",
+      "name": "ITEM_29_WOOL",
+      "symbol": "const_item_29_wool",
+      "value": 29
+    },
+    {
+      "id": "120e419a-4d64-4a9c-9428-c293423fd40f",
+      "name": "ITEM_30_FEATHER_PEN",
+      "symbol": "const_item_30_feather_pen",
+      "value": 30
+    },
+    {
+      "id": "daa507ff-2b75-4c58-a97d-474d5ca57078",
+      "name": "ITEM_31_DIE",
+      "symbol": "const_item_31_die",
+      "value": 31
+    },
+    {
+      "id": "4cdb06f7-1970-423f-bc4a-51cf035fec42",
+      "name": "ITEM_32_BUTTON",
+      "symbol": "const_item_32_button",
+      "value": 32
+    },
+    {
+      "id": "13d1116f-8312-4aaf-b080-333f0568f3f5",
+      "name": "ITEM_33_BUTTON_MAGNET",
+      "symbol": "const_item_33_button_magnet",
+      "value": 33
+    },
+    {
+      "id": "ba6cd1b6-11c1-406d-80e6-3af2009fd0a9",
+      "name": "ITEM_34_BUTTON_TAPED",
+      "symbol": "const_item_34_button_taped",
+      "value": 34
+    },
+    {
+      "id": "93942d1a-9369-4e77-b7d4-7023414e13cf",
+      "name": "ITEM_35_YOU_TRIED",
+      "symbol": "const_item_35_you_tried",
+      "value": 35
+    },
+    {
+      "id": "7f268071-1190-406f-8a0e-e8e51eaec786",
+      "name": "ITEM_36_MAGNETS",
+      "symbol": "const_item_36_magnets",
+      "value": 36
+    },
+    {
+      "id": "cc64604a-0e88-4ecf-a8a1-1879102d99b1",
+      "name": "ITEM_37_METAL_CAN",
+      "symbol": "const_item_37_metal_can",
+      "value": 37
+    },
+    {
+      "id": "908447e8-5d0b-4a1d-9084-470b6cb71781",
+      "name": "ITEM_38_SCISSORS",
+      "symbol": "const_item_38_scissors",
+      "value": 38
+    },
+    {
+      "id": "43204574-78f2-498f-93c2-0ef7800a12ae",
+      "name": "ITEM_39_FILM_WEIRD",
+      "symbol": "const_item_39_film_weird",
+      "value": 39
+    },
+    {
+      "id": "9adb9bee-94f2-492e-80fd-622f492529e5",
+      "name": "ITEM_40_LENS_CONCAVE",
+      "symbol": "const_item_40_lens_concave",
+      "value": 40
+    },
+    {
+      "id": "0ef4d8c4-8551-4da1-9265-2dc4cb96cd92",
+      "name": "ITEM_41_LENS_CONVEX",
+      "symbol": "const_item_41_lens_convex",
+      "value": 41
+    },
+    {
+      "id": "461b0355-e6c1-4e34-918a-95ff47d608c8",
+      "name": "ITEM_42_LENS_THIN",
+      "symbol": "const_item_42_lens_thin",
+      "value": 42
+    },
+    {
+      "id": "a24d157b-3e6c-4850-9388-c9a34c4e663e",
+      "name": "ITEM_43_LENS_THICK",
+      "symbol": "const_item_43_lens_thick",
+      "value": 43
+    },
+    {
+      "id": "a34d1635-afd5-43f8-b8c7-415ea97f75c2",
+      "name": "ITEM_44_GLITTER_GLUE",
+      "symbol": "const_item_44_glitter_glue",
+      "value": 44
+    },
+    {
+      "id": "ca53d92f-a303-4fec-980e-c970a651bbbc",
+      "name": "ITEM_45_PHOTO",
+      "symbol": "const_item_45_photo",
+      "value": 45
+    },
+    {
+      "id": "948eb769-3193-4926-80bb-27983619f9d1",
+      "name": "ITEM_46_LIB_KIP",
+      "symbol": "const_item_46_lib_kip",
+      "value": 46
+    },
+    {
+      "id": "24fc2bf7-19c3-422f-84b2-0408c85c4fd3",
+      "name": "ITEM_47_GAS_MASK",
+      "symbol": "const_item_47_gas_mask",
+      "value": 47
+    },
+    {
+      "id": "f0c9e15f-888f-44c5-b56b-a79f578ce310",
+      "name": "ITEM_48_RUBBER_GLOVES",
+      "symbol": "const_item_48_rubber_gloves",
+      "value": 48
+    },
+    {
+      "id": "07352dd3-fb5d-42e2-a40d-1443b704dc5b",
+      "name": "ITEM_49_NOVELTY_SHIRT",
+      "symbol": "const_item_49_novelty_shirt",
+      "value": 49
+    },
+    {
+      "id": "93baed86-927b-4df7-a3d3-0cd33d755ac4",
+      "name": "ITEM_50_LIB_NIKO",
+      "symbol": "const_item_50_lib_niko",
+      "value": 50
+    },
+    {
+      "id": "da5ba4c8-abed-4f1e-843d-fa75d24793af",
+      "name": "ITEM_51_LIB_STICKY",
+      "symbol": "const_item_51_lib_sticky",
+      "value": 51
+    },
+    {
+      "id": "d411df42-0311-4645-8f4c-9ee3a37fb802",
+      "name": "ITEM_52_PHOTO_STICKY",
+      "symbol": "const_item_52_photo_sticky",
+      "value": 52
+    },
+    {
+      "id": "e42fa259-90fb-41f3-a13b-3000db014fef",
+      "name": "ITEM_53_DIRT",
+      "symbol": "const_item_53_dirt",
+      "value": 53
+    },
+    {
+      "id": "678d1043-564d-468d-b80e-a9b65116ef12",
+      "name": "ITEM_54_WATER_PILL",
+      "symbol": "const_item_54_water_pill",
+      "value": 54
+    },
+    {
+      "id": "e022e62b-b292-4caa-aaa2-14a29c7a48db",
+      "name": "ITEM_55_MED_WATER",
+      "symbol": "const_item_55_med_water",
+      "value": 55
+    },
+    {
+      "id": "9d8fdbfb-b18e-4d8a-8d43-54144c2c1880",
+      "name": "ITEM_56_CLOVER",
+      "symbol": "const_item_56_clover",
+      "value": 56
+    },
+    {
+      "id": "fd83702e-db20-48b7-882c-62d4883f42d6",
+      "name": "ITEM_57_TUBE_EMPTY",
+      "symbol": "const_item_57_tube_empty",
+      "value": 57
+    },
+    {
+      "id": "7d4f6c14-6eb6-491e-bb79-5f8a7a468b61",
+      "name": "ITEM_58_BOTTLE_POND",
+      "symbol": "const_item_58_bottle_pond",
+      "value": 58
+    },
+    {
+      "id": "25febd65-bb3d-42b7-8cd9-2a2bdf3f2772",
+      "name": "ITEM_59_JOURNAL_GLOW",
+      "symbol": "const_item_59_journal_glow",
+      "value": 59
+    },
+    {
+      "id": "d2ced51f-a206-4648-8668-0a2877bbc944",
+      "name": "ITEM_60_DISK_MEMORY",
+      "symbol": "const_item_60_disk_memory",
+      "value": 60
+    },
+    {
+      "id": "d8ee7139-bec5-499d-8253-dd636acc729a",
+      "name": "ITEM_61_DISK_BACKUP",
+      "symbol": "const_item_61_disk_backup",
+      "value": 61
+    },
+    {
+      "id": "1b780fca-fff5-4853-b7ef-6730b680fc37",
+      "name": "ITEM_62_BATTERY_FULL",
+      "symbol": "const_item_62_battery_full",
+      "value": 62
+    },
+    {
+      "id": "24de4785-0e91-4ac5-8f06-cfcc6e899901",
+      "name": "ITEM_63_MUSIC_BOX",
+      "symbol": "const_item_63_music_box",
+      "value": 63
+    },
+    {
+      "id": "7417b7c5-e5c3-4af0-9555-650b29a2459e",
+      "name": "COMBINATION_0_3_4",
+      "symbol": "const_combination_0_3_4",
+      "value": 772
+    },
+    {
+      "id": "5e152600-8da0-415d-8c52-fe7ffeeeb789",
+      "name": "COMBINATION_1_8_9",
+      "symbol": "const_combination_1_8_9",
+      "value": 2057
+    },
+    {
+      "id": "bbc216c5-5dbd-4b2b-b61c-9f657871507e",
+      "name": "COMBINATION_2_10_12",
+      "symbol": "const_combination_2_10_12",
+      "value": 2572
+    },
+    {
+      "id": "2081676a-3ccb-455b-8248-9c95f7586976",
+      "name": "COMBINATION_3_1_13",
+      "symbol": "const_combination_3_1_13",
+      "value": 269
+    },
+    {
+      "id": "90c93c95-ae45-46d6-bae0-0d60ce4a61b1",
+      "name": "COMBINATION_4_15_22",
+      "symbol": "const_combination_4_15_22",
+      "value": 3862
+    },
+    {
+      "id": "66228c8a-9408-4568-ac75-a65c9aff58b4",
+      "name": "COMBINATION_5_16_20",
+      "symbol": "const_combination_5_16_20",
+      "value": 4116
+    }
+  ]
 }
