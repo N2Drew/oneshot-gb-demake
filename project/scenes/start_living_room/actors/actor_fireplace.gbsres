@@ -31,8 +31,8 @@
             "value": "141"
           },
           "valueB": {
-            "type": "number",
-            "value": 6
+            "type": "constant",
+            "value": "28e984d4-4d78-4eeb-97a6-afbdb6999626"
           }
         },
         "__collapseElse": false
@@ -57,8 +57,8 @@
                   "args": {
                     "variable": "141",
                     "value": {
-                      "type": "number",
-                      "value": 0
+                      "type": "constant",
+                      "value": "8330d850-54db-4723-a548-04abdf7afa66"
                     },
                     "__collapse": true
                   },
@@ -69,8 +69,8 @@
                   "args": {
                     "customEventId": "00d02407-c478-416c-b567-f5dae50f50ff",
                     "$variable[V0]$": {
-                      "type": "number",
-                      "value": 6
+                      "type": "constant",
+                      "value": "28e984d4-4d78-4eeb-97a6-afbdb6999626"
                     },
                     "__collapse": true
                   },
@@ -81,8 +81,8 @@
                   "args": {
                     "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",
                     "$variable[V0]$": {
-                      "type": "number",
-                      "value": 0
+                      "type": "constant",
+                      "value": "8330d850-54db-4723-a548-04abdf7afa66"
                     },
                     "__collapse": true,
                     "$actor[0]$": "1e6d3a78-3f61-427f-ac47-38b38dcf2c42"

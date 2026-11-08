@@ -52,8 +52,8 @@
             "value": "141"
           },
           "valueB": {
-            "type": "number",
-            "value": 7
+            "type": "constant",
+            "value": "1e4bd73a-a447-40c3-9636-d3264f2b0434"
           }
         },
         "__collapseElse": true,
@@ -74,8 +74,8 @@
             "args": {
               "customEventId": "00d02407-c478-416c-b567-f5dae50f50ff",
               "$variable[V0]$": {
-                "type": "number",
-                "value": 7
+                "type": "constant",
+                "value": "1e4bd73a-a447-40c3-9636-d3264f2b0434"
               },
               "__collapse": true
             },
@@ -86,8 +86,8 @@
             "args": {
               "variable": "141",
               "value": {
-                "type": "number",
-                "value": 0
+                "type": "constant",
+                "value": "8330d850-54db-4723-a548-04abdf7afa66"
               },
               "__collapse": true
             },

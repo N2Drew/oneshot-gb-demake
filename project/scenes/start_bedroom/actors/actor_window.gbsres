@@ -31,8 +31,8 @@
             "value": "141"
           },
           "valueB": {
-            "type": "number",
-            "value": 2
+            "type": "constant",
+            "value": "d15bfea8-62b2-4826-ac5e-a5706ffe5499"
           }
         },
         "__collapseElse": false

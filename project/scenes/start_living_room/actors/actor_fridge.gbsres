@@ -116,8 +116,8 @@
             "args": {
               "customEventId": "f38e8d52-5cee-4f3d-a8ae-0691f06a4613",
               "$variable[V0]$": {
-                "type": "number",
-                "value": 3
+                "type": "constant",
+                "value": "d22c18e8-78d4-4cf5-9ca8-e916b3862b3a"
               },
               "__collapse": true
             },

@@ -19,93 +19,782 @@
   "symbol": "inventory_init_slot_sprite",
   "script": [
     {
-      "command": "EVENT_SWITCH",
+      "command": "EVENT_XL_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 16,
-        "__collapseCase0": false,
-        "value0": {
-          "type": "number",
-          "value": 0
-        },
-        "__collapseCase1": false,
-        "value1": {
-          "type": "number",
-          "value": 1
-        },
-        "__collapseCase2": false,
-        "value2": {
-          "type": "number",
-          "value": 2
-        },
-        "__collapseCase3": false,
-        "value3": {
-          "type": "number",
-          "value": 3
-        },
-        "__collapseCase4": false,
-        "value4": {
-          "type": "number",
-          "value": 4
-        },
-        "__collapseCase5": false,
-        "value5": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapseCase6": false,
-        "value6": {
-          "type": "number",
-          "value": 6
-        },
-        "__collapseCase7": false,
-        "value7": {
-          "type": "number",
-          "value": 7
-        },
-        "__collapseCase8": false,
-        "value8": {
-          "type": "number",
-          "value": 8
-        },
-        "__collapseCase9": false,
-        "value9": {
-          "type": "number",
-          "value": 9
-        },
-        "__collapseCase10": false,
-        "value10": {
-          "type": "number",
-          "value": 10
-        },
-        "__collapseCase11": false,
-        "value11": {
-          "type": "number",
-          "value": 11
-        },
-        "__collapseCase12": false,
-        "value12": {
-          "type": "number",
-          "value": 12
-        },
-        "__collapseCase13": false,
-        "value13": {
-          "type": "number",
-          "value": 13
-        },
-        "__collapseCase14": false,
-        "value14": {
-          "type": "number",
-          "value": 14
-        },
-        "__collapseCase15": false,
-        "value15": {
-          "type": "number",
-          "value": 15
-        },
+        "choices": 64,
+        "__collapseCase0": true,
+        "__collapseCase1": true,
+        "__collapseCase2": true,
+        "__collapseCase3": true,
+        "__collapseCase4": true,
+        "__collapseCase5": true,
+        "__collapseCase6": true,
+        "__collapseCase7": true,
+        "__collapseCase8": true,
+        "__collapseCase9": true,
+        "__collapseCase10": true,
+        "__collapseCase11": true,
+        "__collapseCase12": true,
+        "__collapseCase13": true,
+        "__collapseCase14": true,
+        "__collapseCase15": true,
+        "__collapseCase16": true,
+        "__collapseCase17": true,
+        "__collapseCase18": true,
+        "__collapseCase19": true,
+        "__collapseCase20": true,
+        "__collapseCase21": true,
+        "__collapseCase22": true,
+        "__collapseCase23": true,
+        "__collapseCase24": true,
+        "__collapseCase25": true,
+        "__collapseCase26": true,
+        "__collapseCase27": true,
+        "__collapseCase28": true,
+        "__collapseCase29": true,
+        "__collapseCase30": true,
+        "__collapseCase31": true,
+        "__collapseCase32": true,
+        "__collapseCase33": true,
+        "__collapseCase34": true,
+        "__collapseCase35": true,
+        "__collapseCase36": true,
+        "__collapseCase37": true,
+        "__collapseCase38": true,
+        "__collapseCase39": true,
+        "__collapseCase40": true,
+        "__collapseCase41": true,
+        "__collapseCase42": true,
+        "__collapseCase43": true,
+        "__collapseCase44": true,
+        "__collapseCase45": true,
+        "__collapseCase46": true,
+        "__collapseCase47": true,
+        "__collapseCase48": true,
+        "__collapseCase49": true,
+        "__collapseCase50": true,
+        "__collapseCase51": true,
+        "__collapseCase52": true,
+        "__collapseCase53": true,
+        "__collapseCase54": true,
+        "__collapseCase55": true,
+        "__collapseCase56": true,
+        "__collapseCase57": true,
+        "__collapseCase58": true,
+        "__collapseCase59": true,
+        "__collapseCase60": true,
+        "__collapseCase61": true,
+        "__collapseCase62": true,
+        "__collapseCase63": true,
+        "__collapseCase64": false,
+        "__collapseCase65": false,
+        "__collapseCase66": false,
+        "__collapseCase67": false,
+        "__collapseCase68": false,
+        "__collapseCase69": false,
+        "__collapseCase70": false,
+        "__collapseCase71": false,
+        "__collapseCase72": false,
+        "__collapseCase73": false,
+        "__collapseCase74": false,
+        "__collapseCase75": false,
+        "__collapseCase76": false,
+        "__collapseCase77": false,
+        "__collapseCase78": false,
+        "__collapseCase79": false,
+        "__collapseCase80": false,
+        "__collapseCase81": false,
+        "__collapseCase82": false,
+        "__collapseCase83": false,
+        "__collapseCase84": false,
+        "__collapseCase85": false,
+        "__collapseCase86": false,
+        "__collapseCase87": false,
+        "__collapseCase88": false,
+        "__collapseCase89": false,
+        "__collapseCase90": false,
+        "__collapseCase91": false,
+        "__collapseCase92": false,
+        "__collapseCase93": false,
+        "__collapseCase94": false,
+        "__collapseCase95": false,
+        "__collapseCase96": false,
+        "__collapseCase97": false,
+        "__collapseCase98": false,
+        "__collapseCase99": false,
+        "__collapseCase100": false,
+        "__collapseCase101": false,
+        "__collapseCase102": false,
+        "__collapseCase103": false,
+        "__collapseCase104": false,
+        "__collapseCase105": false,
+        "__collapseCase106": false,
+        "__collapseCase107": false,
+        "__collapseCase108": false,
+        "__collapseCase109": false,
+        "__collapseCase110": false,
+        "__collapseCase111": false,
+        "__collapseCase112": false,
+        "__collapseCase113": false,
+        "__collapseCase114": false,
+        "__collapseCase115": false,
+        "__collapseCase116": false,
+        "__collapseCase117": false,
+        "__collapseCase118": false,
+        "__collapseCase119": false,
+        "__collapseCase120": false,
+        "__collapseCase121": false,
+        "__collapseCase122": false,
+        "__collapseCase123": false,
+        "__collapseCase124": false,
+        "__collapseCase125": false,
+        "__collapseCase126": false,
+        "__collapseCase127": false,
+        "__collapseCase128": false,
+        "__collapseCase129": false,
+        "__collapseCase130": false,
+        "__collapseCase131": false,
+        "__collapseCase132": false,
+        "__collapseCase133": false,
+        "__collapseCase134": false,
+        "__collapseCase135": false,
+        "__collapseCase136": false,
+        "__collapseCase137": false,
+        "__collapseCase138": false,
+        "__collapseCase139": false,
+        "__collapseCase140": false,
+        "__collapseCase141": false,
+        "__collapseCase142": false,
+        "__collapseCase143": false,
+        "__collapseCase144": false,
+        "__collapseCase145": false,
+        "__collapseCase146": false,
+        "__collapseCase147": false,
+        "__collapseCase148": false,
+        "__collapseCase149": false,
+        "__collapseCase150": false,
+        "__collapseCase151": false,
+        "__collapseCase152": false,
+        "__collapseCase153": false,
+        "__collapseCase154": false,
+        "__collapseCase155": false,
+        "__collapseCase156": false,
+        "__collapseCase157": false,
+        "__collapseCase158": false,
+        "__collapseCase159": false,
+        "__collapseCase160": false,
+        "__collapseCase161": false,
+        "__collapseCase162": false,
+        "__collapseCase163": false,
+        "__collapseCase164": false,
+        "__collapseCase165": false,
+        "__collapseCase166": false,
+        "__collapseCase167": false,
+        "__collapseCase168": false,
+        "__collapseCase169": false,
+        "__collapseCase170": false,
+        "__collapseCase171": false,
+        "__collapseCase172": false,
+        "__collapseCase173": false,
+        "__collapseCase174": false,
+        "__collapseCase175": false,
+        "__collapseCase176": false,
+        "__collapseCase177": false,
+        "__collapseCase178": false,
+        "__collapseCase179": false,
+        "__collapseCase180": false,
+        "__collapseCase181": false,
+        "__collapseCase182": false,
+        "__collapseCase183": false,
+        "__collapseCase184": false,
+        "__collapseCase185": false,
+        "__collapseCase186": false,
+        "__collapseCase187": false,
+        "__collapseCase188": false,
+        "__collapseCase189": false,
+        "__collapseCase190": false,
+        "__collapseCase191": false,
+        "__collapseCase192": false,
+        "__collapseCase193": false,
+        "__collapseCase194": false,
+        "__collapseCase195": false,
+        "__collapseCase196": false,
+        "__collapseCase197": false,
+        "__collapseCase198": false,
+        "__collapseCase199": false,
+        "__collapseCase200": false,
+        "__collapseCase201": false,
+        "__collapseCase202": false,
+        "__collapseCase203": false,
+        "__collapseCase204": false,
+        "__collapseCase205": false,
+        "__collapseCase206": false,
+        "__collapseCase207": false,
+        "__collapseCase208": false,
+        "__collapseCase209": false,
+        "__collapseCase210": false,
+        "__collapseCase211": false,
+        "__collapseCase212": false,
+        "__collapseCase213": false,
+        "__collapseCase214": false,
+        "__collapseCase215": false,
+        "__collapseCase216": false,
+        "__collapseCase217": false,
+        "__collapseCase218": false,
+        "__collapseCase219": false,
+        "__collapseCase220": false,
+        "__collapseCase221": false,
+        "__collapseCase222": false,
+        "__collapseCase223": false,
+        "__collapseCase224": false,
+        "__collapseCase225": false,
+        "__collapseCase226": false,
+        "__collapseCase227": false,
+        "__collapseCase228": false,
+        "__collapseCase229": false,
+        "__collapseCase230": false,
+        "__collapseCase231": false,
+        "__collapseCase232": false,
+        "__collapseCase233": false,
+        "__collapseCase234": false,
+        "__collapseCase235": false,
+        "__collapseCase236": false,
+        "__collapseCase237": false,
+        "__collapseCase238": false,
+        "__collapseCase239": false,
+        "__collapseCase240": false,
+        "__collapseCase241": false,
+        "__collapseCase242": false,
+        "__collapseCase243": false,
+        "__collapseCase244": false,
+        "__collapseCase245": false,
+        "__collapseCase246": false,
+        "__collapseCase247": false,
+        "__collapseCase248": false,
+        "__collapseCase249": false,
+        "__collapseCase250": false,
+        "__collapseCase251": false,
+        "__collapseCase252": false,
+        "__collapseCase253": false,
+        "__collapseCase254": false,
+        "__collapseCase255": false,
+        "__collapseCase256": false,
+        "__collapseCase257": false,
+        "__collapseCase258": false,
+        "__collapseCase259": false,
+        "__collapseCase260": false,
+        "__collapseCase261": false,
+        "__collapseCase262": false,
+        "__collapseCase263": false,
+        "__collapseCase264": false,
+        "__collapseCase265": false,
+        "__collapseCase266": false,
+        "__collapseCase267": false,
+        "__collapseCase268": false,
+        "__collapseCase269": false,
+        "__collapseCase270": false,
+        "__collapseCase271": false,
+        "__collapseCase272": false,
+        "__collapseCase273": false,
+        "__collapseCase274": false,
+        "__collapseCase275": false,
+        "__collapseCase276": false,
+        "__collapseCase277": false,
+        "__collapseCase278": false,
+        "__collapseCase279": false,
+        "__collapseCase280": false,
+        "__collapseCase281": false,
+        "__collapseCase282": false,
+        "__collapseCase283": false,
+        "__collapseCase284": false,
+        "__collapseCase285": false,
+        "__collapseCase286": false,
+        "__collapseCase287": false,
+        "__collapseCase288": false,
+        "__collapseCase289": false,
+        "__collapseCase290": false,
+        "__collapseCase291": false,
+        "__collapseCase292": false,
+        "__collapseCase293": false,
+        "__collapseCase294": false,
+        "__collapseCase295": false,
+        "__collapseCase296": false,
+        "__collapseCase297": false,
+        "__collapseCase298": false,
+        "__collapseCase299": false,
+        "__collapseCase300": false,
+        "__collapseCase301": false,
+        "__collapseCase302": false,
+        "__collapseCase303": false,
+        "__collapseCase304": false,
+        "__collapseCase305": false,
+        "__collapseCase306": false,
+        "__collapseCase307": false,
+        "__collapseCase308": false,
+        "__collapseCase309": false,
+        "__collapseCase310": false,
+        "__collapseCase311": false,
+        "__collapseCase312": false,
+        "__collapseCase313": false,
+        "__collapseCase314": false,
+        "__collapseCase315": false,
+        "__collapseCase316": false,
+        "__collapseCase317": false,
+        "__collapseCase318": false,
+        "__collapseCase319": false,
+        "__collapseCase320": false,
+        "__collapseCase321": false,
+        "__collapseCase322": false,
+        "__collapseCase323": false,
+        "__collapseCase324": false,
+        "__collapseCase325": false,
+        "__collapseCase326": false,
+        "__collapseCase327": false,
+        "__collapseCase328": false,
+        "__collapseCase329": false,
+        "__collapseCase330": false,
+        "__collapseCase331": false,
+        "__collapseCase332": false,
+        "__collapseCase333": false,
+        "__collapseCase334": false,
+        "__collapseCase335": false,
+        "__collapseCase336": false,
+        "__collapseCase337": false,
+        "__collapseCase338": false,
+        "__collapseCase339": false,
+        "__collapseCase340": false,
+        "__collapseCase341": false,
+        "__collapseCase342": false,
+        "__collapseCase343": false,
+        "__collapseCase344": false,
+        "__collapseCase345": false,
+        "__collapseCase346": false,
+        "__collapseCase347": false,
+        "__collapseCase348": false,
+        "__collapseCase349": false,
+        "__collapseCase350": false,
+        "__collapseCase351": false,
+        "__collapseCase352": false,
+        "__collapseCase353": false,
+        "__collapseCase354": false,
+        "__collapseCase355": false,
+        "__collapseCase356": false,
+        "__collapseCase357": false,
+        "__collapseCase358": false,
+        "__collapseCase359": false,
+        "__collapseCase360": false,
+        "__collapseCase361": false,
+        "__collapseCase362": false,
+        "__collapseCase363": false,
+        "__collapseCase364": false,
+        "__collapseCase365": false,
+        "__collapseCase366": false,
+        "__collapseCase367": false,
+        "__collapseCase368": false,
+        "__collapseCase369": false,
+        "__collapseCase370": false,
+        "__collapseCase371": false,
+        "__collapseCase372": false,
+        "__collapseCase373": false,
+        "__collapseCase374": false,
+        "__collapseCase375": false,
+        "__collapseCase376": false,
+        "__collapseCase377": false,
+        "__collapseCase378": false,
+        "__collapseCase379": false,
+        "__collapseCase380": false,
+        "__collapseCase381": false,
+        "__collapseCase382": false,
+        "__collapseCase383": false,
+        "__collapseCase384": false,
+        "__collapseCase385": false,
+        "__collapseCase386": false,
+        "__collapseCase387": false,
+        "__collapseCase388": false,
+        "__collapseCase389": false,
+        "__collapseCase390": false,
+        "__collapseCase391": false,
+        "__collapseCase392": false,
+        "__collapseCase393": false,
+        "__collapseCase394": false,
+        "__collapseCase395": false,
+        "__collapseCase396": false,
+        "__collapseCase397": false,
+        "__collapseCase398": false,
+        "__collapseCase399": false,
+        "__collapseCase400": false,
+        "__collapseCase401": false,
+        "__collapseCase402": false,
+        "__collapseCase403": false,
+        "__collapseCase404": false,
+        "__collapseCase405": false,
+        "__collapseCase406": false,
+        "__collapseCase407": false,
+        "__collapseCase408": false,
+        "__collapseCase409": false,
+        "__collapseCase410": false,
+        "__collapseCase411": false,
+        "__collapseCase412": false,
+        "__collapseCase413": false,
+        "__collapseCase414": false,
+        "__collapseCase415": false,
+        "__collapseCase416": false,
+        "__collapseCase417": false,
+        "__collapseCase418": false,
+        "__collapseCase419": false,
+        "__collapseCase420": false,
+        "__collapseCase421": false,
+        "__collapseCase422": false,
+        "__collapseCase423": false,
+        "__collapseCase424": false,
+        "__collapseCase425": false,
+        "__collapseCase426": false,
+        "__collapseCase427": false,
+        "__collapseCase428": false,
+        "__collapseCase429": false,
+        "__collapseCase430": false,
+        "__collapseCase431": false,
+        "__collapseCase432": false,
+        "__collapseCase433": false,
+        "__collapseCase434": false,
+        "__collapseCase435": false,
+        "__collapseCase436": false,
+        "__collapseCase437": false,
+        "__collapseCase438": false,
+        "__collapseCase439": false,
+        "__collapseCase440": false,
+        "__collapseCase441": false,
+        "__collapseCase442": false,
+        "__collapseCase443": false,
+        "__collapseCase444": false,
+        "__collapseCase445": false,
+        "__collapseCase446": false,
+        "__collapseCase447": false,
+        "__collapseCase448": false,
+        "__collapseCase449": false,
+        "__collapseCase450": false,
+        "__collapseCase451": false,
+        "__collapseCase452": false,
+        "__collapseCase453": false,
+        "__collapseCase454": false,
+        "__collapseCase455": false,
+        "__collapseCase456": false,
+        "__collapseCase457": false,
+        "__collapseCase458": false,
+        "__collapseCase459": false,
+        "__collapseCase460": false,
+        "__collapseCase461": false,
+        "__collapseCase462": false,
+        "__collapseCase463": false,
+        "__collapseCase464": false,
+        "__collapseCase465": false,
+        "__collapseCase466": false,
+        "__collapseCase467": false,
+        "__collapseCase468": false,
+        "__collapseCase469": false,
+        "__collapseCase470": false,
+        "__collapseCase471": false,
+        "__collapseCase472": false,
+        "__collapseCase473": false,
+        "__collapseCase474": false,
+        "__collapseCase475": false,
+        "__collapseCase476": false,
+        "__collapseCase477": false,
+        "__collapseCase478": false,
+        "__collapseCase479": false,
+        "__collapseCase480": false,
+        "__collapseCase481": false,
+        "__collapseCase482": false,
+        "__collapseCase483": false,
+        "__collapseCase484": false,
+        "__collapseCase485": false,
+        "__collapseCase486": false,
+        "__collapseCase487": false,
+        "__collapseCase488": false,
+        "__collapseCase489": false,
+        "__collapseCase490": false,
+        "__collapseCase491": false,
+        "__collapseCase492": false,
+        "__collapseCase493": false,
+        "__collapseCase494": false,
+        "__collapseCase495": false,
+        "__collapseCase496": false,
+        "__collapseCase497": false,
+        "__collapseCase498": false,
+        "__collapseCase499": false,
+        "__collapseCase500": false,
+        "__collapseCase501": false,
+        "__collapseCase502": false,
+        "__collapseCase503": false,
+        "__collapseCase504": false,
+        "__collapseCase505": false,
+        "__collapseCase506": false,
+        "__collapseCase507": false,
+        "__collapseCase508": false,
+        "__collapseCase509": false,
+        "__collapseCase510": false,
+        "__collapseCase511": false,
         "__collapseElse": false,
-        "__disableElse": false,
-        "__collapse": false
+        "__disableElse": true,
+        "value0": {
+          "type": "constant",
+          "value": "8330d850-54db-4723-a548-04abdf7afa66"
+        },
+        "value1": {
+          "type": "constant",
+          "value": "56f62057-cbbe-4901-88ad-25dbfdae9a1c"
+        },
+        "__collapse": false,
+        "value2": {
+          "type": "constant",
+          "value": "d15bfea8-62b2-4826-ac5e-a5706ffe5499"
+        },
+        "value3": {
+          "type": "constant",
+          "value": "d22c18e8-78d4-4cf5-9ca8-e916b3862b3a"
+        },
+        "value4": {
+          "type": "constant",
+          "value": "462bce83-78d4-4943-8a43-5a920611c653"
+        },
+        "value5": {
+          "type": "constant",
+          "value": "5ff96c2f-7683-4fcb-a7d9-f18577a2d872"
+        },
+        "value6": {
+          "type": "constant",
+          "value": "28e984d4-4d78-4eeb-97a6-afbdb6999626"
+        },
+        "value7": {
+          "type": "constant",
+          "value": "1e4bd73a-a447-40c3-9636-d3264f2b0434"
+        },
+        "value8": {
+          "type": "constant",
+          "value": "7e9862a8-eeb3-4a43-95b5-07c544d8a9ec"
+        },
+        "value9": {
+          "type": "constant",
+          "value": "0ce1ab30-5ff1-49a4-af9d-57acb3bb369d"
+        },
+        "value10": {
+          "type": "constant",
+          "value": "d84738b0-2f00-49f4-8a31-d4d195eb8838"
+        },
+        "value11": {
+          "type": "constant",
+          "value": "feeb5b32-d35c-41b0-b68a-af60080ec945"
+        },
+        "value12": {
+          "type": "constant",
+          "value": "d2db3300-bc38-407e-90f4-780182aaf7ce"
+        },
+        "value13": {
+          "type": "constant",
+          "value": "a3d3498f-2256-4485-ad60-a4c96e66334a"
+        },
+        "value14": {
+          "type": "constant",
+          "value": "8b9767db-2431-488b-9522-a6f8359cc8d5"
+        },
+        "value15": {
+          "type": "constant",
+          "value": "73df5200-bf94-4a37-89ad-23200e68cf38"
+        },
+        "value16": {
+          "type": "constant",
+          "value": "8642aedc-528f-40b6-81a5-291a3e21efd8"
+        },
+        "value17": {
+          "type": "constant",
+          "value": "974bd609-01a9-4f00-a68f-5e0a19352cd2"
+        },
+        "value18": {
+          "type": "constant",
+          "value": "bd0f94dd-8c45-42d3-ab92-b6f8c68977af"
+        },
+        "value19": {
+          "type": "constant",
+          "value": "96151c54-c63f-43b6-b339-59859aab77c5"
+        },
+        "value20": {
+          "type": "constant",
+          "value": "b05e9ccf-2005-4308-8ff6-47dc9a72c2a7"
+        },
+        "value21": {
+          "type": "constant",
+          "value": "8af9d465-b3f4-4edb-8e76-2fe00fd57ce2"
+        },
+        "value22": {
+          "type": "constant",
+          "value": "ca16868c-8052-4cea-9b44-f55e7c4aaea3"
+        },
+        "value23": {
+          "type": "constant",
+          "value": "1c2d4bef-8aeb-4882-876c-ce890891dd08"
+        },
+        "value24": {
+          "type": "constant",
+          "value": "dbb2cc91-d978-4240-a9a5-9ce2f125f827"
+        },
+        "value25": {
+          "type": "constant",
+          "value": "d96dfc38-dca4-44c2-afa5-151a88d49b09"
+        },
+        "value26": {
+          "type": "constant",
+          "value": "b0ad87c5-0677-4604-89dc-9d19bc28b179"
+        },
+        "value27": {
+          "type": "constant",
+          "value": "05c6215d-3954-490f-a252-a4c4a296fd3c"
+        },
+        "value28": {
+          "type": "constant",
+          "value": "e294bbb9-6682-49da-869b-3cd68f1fe954"
+        },
+        "value29": {
+          "type": "constant",
+          "value": "5dcf529b-2f63-423c-93ee-a50a34e63d11"
+        },
+        "value30": {
+          "type": "constant",
+          "value": "120e419a-4d64-4a9c-9428-c293423fd40f"
+        },
+        "value31": {
+          "type": "constant",
+          "value": "daa507ff-2b75-4c58-a97d-474d5ca57078"
+        },
+        "value32": {
+          "type": "constant",
+          "value": "4cdb06f7-1970-423f-bc4a-51cf035fec42"
+        },
+        "value33": {
+          "type": "constant",
+          "value": "13d1116f-8312-4aaf-b080-333f0568f3f5"
+        },
+        "value34": {
+          "type": "constant",
+          "value": "ba6cd1b6-11c1-406d-80e6-3af2009fd0a9"
+        },
+        "value35": {
+          "type": "constant",
+          "value": "93942d1a-9369-4e77-b7d4-7023414e13cf"
+        },
+        "value36": {
+          "type": "constant",
+          "value": "7f268071-1190-406f-8a0e-e8e51eaec786"
+        },
+        "value37": {
+          "type": "constant",
+          "value": "cc64604a-0e88-4ecf-a8a1-1879102d99b1"
+        },
+        "value38": {
+          "type": "constant",
+          "value": "908447e8-5d0b-4a1d-9084-470b6cb71781"
+        },
+        "value39": {
+          "type": "constant",
+          "value": "43204574-78f2-498f-93c2-0ef7800a12ae"
+        },
+        "value40": {
+          "type": "constant",
+          "value": "9adb9bee-94f2-492e-80fd-622f492529e5"
+        },
+        "value41": {
+          "type": "constant",
+          "value": "0ef4d8c4-8551-4da1-9265-2dc4cb96cd92"
+        },
+        "value42": {
+          "type": "constant",
+          "value": "461b0355-e6c1-4e34-918a-95ff47d608c8"
+        },
+        "value43": {
+          "type": "constant",
+          "value": "a24d157b-3e6c-4850-9388-c9a34c4e663e"
+        },
+        "value44": {
+          "type": "constant",
+          "value": "a34d1635-afd5-43f8-b8c7-415ea97f75c2"
+        },
+        "value45": {
+          "type": "constant",
+          "value": "ca53d92f-a303-4fec-980e-c970a651bbbc"
+        },
+        "value46": {
+          "type": "constant",
+          "value": "948eb769-3193-4926-80bb-27983619f9d1"
+        },
+        "value47": {
+          "type": "constant",
+          "value": "24fc2bf7-19c3-422f-84b2-0408c85c4fd3"
+        },
+        "value48": {
+          "type": "constant",
+          "value": "f0c9e15f-888f-44c5-b56b-a79f578ce310"
+        },
+        "value49": {
+          "type": "constant",
+          "value": "07352dd3-fb5d-42e2-a40d-1443b704dc5b"
+        },
+        "value50": {
+          "type": "constant",
+          "value": "93baed86-927b-4df7-a3d3-0cd33d755ac4"
+        },
+        "value51": {
+          "type": "constant",
+          "value": "da5ba4c8-abed-4f1e-843d-fa75d24793af"
+        },
+        "value52": {
+          "type": "constant",
+          "value": "d411df42-0311-4645-8f4c-9ee3a37fb802"
+        },
+        "value53": {
+          "type": "constant",
+          "value": "e42fa259-90fb-41f3-a13b-3000db014fef"
+        },
+        "value54": {
+          "type": "constant",
+          "value": "678d1043-564d-468d-b80e-a9b65116ef12"
+        },
+        "value55": {
+          "type": "constant",
+          "value": "e022e62b-b292-4caa-aaa2-14a29c7a48db"
+        },
+        "value56": {
+          "type": "constant",
+          "value": "9d8fdbfb-b18e-4d8a-8d43-54144c2c1880"
+        },
+        "value57": {
+          "type": "constant",
+          "value": "fd83702e-db20-48b7-882c-62d4883f42d6"
+        },
+        "value58": {
+          "type": "constant",
+          "value": "7d4f6c14-6eb6-491e-bb79-5f8a7a468b61"
+        },
+        "value59": {
+          "type": "constant",
+          "value": "25febd65-bb3d-42b7-8cd9-2a2bdf3f2772"
+        },
+        "value60": {
+          "type": "constant",
+          "value": "d2ced51f-a206-4648-8668-0a2877bbc944"
+        },
+        "value61": {
+          "type": "constant",
+          "value": "d8ee7139-bec5-499d-8253-dd636acc729a"
+        },
+        "value62": {
+          "type": "constant",
+          "value": "1b780fca-fff5-4853-b7ef-6730b680fc37"
+        },
+        "value63": {
+          "type": "constant",
+          "value": "24de4785-0e91-4ac5-8f06-cfcc6e899901"
+        },
+        "__comment": false
       },
       "children": {
         "true0": [
@@ -114,9 +803,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "d19d241c-3567-45c5-8711-5f61b6227e61"
+            "id": "49b560d9-4120-4315-8304-5407256d0fc8"
           }
         ],
         "true1": [
@@ -125,9 +814,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "12cc5f8a-e054-41c0-87b9-60e7697bf2f7",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "fd28dafe-a230-4505-840c-8558c40c5e6c"
+            "id": "1ee8ec5b-9eba-455b-8742-a55cd6ec281b"
           }
         ],
         "true2": [
@@ -136,9 +825,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "2a49f30c-fcd0-4df0-b4a2-affa31fc45f1",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "5aea7d13-02e7-496e-a851-81e76437aa6e"
+            "id": "9725b2a3-e6c9-4036-b178-9b4b36477ca4"
           }
         ],
         "true3": [
@@ -147,9 +836,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "bf14753f-ad1f-4bc3-bb23-3a479b04408b",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "67f814eb-a46b-4fab-864e-64826d93e64f"
+            "id": "a97ff1b0-2d47-4dac-9d0a-f1b79864e67f"
           }
         ],
         "true4": [
@@ -158,9 +847,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "5281b6ef-97c9-4e38-9d34-e680ebcdc95a",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "707a0a55-47c6-4769-b3bf-8bc4274da951"
+            "id": "dabeb8d5-9ec2-4f48-ad42-907a0c574d0b"
           }
         ],
         "true5": [
@@ -169,9 +858,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "850ea458-4fe6-4912-824b-50d45c8a21f0",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "a603ef9b-b018-4ad0-b91b-2fa57baf386b"
+            "id": "8f64d308-d92d-405a-b0d1-0bcc40963aeb"
           }
         ],
         "true6": [
@@ -180,9 +869,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "f306c125-ee4d-4c3c-8da6-72fd77056911",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "1e0a89a4-9169-47dc-ba92-8b4d84d23a0f"
+            "id": "c8cfe3b8-240c-4578-8c81-73ef299bc50d"
           }
         ],
         "true7": [
@@ -191,9 +880,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "29aec286-b567-4bfd-9dc0-b2efc3f69029",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "054c0552-c5d5-4315-a20b-fdb19beb73b7"
+            "id": "fcb5e671-a9b0-49d4-a087-e09aeef3a8ff"
           }
         ],
         "true8": [
@@ -202,9 +891,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "84195f7e-26eb-4450-bff4-4901b37e27cf",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "72bb19de-855a-4ea3-a0ed-cf9e75b0664a"
+            "id": "5ecff2b0-e980-428b-8531-e21effb39a3e"
           }
         ],
         "true9": [
@@ -213,9 +902,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "bb5d52e2-8da7-4a36-af97-328284decb7d",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "5ceae0c1-0428-473c-ab9a-8080eb7b95f0"
+            "id": "0807250a-2142-49b5-af7f-1e785b7c1399"
           }
         ],
         "true10": [
@@ -224,9 +913,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "206728f2-52f6-43b3-b04c-0b9b0394745d",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "44490036-a787-44ac-9740-bc63c26142ee"
+            "id": "45370696-ca46-4adc-9790-92b4026b1235"
           }
         ],
         "true11": [
@@ -235,9 +924,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "50c401b2-39ec-4be1-b3c9-349fdaf77d8a",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "33e6a728-9ea3-4af1-9037-47fe2a147c1f"
+            "id": "9594ecd0-8e2b-4e63-ab1c-bf4100ac6751"
           }
         ],
         "true12": [
@@ -246,9 +935,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "93038f16-48bf-4193-9f11-c4ee7fe3d905",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "bdac92bd-3051-4aff-9d99-f79557ef1000"
+            "id": "120849fa-9092-4cf2-a897-a9a6c30b1deb"
           }
         ],
         "true13": [
@@ -257,9 +946,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "a2b7a16c-b636-42a8-ada1-29a589082059",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "f48e4503-f024-4556-9259-6e8e48e751f4"
+            "id": "eb05f3a7-1503-4d5f-ab6a-fd9c468165d2"
           }
         ],
         "true14": [
@@ -268,9 +957,9 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "0d972eae-4efa-4bab-ab86-7589a70b86bf",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "44e2f2ac-bb88-4f82-b437-73083094ac15"
+            "id": "2c85a2a3-eea8-4f5c-83d6-279aa0f9e805"
           }
         ],
         "true15": [
@@ -279,835 +968,990 @@
             "args": {
               "actorId": "0",
               "spriteSheetId": "32003f6f-11ea-432a-a966-d13f91685f74",
-              "__collapse": true
-            },
-            "id": "342062d6-d92f-4d5a-bc7e-0d10d77d24a2"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH",
-            "args": {
-              "variable": "V0",
-              "choices": 16,
-              "__collapseCase0": false,
-              "value0": {
-                "type": "number",
-                "value": 16
-              },
-              "__collapseCase1": false,
-              "value1": {
-                "type": "number",
-                "value": 17
-              },
-              "__collapseCase2": false,
-              "value2": {
-                "type": "number",
-                "value": 18
-              },
-              "__collapseCase3": false,
-              "value3": {
-                "type": "number",
-                "value": 19
-              },
-              "__collapseCase4": false,
-              "value4": {
-                "type": "number",
-                "value": 20
-              },
-              "__collapseCase5": false,
-              "value5": {
-                "type": "number",
-                "value": 21
-              },
-              "__collapseCase6": false,
-              "value6": {
-                "type": "number",
-                "value": 22
-              },
-              "__collapseCase7": false,
-              "value7": {
-                "type": "number",
-                "value": 23
-              },
-              "__collapseCase8": false,
-              "value8": {
-                "type": "number",
-                "value": 24
-              },
-              "__collapseCase9": false,
-              "value9": {
-                "type": "number",
-                "value": 25
-              },
-              "__collapseCase10": false,
-              "value10": {
-                "type": "number",
-                "value": 26
-              },
-              "__collapseCase11": false,
-              "value11": {
-                "type": "number",
-                "value": 27
-              },
-              "__collapseCase12": false,
-              "value12": {
-                "type": "number",
-                "value": 28
-              },
-              "__collapseCase13": false,
-              "value13": {
-                "type": "number",
-                "value": 29
-              },
-              "__collapseCase14": false,
-              "value14": {
-                "type": "number",
-                "value": 30
-              },
-              "__collapseCase15": false,
-              "value15": {
-                "type": "number",
-                "value": 31
-              },
-              "__collapseElse": false,
-              "__disableElse": false,
               "__collapse": false
             },
-            "children": {
-              "true0": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "14abc0e7-59d8-4a32-85a9-786fa8992615",
-                    "__collapse": true
-                  },
-                  "id": "238622c6-50b1-4551-837a-e9d20ad4db96"
-                }
-              ],
-              "true1": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "be6a51e3-6c37-44b4-91ea-546bd57d6d57",
-                    "__collapse": true
-                  },
-                  "id": "99a91a9b-f57e-4dda-9363-16c1ba5d333b"
-                }
-              ],
-              "true2": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "19fcefde-51bc-4db4-8f50-2d760145bf0d",
-                    "__collapse": true
-                  },
-                  "id": "64eb9f38-8353-4040-8205-6cd923a1954b"
-                }
-              ],
-              "true3": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "bf84fee0-43c4-449a-9176-7f098a7c5aae",
-                    "__collapse": true
-                  },
-                  "id": "c596406d-cba0-4db5-95df-64349c3dcea1"
-                }
-              ],
-              "true4": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "e252730d-4096-4e91-ba39-ef091e62f05c",
-                    "__collapse": true
-                  },
-                  "id": "62d2da87-f0f5-43a0-b533-5af11948791b"
-                }
-              ],
-              "true5": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "d93dd57f-5461-4f79-81ca-f55bf20cfcdd",
-                    "__collapse": true
-                  },
-                  "id": "4f2c17bf-0714-4f61-a09d-546c39c41fc5"
-                }
-              ],
-              "true6": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "cf1c9e99-c2ff-410a-b615-4ed998f1fd53",
-                    "__collapse": true
-                  },
-                  "id": "14314978-7f11-4088-bb41-5773edf6ffb8"
-                }
-              ],
-              "true7": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "cc8ad4bd-0f8d-4d0f-83b1-feca8b34d899",
-                    "__collapse": true
-                  },
-                  "id": "18abaed2-0720-4632-a008-8c562e8d05b3"
-                }
-              ],
-              "true8": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "273ceb66-9f97-482a-841b-bb0c88a3d19e",
-                    "__collapse": true
-                  },
-                  "id": "9ad3eadb-1c02-4438-bf9d-25a60a1f7a85"
-                }
-              ],
-              "true9": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "de1ce6e2-0a05-40d1-8df6-c8690a75914b",
-                    "__collapse": true
-                  },
-                  "id": "a91c5475-cb65-42e0-ae2a-a5d29e68d917"
-                }
-              ],
-              "true10": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "3e7223a8-d499-451c-be1e-0d92763573f1",
-                    "__collapse": true
-                  },
-                  "id": "95e2690d-aaea-4fbe-b736-51f316a34a99"
-                }
-              ],
-              "true11": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "3dd87796-d7fa-479b-8e5f-bd878643148e",
-                    "__collapse": true
-                  },
-                  "id": "b70b899c-0dac-4a2d-bd9e-18260bb0cd0e"
-                }
-              ],
-              "true12": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "42bc4409-30b3-42ba-bee2-24830a7b2732",
-                    "__collapse": true
-                  },
-                  "id": "8a9b0646-962f-4db3-a8ee-1f1640e2aa94"
-                }
-              ],
-              "true13": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "dd1509ba-3137-4294-9112-7c3d5257a9e4",
-                    "__collapse": true
-                  },
-                  "id": "2aeaaded-9ee2-43fd-adec-3a311f034994"
-                }
-              ],
-              "true14": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "3c480901-6da1-47d2-832f-51ca2430f385",
-                    "__collapse": true
-                  },
-                  "id": "17332e2d-1936-469b-bacf-131c507d105c"
-                }
-              ],
-              "true15": [
-                {
-                  "command": "EVENT_ACTOR_SET_SPRITE",
-                  "args": {
-                    "actorId": "0",
-                    "spriteSheetId": "19321940-5ff3-4740-b63c-d850d131d674",
-                    "__collapse": true
-                  },
-                  "id": "cdc9de23-f151-4d2c-b61e-9c427ec58159"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_SWITCH",
-                  "args": {
-                    "variable": "V0",
-                    "choices": 16,
-                    "__collapseCase0": false,
-                    "value0": {
-                      "type": "number",
-                      "value": 32
-                    },
-                    "__collapseCase1": false,
-                    "value1": {
-                      "type": "number",
-                      "value": 33
-                    },
-                    "__collapseCase2": false,
-                    "value2": {
-                      "type": "number",
-                      "value": 34
-                    },
-                    "__collapseCase3": false,
-                    "value3": {
-                      "type": "number",
-                      "value": 35
-                    },
-                    "__collapseCase4": false,
-                    "value4": {
-                      "type": "number",
-                      "value": 36
-                    },
-                    "__collapseCase5": false,
-                    "value5": {
-                      "type": "number",
-                      "value": 37
-                    },
-                    "__collapseCase6": false,
-                    "value6": {
-                      "type": "number",
-                      "value": 38
-                    },
-                    "__collapseCase7": false,
-                    "value7": {
-                      "type": "number",
-                      "value": 39
-                    },
-                    "__collapseCase8": false,
-                    "value8": {
-                      "type": "number",
-                      "value": 40
-                    },
-                    "__collapseCase9": false,
-                    "value9": {
-                      "type": "number",
-                      "value": 41
-                    },
-                    "__collapseCase10": false,
-                    "value10": {
-                      "type": "number",
-                      "value": 42
-                    },
-                    "__collapseCase11": false,
-                    "value11": {
-                      "type": "number",
-                      "value": 43
-                    },
-                    "__collapseCase12": false,
-                    "value12": {
-                      "type": "number",
-                      "value": 44
-                    },
-                    "__collapseCase13": false,
-                    "value13": {
-                      "type": "number",
-                      "value": 45
-                    },
-                    "__collapseCase14": false,
-                    "value14": {
-                      "type": "number",
-                      "value": 46
-                    },
-                    "__collapseCase15": false,
-                    "value15": {
-                      "type": "number",
-                      "value": 47
-                    },
-                    "__collapseElse": false,
-                    "__disableElse": false,
-                    "__collapse": false
-                  },
-                  "children": {
-                    "true0": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "c66255bc-d646-4b44-aff4-babe20609ed7",
-                          "__collapse": true
-                        },
-                        "id": "fc922e06-8442-4a30-ab05-10f38ef28102"
-                      }
-                    ],
-                    "true1": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "bc4430a2-fe01-45b5-bcb2-f1867d554186",
-                          "__collapse": true
-                        },
-                        "id": "91553ef3-f5aa-4dc3-9eee-beb1fe16416a"
-                      }
-                    ],
-                    "true2": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "d0a68d2b-af58-4fa9-b983-383aa9d3fd6c",
-                          "__collapse": true
-                        },
-                        "id": "7ea0116b-411e-424b-9352-bdd952b1ae23"
-                      }
-                    ],
-                    "true3": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "4e8c9c41-4f9d-4181-ac7c-d75f17c082e0",
-                          "__collapse": true
-                        },
-                        "id": "8498372b-8347-4af4-b963-dba34e0ad996"
-                      }
-                    ],
-                    "true4": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "6304db5c-7f85-45b6-a8dd-cbc01abcc937",
-                          "__collapse": true
-                        },
-                        "id": "c3f8dfb1-e87d-4c08-81bd-c5bb03153ff4"
-                      }
-                    ],
-                    "true5": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "6846fb3e-8e53-41e8-893e-b680bf6521b8",
-                          "__collapse": true
-                        },
-                        "id": "ed4e95e6-29d8-4db9-a951-d25bb176dac2"
-                      }
-                    ],
-                    "true6": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "b41d45f0-7b08-4678-a121-369a45b6792a",
-                          "__collapse": true
-                        },
-                        "id": "54669bb9-4f56-43df-9894-f546426f4415"
-                      }
-                    ],
-                    "true7": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "61d430f6-5536-46c4-99cf-10a23f24a6dc",
-                          "__collapse": true
-                        },
-                        "id": "1a20c40e-768d-42db-98c0-2c2b60b1f9a6"
-                      }
-                    ],
-                    "true8": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "508eb8cd-8c35-422d-8238-03d4a8dedd73",
-                          "__collapse": true
-                        },
-                        "id": "f0bab652-45be-4849-a92a-1a31f9921e79"
-                      }
-                    ],
-                    "true9": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "13e37bdf-ad52-48b8-8821-271bd77d8567",
-                          "__collapse": true
-                        },
-                        "id": "5e0791ee-5d35-421f-883e-5b62036aeb33"
-                      }
-                    ],
-                    "true10": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "af266f67-fba1-475b-862d-5cb130212243",
-                          "__collapse": true
-                        },
-                        "id": "81ad9f2f-75db-4d19-bec9-8c20759df072"
-                      }
-                    ],
-                    "true11": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "65cf64e1-d39c-421d-9b25-eaae08ee977b",
-                          "__collapse": true
-                        },
-                        "id": "7be958c1-e82b-496a-8063-f84a8d603f9f"
-                      }
-                    ],
-                    "true12": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "50ef63e2-68de-4846-96dd-6dafd697f3bc",
-                          "__collapse": true
-                        },
-                        "id": "42e806f9-5e40-4cd5-a14a-3165f72058f5"
-                      }
-                    ],
-                    "true13": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "818c414d-25b9-40b0-9265-0d0b9afee85a",
-                          "__collapse": true
-                        },
-                        "id": "54248c3b-f07d-4bc2-b1d5-9e1f7112a92e"
-                      }
-                    ],
-                    "true14": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "4b455426-ef54-47ba-9391-f7864e065a47",
-                          "__collapse": true
-                        },
-                        "id": "d2e37d08-7ac7-4822-bfdc-959ba5668713"
-                      }
-                    ],
-                    "true15": [
-                      {
-                        "command": "EVENT_ACTOR_SET_SPRITE",
-                        "args": {
-                          "actorId": "0",
-                          "spriteSheetId": "ee6c03ee-8d66-4a3e-b701-41f5f0de827c",
-                          "__collapse": true
-                        },
-                        "id": "b2abf68a-e435-4b3e-bd91-a96f981eeed5"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_SWITCH",
-                        "args": {
-                          "variable": "V0",
-                          "choices": 16,
-                          "__collapseCase0": false,
-                          "value0": {
-                            "type": "number",
-                            "value": 48
-                          },
-                          "__collapseCase1": false,
-                          "value1": {
-                            "type": "number",
-                            "value": 49
-                          },
-                          "__collapseCase2": false,
-                          "value2": {
-                            "type": "number",
-                            "value": 50
-                          },
-                          "__collapseCase3": false,
-                          "value3": {
-                            "type": "number",
-                            "value": 51
-                          },
-                          "__collapseCase4": false,
-                          "value4": {
-                            "type": "number",
-                            "value": 52
-                          },
-                          "__collapseCase5": false,
-                          "value5": {
-                            "type": "number",
-                            "value": 53
-                          },
-                          "__collapseCase6": false,
-                          "value6": {
-                            "type": "number",
-                            "value": 54
-                          },
-                          "__collapseCase7": false,
-                          "value7": {
-                            "type": "number",
-                            "value": 55
-                          },
-                          "__collapseCase8": false,
-                          "value8": {
-                            "type": "number",
-                            "value": 56
-                          },
-                          "__collapseCase9": false,
-                          "value9": {
-                            "type": "number",
-                            "value": 57
-                          },
-                          "__collapseCase10": false,
-                          "value10": {
-                            "type": "number",
-                            "value": 58
-                          },
-                          "__collapseCase11": false,
-                          "value11": {
-                            "type": "number",
-                            "value": 59
-                          },
-                          "__collapseCase12": false,
-                          "value12": {
-                            "type": "number",
-                            "value": 60
-                          },
-                          "__collapseCase13": false,
-                          "value13": {
-                            "type": "number",
-                            "value": 61
-                          },
-                          "__collapseCase14": false,
-                          "value14": {
-                            "type": "number",
-                            "value": 62
-                          },
-                          "__collapseCase15": false,
-                          "value15": {
-                            "type": "number",
-                            "value": 63
-                          },
-                          "__collapseElse": false,
-                          "__disableElse": false,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true0": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "a12543bd-4208-4d04-89a3-102d8b807c2f",
-                                "__collapse": true
-                              },
-                              "id": "5bf84b3a-7d43-47eb-8302-4e91209ebdcd"
-                            }
-                          ],
-                          "true1": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "e57b4420-dca0-4a2b-a5c0-83a8a4145664",
-                                "__collapse": true
-                              },
-                              "id": "9c1f7585-4761-437b-8cca-fcf96b196b46"
-                            }
-                          ],
-                          "true2": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "5052fa71-a03f-4625-8067-cae29a607cf2",
-                                "__collapse": true
-                              },
-                              "id": "7f268192-f075-4fb6-b935-a357bcccdaa7"
-                            }
-                          ],
-                          "true3": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "3dcb7e6f-56ad-49b0-9022-145e64a40e25",
-                                "__collapse": true
-                              },
-                              "id": "53943854-e850-45bc-886a-8947a75e594c"
-                            }
-                          ],
-                          "true4": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "b475d576-ded4-439f-99a4-08a484356efc",
-                                "__collapse": true
-                              },
-                              "id": "07447023-6f45-45d0-a9ce-ac1636b18a4b"
-                            }
-                          ],
-                          "true5": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "e52d98b2-b047-4311-8c8c-56d83cc82340",
-                                "__collapse": true
-                              },
-                              "id": "d439015e-445d-4b0a-972c-771f41e96fe2"
-                            }
-                          ],
-                          "true6": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "03c99457-9621-42b1-a042-2b557a752634",
-                                "__collapse": true
-                              },
-                              "id": "75440a8b-4388-4a52-9e31-020da627a4f2"
-                            }
-                          ],
-                          "true7": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "8cda0c66-d15d-4107-b74f-a2197d6b0f74",
-                                "__collapse": true
-                              },
-                              "id": "85df966c-2edd-48c9-ab89-6876ae184652"
-                            }
-                          ],
-                          "true8": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "dd053572-fec0-4bfd-ab35-b4542e22f5ac",
-                                "__collapse": true
-                              },
-                              "id": "2ffc0cf1-91e9-487a-bd4a-ee98b5cc7364"
-                            }
-                          ],
-                          "true9": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "be2792f1-c68b-46db-95c6-0657615f8362",
-                                "__collapse": true
-                              },
-                              "id": "41b2c4e1-58fa-47e9-ac0c-af136d436efc"
-                            }
-                          ],
-                          "true10": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "96bed54e-8403-463c-b939-669424b1a5d9",
-                                "__collapse": true
-                              },
-                              "id": "b978420a-1b68-48a8-afd2-09be8de353c5"
-                            }
-                          ],
-                          "true11": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "ca1a0384-647f-4fe7-a063-95105cbac866",
-                                "__collapse": true
-                              },
-                              "id": "65f90e52-c457-4d44-9d6a-a9af160060ea"
-                            }
-                          ],
-                          "true12": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "e9034e52-685f-482b-99b4-235ee1a192fa",
-                                "__collapse": true
-                              },
-                              "id": "70804df1-62cb-405e-abe3-510be59e2252"
-                            }
-                          ],
-                          "true13": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "3e969898-a915-401f-9653-0f9a005b7507",
-                                "__collapse": true
-                              },
-                              "id": "260148d2-8f9b-4221-b1c2-b0270d82049a"
-                            }
-                          ],
-                          "true14": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "23d291d7-dbbc-4876-9e13-3c7a8ebf1a65",
-                                "__collapse": true
-                              },
-                              "id": "d34db68b-0f62-41eb-9bcd-934353c9e5ea"
-                            }
-                          ],
-                          "true15": [
-                            {
-                              "command": "EVENT_ACTOR_SET_SPRITE",
-                              "args": {
-                                "actorId": "0",
-                                "spriteSheetId": "407e8d75-8013-42ae-9cd0-5144da5ff161",
-                                "__collapse": true
-                              },
-                              "id": "dfff4e47-e119-4359-9ad3-07dc8b010d46"
-                            }
-                          ],
-                          "false": [
-                            {
-                              "command": "EVENT_COMMENT",
-                              "args": {
-                                "text": "For custom items, continue this unholy nested switch chain here.\nOnly up to 128 items are supported."
-                              },
-                              "id": "094ef4aa-0ceb-40e0-9d26-7998dc280251"
-                            }
-                          ]
-                        },
-                        "id": "1ebff0c2-6f28-4dde-bcdb-565583ac5f88"
-                      }
-                    ]
-                  },
-                  "id": "e864360f-056a-42e9-b32c-239c69ebb8c8"
-                }
-              ]
-            },
-            "id": "28706914-539a-4abe-ac36-64ad65826a2f"
+            "id": "ebd2b6d0-7f27-45d3-a1a5-e2e350a90c25"
           }
-        ]
+        ],
+        "true16": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "14abc0e7-59d8-4a32-85a9-786fa8992615",
+              "__collapse": false
+            },
+            "id": "399824e7-45c4-4678-995c-7d06cec4e22f"
+          }
+        ],
+        "true17": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "be6a51e3-6c37-44b4-91ea-546bd57d6d57",
+              "__collapse": false
+            },
+            "id": "93e07fb7-ca3b-4a85-988f-9377391b4486"
+          }
+        ],
+        "true18": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "19fcefde-51bc-4db4-8f50-2d760145bf0d",
+              "__collapse": false
+            },
+            "id": "a7add1c4-f382-4279-9865-5298a0697305"
+          }
+        ],
+        "true19": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "bf84fee0-43c4-449a-9176-7f098a7c5aae",
+              "__collapse": false
+            },
+            "id": "06b4ad64-fd25-4478-9321-2a5b4d701b84"
+          }
+        ],
+        "true20": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e252730d-4096-4e91-ba39-ef091e62f05c",
+              "__collapse": false
+            },
+            "id": "05795f9f-f7c0-473d-867e-d87a2aa24aba"
+          }
+        ],
+        "true21": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "d93dd57f-5461-4f79-81ca-f55bf20cfcdd",
+              "__collapse": false
+            },
+            "id": "5b58bf3e-ea55-4555-a121-34bc7bb15d78"
+          }
+        ],
+        "true22": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "cf1c9e99-c2ff-410a-b615-4ed998f1fd53",
+              "__collapse": false
+            },
+            "id": "d373eaca-4c7e-4968-bdc9-d7aca75fd154"
+          }
+        ],
+        "true23": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "cc8ad4bd-0f8d-4d0f-83b1-feca8b34d899",
+              "__collapse": false
+            },
+            "id": "86b227b8-da5f-4baa-961d-9b22bac5dce0"
+          }
+        ],
+        "true24": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "273ceb66-9f97-482a-841b-bb0c88a3d19e",
+              "__collapse": false
+            },
+            "id": "8f7dc41e-8932-4a56-bcd6-20b6dfb72635"
+          }
+        ],
+        "true25": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "de1ce6e2-0a05-40d1-8df6-c8690a75914b",
+              "__collapse": false
+            },
+            "id": "5e16b8df-7250-4038-91e2-4fd33acb3c51"
+          }
+        ],
+        "true26": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3e7223a8-d499-451c-be1e-0d92763573f1",
+              "__collapse": false
+            },
+            "id": "c1cc0f30-8ca4-447d-bd6d-b828c2a77cfb"
+          }
+        ],
+        "true27": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3dd87796-d7fa-479b-8e5f-bd878643148e",
+              "__collapse": false
+            },
+            "id": "6542226f-ee55-420a-95c6-d6e26ee2db5f"
+          }
+        ],
+        "true28": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "42bc4409-30b3-42ba-bee2-24830a7b2732",
+              "__collapse": false
+            },
+            "id": "55c6e5a6-7792-4659-a13c-249e19820e34"
+          }
+        ],
+        "true29": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "dd1509ba-3137-4294-9112-7c3d5257a9e4",
+              "__collapse": false
+            },
+            "id": "ea158f93-da3c-4de1-aa2f-dc0e6814844c"
+          }
+        ],
+        "true30": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3c480901-6da1-47d2-832f-51ca2430f385",
+              "__collapse": false
+            },
+            "id": "f80698e1-cb5b-43d0-9d2a-7586bef8638c"
+          }
+        ],
+        "true31": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "19321940-5ff3-4740-b63c-d850d131d674",
+              "__collapse": false
+            },
+            "id": "2bb998aa-d39a-4cbb-b33a-32e6e7aeb7fd"
+          }
+        ],
+        "true32": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "c66255bc-d646-4b44-aff4-babe20609ed7",
+              "__collapse": false
+            },
+            "id": "55974e5f-6c1c-4f08-af4c-6f963f9a23bc"
+          }
+        ],
+        "true33": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "bc4430a2-fe01-45b5-bcb2-f1867d554186",
+              "__collapse": false
+            },
+            "id": "85c3ee89-57b3-4336-a1a5-ce682313c3ac"
+          }
+        ],
+        "true34": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "d0a68d2b-af58-4fa9-b983-383aa9d3fd6c",
+              "__collapse": false
+            },
+            "id": "88902c4e-a7cc-4330-a7a9-eb43189571c5"
+          }
+        ],
+        "true35": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "4e8c9c41-4f9d-4181-ac7c-d75f17c082e0",
+              "__collapse": false
+            },
+            "id": "2f2ed2d3-3bac-4676-8c07-8e9d1f1fbac4"
+          }
+        ],
+        "true36": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "6304db5c-7f85-45b6-a8dd-cbc01abcc937",
+              "__collapse": false
+            },
+            "id": "934cf2b5-4b98-44a9-a561-6075869413ca"
+          }
+        ],
+        "true37": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "6846fb3e-8e53-41e8-893e-b680bf6521b8",
+              "__collapse": false
+            },
+            "id": "db939d66-9b26-492a-8e3e-e14c2205584f"
+          }
+        ],
+        "true38": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "b41d45f0-7b08-4678-a121-369a45b6792a",
+              "__collapse": false
+            },
+            "id": "e2fd81de-555d-47d2-965d-ad33043a9f4d"
+          }
+        ],
+        "true39": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "61d430f6-5536-46c4-99cf-10a23f24a6dc",
+              "__collapse": false
+            },
+            "id": "5fa9e63c-1a87-4afc-9cfa-09956060523b"
+          }
+        ],
+        "true40": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "508eb8cd-8c35-422d-8238-03d4a8dedd73",
+              "__collapse": false
+            },
+            "id": "2c2e4a3e-75cc-44bf-b80d-8ef48ed733aa"
+          }
+        ],
+        "true41": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "13e37bdf-ad52-48b8-8821-271bd77d8567",
+              "__collapse": false
+            },
+            "id": "71b5bc69-00e9-437e-946a-b0525fb6cc66"
+          }
+        ],
+        "true42": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "af266f67-fba1-475b-862d-5cb130212243",
+              "__collapse": false
+            },
+            "id": "79e6b9dd-faef-4258-a248-13d758ce4c34"
+          }
+        ],
+        "true43": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "65cf64e1-d39c-421d-9b25-eaae08ee977b",
+              "__collapse": false
+            },
+            "id": "cea15664-fe53-46c9-9e8a-b0bcae1980cb"
+          }
+        ],
+        "true44": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "50ef63e2-68de-4846-96dd-6dafd697f3bc",
+              "__collapse": false
+            },
+            "id": "f8007cda-09b9-4dea-af45-1788dc07b4e8"
+          }
+        ],
+        "true45": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "818c414d-25b9-40b0-9265-0d0b9afee85a",
+              "__collapse": false
+            },
+            "id": "c47bdce4-332d-4f79-8326-51fec8d9a4b4"
+          }
+        ],
+        "true46": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "4b455426-ef54-47ba-9391-f7864e065a47",
+              "__collapse": false
+            },
+            "id": "03a16d8f-e6d4-46b8-a587-29029f53a477"
+          }
+        ],
+        "true47": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "ee6c03ee-8d66-4a3e-b701-41f5f0de827c",
+              "__collapse": false
+            },
+            "id": "fec23aa3-f8f2-4a47-9248-df6b92520bce"
+          }
+        ],
+        "true48": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "a12543bd-4208-4d04-89a3-102d8b807c2f",
+              "__collapse": false
+            },
+            "id": "1660c755-249f-4e7a-b92d-6f43ec6b99cb"
+          }
+        ],
+        "true49": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e57b4420-dca0-4a2b-a5c0-83a8a4145664",
+              "__collapse": false
+            },
+            "id": "482eba8e-2369-429f-8473-dc0c17c8fbb8"
+          }
+        ],
+        "true50": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "5052fa71-a03f-4625-8067-cae29a607cf2",
+              "__collapse": false
+            },
+            "id": "233da86a-f455-40c2-9a9f-39dac29df172"
+          }
+        ],
+        "true51": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3dcb7e6f-56ad-49b0-9022-145e64a40e25",
+              "__collapse": false
+            },
+            "id": "e94942ba-2a81-4c6b-9bbd-c9c441bdf4e0"
+          }
+        ],
+        "true52": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "b475d576-ded4-439f-99a4-08a484356efc",
+              "__collapse": false
+            },
+            "id": "7276183f-cf2e-4716-8e9e-ec96d4cc4caf"
+          }
+        ],
+        "true53": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e52d98b2-b047-4311-8c8c-56d83cc82340",
+              "__collapse": false
+            },
+            "id": "a0c4ebe8-a975-4bbc-bb74-7d4ec724e1e3"
+          }
+        ],
+        "true54": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "03c99457-9621-42b1-a042-2b557a752634",
+              "__collapse": false
+            },
+            "id": "27faff61-2747-4969-9610-c778550722c3"
+          }
+        ],
+        "true55": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "8cda0c66-d15d-4107-b74f-a2197d6b0f74",
+              "__collapse": false
+            },
+            "id": "49d9773d-b7ec-4518-843f-27411e146dac"
+          }
+        ],
+        "true56": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "dd053572-fec0-4bfd-ab35-b4542e22f5ac",
+              "__collapse": false
+            },
+            "id": "3c99706b-d51d-4b5a-85b9-3d1f45a36fef"
+          }
+        ],
+        "true57": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "be2792f1-c68b-46db-95c6-0657615f8362",
+              "__collapse": false
+            },
+            "id": "1636ad53-9b55-4e9c-8b30-c39a05733882"
+          }
+        ],
+        "true58": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "96bed54e-8403-463c-b939-669424b1a5d9",
+              "__collapse": false
+            },
+            "id": "48e66606-caaf-48e1-8a6b-2d736ea1c591"
+          }
+        ],
+        "true59": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "ca1a0384-647f-4fe7-a063-95105cbac866",
+              "__collapse": false
+            },
+            "id": "3e7494a4-685c-4122-823d-37fc862f86a2"
+          }
+        ],
+        "true60": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "e9034e52-685f-482b-99b4-235ee1a192fa",
+              "__collapse": false
+            },
+            "id": "59262675-bf27-431c-be41-9c5cd765d88c"
+          }
+        ],
+        "true61": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "3e969898-a915-401f-9653-0f9a005b7507",
+              "__collapse": false
+            },
+            "id": "27db8a60-27bb-49f9-ba74-f7256fccd7f9"
+          }
+        ],
+        "true62": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "23d291d7-dbbc-4876-9e13-3c7a8ebf1a65",
+              "__collapse": false
+            },
+            "id": "7f0e5edb-bdcc-4503-af2a-4117522d5b9b"
+          }
+        ],
+        "true63": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "0",
+              "spriteSheetId": "407e8d75-8013-42ae-9cd0-5144da5ff161",
+              "__collapse": false
+            },
+            "id": "f0a81acb-a276-4ab1-a579-fe71f5c02602"
+          }
+        ],
+        "true64": [],
+        "true65": [],
+        "true66": [],
+        "true67": [],
+        "true68": [],
+        "true69": [],
+        "true70": [],
+        "true71": [],
+        "true72": [],
+        "true73": [],
+        "true74": [],
+        "true75": [],
+        "true76": [],
+        "true77": [],
+        "true78": [],
+        "true79": [],
+        "true80": [],
+        "true81": [],
+        "true82": [],
+        "true83": [],
+        "true84": [],
+        "true85": [],
+        "true86": [],
+        "true87": [],
+        "true88": [],
+        "true89": [],
+        "true90": [],
+        "true91": [],
+        "true92": [],
+        "true93": [],
+        "true94": [],
+        "true95": [],
+        "true96": [],
+        "true97": [],
+        "true98": [],
+        "true99": [],
+        "true100": [],
+        "true101": [],
+        "true102": [],
+        "true103": [],
+        "true104": [],
+        "true105": [],
+        "true106": [],
+        "true107": [],
+        "true108": [],
+        "true109": [],
+        "true110": [],
+        "true111": [],
+        "true112": [],
+        "true113": [],
+        "true114": [],
+        "true115": [],
+        "true116": [],
+        "true117": [],
+        "true118": [],
+        "true119": [],
+        "true120": [],
+        "true121": [],
+        "true122": [],
+        "true123": [],
+        "true124": [],
+        "true125": [],
+        "true126": [],
+        "true127": [],
+        "true128": [],
+        "true129": [],
+        "true130": [],
+        "true131": [],
+        "true132": [],
+        "true133": [],
+        "true134": [],
+        "true135": [],
+        "true136": [],
+        "true137": [],
+        "true138": [],
+        "true139": [],
+        "true140": [],
+        "true141": [],
+        "true142": [],
+        "true143": [],
+        "true144": [],
+        "true145": [],
+        "true146": [],
+        "true147": [],
+        "true148": [],
+        "true149": [],
+        "true150": [],
+        "true151": [],
+        "true152": [],
+        "true153": [],
+        "true154": [],
+        "true155": [],
+        "true156": [],
+        "true157": [],
+        "true158": [],
+        "true159": [],
+        "true160": [],
+        "true161": [],
+        "true162": [],
+        "true163": [],
+        "true164": [],
+        "true165": [],
+        "true166": [],
+        "true167": [],
+        "true168": [],
+        "true169": [],
+        "true170": [],
+        "true171": [],
+        "true172": [],
+        "true173": [],
+        "true174": [],
+        "true175": [],
+        "true176": [],
+        "true177": [],
+        "true178": [],
+        "true179": [],
+        "true180": [],
+        "true181": [],
+        "true182": [],
+        "true183": [],
+        "true184": [],
+        "true185": [],
+        "true186": [],
+        "true187": [],
+        "true188": [],
+        "true189": [],
+        "true190": [],
+        "true191": [],
+        "true192": [],
+        "true193": [],
+        "true194": [],
+        "true195": [],
+        "true196": [],
+        "true197": [],
+        "true198": [],
+        "true199": [],
+        "true200": [],
+        "true201": [],
+        "true202": [],
+        "true203": [],
+        "true204": [],
+        "true205": [],
+        "true206": [],
+        "true207": [],
+        "true208": [],
+        "true209": [],
+        "true210": [],
+        "true211": [],
+        "true212": [],
+        "true213": [],
+        "true214": [],
+        "true215": [],
+        "true216": [],
+        "true217": [],
+        "true218": [],
+        "true219": [],
+        "true220": [],
+        "true221": [],
+        "true222": [],
+        "true223": [],
+        "true224": [],
+        "true225": [],
+        "true226": [],
+        "true227": [],
+        "true228": [],
+        "true229": [],
+        "true230": [],
+        "true231": [],
+        "true232": [],
+        "true233": [],
+        "true234": [],
+        "true235": [],
+        "true236": [],
+        "true237": [],
+        "true238": [],
+        "true239": [],
+        "true240": [],
+        "true241": [],
+        "true242": [],
+        "true243": [],
+        "true244": [],
+        "true245": [],
+        "true246": [],
+        "true247": [],
+        "true248": [],
+        "true249": [],
+        "true250": [],
+        "true251": [],
+        "true252": [],
+        "true253": [],
+        "true254": [],
+        "true255": [],
+        "true256": [],
+        "true257": [],
+        "true258": [],
+        "true259": [],
+        "true260": [],
+        "true261": [],
+        "true262": [],
+        "true263": [],
+        "true264": [],
+        "true265": [],
+        "true266": [],
+        "true267": [],
+        "true268": [],
+        "true269": [],
+        "true270": [],
+        "true271": [],
+        "true272": [],
+        "true273": [],
+        "true274": [],
+        "true275": [],
+        "true276": [],
+        "true277": [],
+        "true278": [],
+        "true279": [],
+        "true280": [],
+        "true281": [],
+        "true282": [],
+        "true283": [],
+        "true284": [],
+        "true285": [],
+        "true286": [],
+        "true287": [],
+        "true288": [],
+        "true289": [],
+        "true290": [],
+        "true291": [],
+        "true292": [],
+        "true293": [],
+        "true294": [],
+        "true295": [],
+        "true296": [],
+        "true297": [],
+        "true298": [],
+        "true299": [],
+        "true300": [],
+        "true301": [],
+        "true302": [],
+        "true303": [],
+        "true304": [],
+        "true305": [],
+        "true306": [],
+        "true307": [],
+        "true308": [],
+        "true309": [],
+        "true310": [],
+        "true311": [],
+        "true312": [],
+        "true313": [],
+        "true314": [],
+        "true315": [],
+        "true316": [],
+        "true317": [],
+        "true318": [],
+        "true319": [],
+        "true320": [],
+        "true321": [],
+        "true322": [],
+        "true323": [],
+        "true324": [],
+        "true325": [],
+        "true326": [],
+        "true327": [],
+        "true328": [],
+        "true329": [],
+        "true330": [],
+        "true331": [],
+        "true332": [],
+        "true333": [],
+        "true334": [],
+        "true335": [],
+        "true336": [],
+        "true337": [],
+        "true338": [],
+        "true339": [],
+        "true340": [],
+        "true341": [],
+        "true342": [],
+        "true343": [],
+        "true344": [],
+        "true345": [],
+        "true346": [],
+        "true347": [],
+        "true348": [],
+        "true349": [],
+        "true350": [],
+        "true351": [],
+        "true352": [],
+        "true353": [],
+        "true354": [],
+        "true355": [],
+        "true356": [],
+        "true357": [],
+        "true358": [],
+        "true359": [],
+        "true360": [],
+        "true361": [],
+        "true362": [],
+        "true363": [],
+        "true364": [],
+        "true365": [],
+        "true366": [],
+        "true367": [],
+        "true368": [],
+        "true369": [],
+        "true370": [],
+        "true371": [],
+        "true372": [],
+        "true373": [],
+        "true374": [],
+        "true375": [],
+        "true376": [],
+        "true377": [],
+        "true378": [],
+        "true379": [],
+        "true380": [],
+        "true381": [],
+        "true382": [],
+        "true383": [],
+        "true384": [],
+        "true385": [],
+        "true386": [],
+        "true387": [],
+        "true388": [],
+        "true389": [],
+        "true390": [],
+        "true391": [],
+        "true392": [],
+        "true393": [],
+        "true394": [],
+        "true395": [],
+        "true396": [],
+        "true397": [],
+        "true398": [],
+        "true399": [],
+        "true400": [],
+        "true401": [],
+        "true402": [],
+        "true403": [],
+        "true404": [],
+        "true405": [],
+        "true406": [],
+        "true407": [],
+        "true408": [],
+        "true409": [],
+        "true410": [],
+        "true411": [],
+        "true412": [],
+        "true413": [],
+        "true414": [],
+        "true415": [],
+        "true416": [],
+        "true417": [],
+        "true418": [],
+        "true419": [],
+        "true420": [],
+        "true421": [],
+        "true422": [],
+        "true423": [],
+        "true424": [],
+        "true425": [],
+        "true426": [],
+        "true427": [],
+        "true428": [],
+        "true429": [],
+        "true430": [],
+        "true431": [],
+        "true432": [],
+        "true433": [],
+        "true434": [],
+        "true435": [],
+        "true436": [],
+        "true437": [],
+        "true438": [],
+        "true439": [],
+        "true440": [],
+        "true441": [],
+        "true442": [],
+        "true443": [],
+        "true444": [],
+        "true445": [],
+        "true446": [],
+        "true447": [],
+        "true448": [],
+        "true449": [],
+        "true450": [],
+        "true451": [],
+        "true452": [],
+        "true453": [],
+        "true454": [],
+        "true455": [],
+        "true456": [],
+        "true457": [],
+        "true458": [],
+        "true459": [],
+        "true460": [],
+        "true461": [],
+        "true462": [],
+        "true463": [],
+        "true464": [],
+        "true465": [],
+        "true466": [],
+        "true467": [],
+        "true468": [],
+        "true469": [],
+        "true470": [],
+        "true471": [],
+        "true472": [],
+        "true473": [],
+        "true474": [],
+        "true475": [],
+        "true476": [],
+        "true477": [],
+        "true478": [],
+        "true479": [],
+        "true480": [],
+        "true481": [],
+        "true482": [],
+        "true483": [],
+        "true484": [],
+        "true485": [],
+        "true486": [],
+        "true487": [],
+        "true488": [],
+        "true489": [],
+        "true490": [],
+        "true491": [],
+        "true492": [],
+        "true493": [],
+        "true494": [],
+        "true495": [],
+        "true496": [],
+        "true497": [],
+        "true498": [],
+        "true499": [],
+        "true500": [],
+        "true501": [],
+        "true502": [],
+        "true503": [],
+        "true504": [],
+        "true505": [],
+        "true506": [],
+        "true507": [],
+        "true508": [],
+        "true509": [],
+        "true510": [],
+        "true511": [],
+        "false": []
       },
-      "id": "18b43e1a-e964-4d12-a704-db61a22d40f0"
+      "id": "d9cc4558-5a0b-4d4e-b2a9-bf97ed338eeb"
     },
     {
       "command": "EVENT_IF",

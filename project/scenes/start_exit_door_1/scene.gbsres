@@ -27,8 +27,8 @@
             "value": "141"
           },
           "valueB": {
-            "type": "number",
-            "value": 1
+            "type": "constant",
+            "value": "56f62057-cbbe-4901-88ad-25dbfdae9a1c"
           }
         },
         "__collapseElse": false
