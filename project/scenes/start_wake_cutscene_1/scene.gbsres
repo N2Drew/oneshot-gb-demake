@@ -2,25 +2,33 @@
   "_resourceType": "scene",
   "id": "fbf47db5-cade-4d7e-b28d-108c850a0483",
   "_index": 22,
-  "name": "Start Wake Cutscene 1",
-  "backgroundId": "cfc9f2c0-cbdb-4ec1-b2f7-0a3082ffd380",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Start Wake Cutscene 1",
   "symbol": "scene_start_wake_cutscene_1",
   "x": 60,
   "y": 368,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "cfc9f2c0-cbdb-4ec1-b2f7-0a3082ffd380",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
   "script": [
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": true
       },
       "id": "c02e359a-8d0c-4683-ad1c-84555c52c3ad"
@@ -47,6 +55,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+  "collisions": ""
 }

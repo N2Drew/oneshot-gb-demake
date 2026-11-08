@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "baddd3ed-511c-4206-b7d5-d5f4b17e2333",
   "_index": 10,
-  "name": "Start Stairs",
-  "backgroundId": "f23a1d85-3d8a-4011-82f4-19f9a4ba4aed",
-  "tilesetId": "",
-  "width": 62,
-  "height": 37,
   "type": "PLATFORM",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "001b9+0f2+003c+0f!003d+0f4+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!004+0f2+0038+70!50!003+0f!003a+0f4+001b9+",
-  "autoFadeSpeed": 1,
+  "name": "Start Stairs",
   "symbol": "scene_start_stairs",
   "x": 928,
   "y": 896,
+  "width": 62,
+  "height": 37,
+  "backgroundId": "f23a1d85-3d8a-4011-82f4-19f9a4ba4aed",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -37,6 +39,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
-  "autoFadeEventCollapse": true
+  "collisions": "001b9+0f2+003c+0f!003d+0f4+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!003e+70!50!004+0f2+0038+70!50!003+0f!003a+0f4+001b9+"
 }

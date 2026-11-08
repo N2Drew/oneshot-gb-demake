@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "b90e0bd6-3b9d-45a5-9c1d-fc15df56089d",
+  "_index": 1,
+  "symbol": "avtor_tv",
+  "prefabId": "",
   "name": "Actor TV",
+  "coordinateType": "tiles",
+  "x": 29,
+  "y": 12,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "avtor_tv",
   "script": [
     {
       "command": "EVENT_SWITCH",
@@ -22,37 +27,85 @@
         "variable": "141",
         "choices": 2,
         "__collapseCase0": false,
-        "value0": 4,
+        "value0": {
+          "type": "number",
+          "value": 4
+        },
         "__collapseCase1": false,
-        "value1": 5,
+        "value1": {
+          "type": "number",
+          "value": 5
+        },
         "__collapseCase2": false,
-        "value2": 3,
+        "value2": {
+          "type": "number",
+          "value": 3
+        },
         "__collapseCase3": false,
-        "value3": 4,
+        "value3": {
+          "type": "number",
+          "value": 4
+        },
         "__collapseCase4": false,
-        "value4": 5,
+        "value4": {
+          "type": "number",
+          "value": 5
+        },
         "__collapseCase5": false,
-        "value5": 6,
+        "value5": {
+          "type": "number",
+          "value": 6
+        },
         "__collapseCase6": false,
-        "value6": 7,
+        "value6": {
+          "type": "number",
+          "value": 7
+        },
         "__collapseCase7": false,
-        "value7": 8,
+        "value7": {
+          "type": "number",
+          "value": 8
+        },
         "__collapseCase8": false,
-        "value8": 9,
+        "value8": {
+          "type": "number",
+          "value": 9
+        },
         "__collapseCase9": false,
-        "value9": 10,
+        "value9": {
+          "type": "number",
+          "value": 10
+        },
         "__collapseCase10": false,
-        "value10": 11,
+        "value10": {
+          "type": "number",
+          "value": 11
+        },
         "__collapseCase11": false,
-        "value11": 12,
+        "value11": {
+          "type": "number",
+          "value": 12
+        },
         "__collapseCase12": false,
-        "value12": 13,
+        "value12": {
+          "type": "number",
+          "value": 13
+        },
         "__collapseCase13": false,
-        "value13": 14,
+        "value13": {
+          "type": "number",
+          "value": 14
+        },
         "__collapseCase14": false,
-        "value14": 15,
+        "value14": {
+          "type": "number",
+          "value": 15
+        },
         "__collapseCase15": false,
-        "value15": 16,
+        "value15": {
+          "type": "number",
+          "value": 16
+        },
         "__collapseElse": false
       },
       "children": {
@@ -74,8 +127,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -87,8 +140,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "dd426e73-973c-4249-b916-860d14370c78"
@@ -110,8 +169,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -139,8 +198,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -152,8 +211,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "8d7f6401-fe85-43c8-82c2-c0511b5b9a19"
@@ -281,8 +346,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -300,8 +365,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 29,
-  "y": 12,
-  "_index": 1
+  "hit3Script": []
 }

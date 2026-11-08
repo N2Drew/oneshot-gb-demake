@@ -146,8 +146,14 @@
                 {
                   "command": "EVENT_WAIT",
                   "args": {
-                    "time": 0.1,
-                    "frames": 30,
+                    "time": {
+                      "type": "number",
+                      "value": 0.1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
                     "__collapse": true
                   },
                   "id": "94b416ab-16e5-4652-a2b9-9f8137adeaaf",

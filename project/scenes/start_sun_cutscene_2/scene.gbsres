@@ -2,25 +2,33 @@
   "_resourceType": "scene",
   "id": "843a2570-509e-4ff3-9222-09c68d8a8915",
   "_index": 17,
-  "name": "Start Sun Cutscene 2",
-  "backgroundId": "69cc33fe-6bac-4b8b-8852-05c2c9aa4b67",
-  "tilesetId": "5280a347-21b7-4d0d-adb0-7c609fe8d7ee",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Start Sun Cutscene 2",
   "symbol": "start_sun_cutscene_2",
   "x": 2056,
   "y": 952,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "69cc33fe-6bac-4b8b-8852-05c2c9aa4b67",
+  "tilesetId": "5280a347-21b7-4d0d-adb0-7c609fe8d7ee",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
   "script": [
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": true
       },
       "id": "2f0e1c0c-8d93-4c1c-9e9f-43e257e3feb7"
@@ -47,6 +55,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+  "collisions": ""
 }

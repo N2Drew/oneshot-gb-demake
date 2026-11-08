@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "6e8afadb-b8bc-4543-b59f-55f5c3b495ab",
   "_index": 15,
-  "name": "Start PC Cutscene 2",
-  "backgroundId": "03dfd03c-093f-45ef-81b5-d9841ad740cf",
-  "tilesetId": "9b257df4-c6d6-4f09-8d64-f4cdc199f308",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Start PC Cutscene 2",
   "symbol": "scene_start_pc_cutscene_2",
   "x": 1168,
   "y": 608,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "03dfd03c-093f-45ef-81b5-d9841ad740cf",
+  "tilesetId": "9b257df4-c6d6-4f09-8d64-f4cdc199f308",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_FRAME",
@@ -69,6 +71,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+  "collisions": ""
 }

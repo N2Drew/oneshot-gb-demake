@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "d41248fc-7ed8-4db7-9672-8a67d32bd2bd",
   "_index": 12,
-  "name": "Start Basement Bright",
-  "backgroundId": "96ef3543-ca60-4694-8424-74c783a9db99",
-  "tilesetId": "",
-  "width": 50,
-  "height": 20,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00166+0f22+0010+0f22+0010+0f22+0010+0f22+0010+0f!0020+0f!0010+0f22+00166+",
-  "autoFadeSpeed": 1,
+  "name": "Start Basement Bright",
   "symbol": "scene_start_basement_bright",
   "x": 1448,
   "y": 1032,
+  "width": 50,
+  "height": 20,
+  "backgroundId": "96ef3543-ca60-4694-8424-74c783a9db99",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -97,5 +98,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": "00166+0f22+0010+0f22+0010+0f22+0010+0f22+0010+0f!0020+0f!0010+0f22+00166+"
 }

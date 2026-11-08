@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "305511e6-bdba-418c-a3ad-b7efef9a41da",
+  "name": "start/start_line",
+  "symbol": "bg_start_line",
+  "tileColors": "",
+  "filename": "start/start_line.png",
+  "width": 44,
+  "height": 27,
+  "imageWidth": 352,
+  "imageHeight": 216,
+  "autoColor": false
+}

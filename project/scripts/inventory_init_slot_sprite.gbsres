@@ -24,37 +24,85 @@
         "variable": "V0",
         "choices": 16,
         "__collapseCase0": false,
-        "value0": 0,
+        "value0": {
+          "type": "number",
+          "value": 0
+        },
         "__collapseCase1": false,
-        "value1": 1,
+        "value1": {
+          "type": "number",
+          "value": 1
+        },
         "__collapseCase2": false,
-        "value2": 2,
+        "value2": {
+          "type": "number",
+          "value": 2
+        },
         "__collapseCase3": false,
-        "value3": 3,
+        "value3": {
+          "type": "number",
+          "value": 3
+        },
         "__collapseCase4": false,
-        "value4": 4,
+        "value4": {
+          "type": "number",
+          "value": 4
+        },
         "__collapseCase5": false,
-        "value5": 5,
+        "value5": {
+          "type": "number",
+          "value": 5
+        },
         "__collapseCase6": false,
-        "value6": 6,
+        "value6": {
+          "type": "number",
+          "value": 6
+        },
         "__collapseCase7": false,
-        "value7": 7,
+        "value7": {
+          "type": "number",
+          "value": 7
+        },
         "__collapseCase8": false,
-        "value8": 8,
+        "value8": {
+          "type": "number",
+          "value": 8
+        },
         "__collapseCase9": false,
-        "value9": 9,
+        "value9": {
+          "type": "number",
+          "value": 9
+        },
         "__collapseCase10": false,
-        "value10": 10,
+        "value10": {
+          "type": "number",
+          "value": 10
+        },
         "__collapseCase11": false,
-        "value11": 11,
+        "value11": {
+          "type": "number",
+          "value": 11
+        },
         "__collapseCase12": false,
-        "value12": 12,
+        "value12": {
+          "type": "number",
+          "value": 12
+        },
         "__collapseCase13": false,
-        "value13": 13,
+        "value13": {
+          "type": "number",
+          "value": 13
+        },
         "__collapseCase14": false,
-        "value14": 14,
+        "value14": {
+          "type": "number",
+          "value": 14
+        },
         "__collapseCase15": false,
-        "value15": 15,
+        "value15": {
+          "type": "number",
+          "value": 15
+        },
         "__collapseElse": false,
         "__disableElse": false,
         "__collapse": false
@@ -243,37 +291,85 @@
               "variable": "V0",
               "choices": 16,
               "__collapseCase0": false,
-              "value0": 16,
+              "value0": {
+                "type": "number",
+                "value": 16
+              },
               "__collapseCase1": false,
-              "value1": 17,
+              "value1": {
+                "type": "number",
+                "value": 17
+              },
               "__collapseCase2": false,
-              "value2": 18,
+              "value2": {
+                "type": "number",
+                "value": 18
+              },
               "__collapseCase3": false,
-              "value3": 19,
+              "value3": {
+                "type": "number",
+                "value": 19
+              },
               "__collapseCase4": false,
-              "value4": 20,
+              "value4": {
+                "type": "number",
+                "value": 20
+              },
               "__collapseCase5": false,
-              "value5": 21,
+              "value5": {
+                "type": "number",
+                "value": 21
+              },
               "__collapseCase6": false,
-              "value6": 22,
+              "value6": {
+                "type": "number",
+                "value": 22
+              },
               "__collapseCase7": false,
-              "value7": 23,
+              "value7": {
+                "type": "number",
+                "value": 23
+              },
               "__collapseCase8": false,
-              "value8": 24,
+              "value8": {
+                "type": "number",
+                "value": 24
+              },
               "__collapseCase9": false,
-              "value9": 25,
+              "value9": {
+                "type": "number",
+                "value": 25
+              },
               "__collapseCase10": false,
-              "value10": 26,
+              "value10": {
+                "type": "number",
+                "value": 26
+              },
               "__collapseCase11": false,
-              "value11": 27,
+              "value11": {
+                "type": "number",
+                "value": 27
+              },
               "__collapseCase12": false,
-              "value12": 28,
+              "value12": {
+                "type": "number",
+                "value": 28
+              },
               "__collapseCase13": false,
-              "value13": 29,
+              "value13": {
+                "type": "number",
+                "value": 29
+              },
               "__collapseCase14": false,
-              "value14": 30,
+              "value14": {
+                "type": "number",
+                "value": 30
+              },
               "__collapseCase15": false,
-              "value15": 31,
+              "value15": {
+                "type": "number",
+                "value": 31
+              },
               "__collapseElse": false,
               "__disableElse": false,
               "__collapse": false
@@ -462,37 +558,85 @@
                     "variable": "V0",
                     "choices": 16,
                     "__collapseCase0": false,
-                    "value0": 32,
+                    "value0": {
+                      "type": "number",
+                      "value": 32
+                    },
                     "__collapseCase1": false,
-                    "value1": 33,
+                    "value1": {
+                      "type": "number",
+                      "value": 33
+                    },
                     "__collapseCase2": false,
-                    "value2": 34,
+                    "value2": {
+                      "type": "number",
+                      "value": 34
+                    },
                     "__collapseCase3": false,
-                    "value3": 35,
+                    "value3": {
+                      "type": "number",
+                      "value": 35
+                    },
                     "__collapseCase4": false,
-                    "value4": 36,
+                    "value4": {
+                      "type": "number",
+                      "value": 36
+                    },
                     "__collapseCase5": false,
-                    "value5": 37,
+                    "value5": {
+                      "type": "number",
+                      "value": 37
+                    },
                     "__collapseCase6": false,
-                    "value6": 38,
+                    "value6": {
+                      "type": "number",
+                      "value": 38
+                    },
                     "__collapseCase7": false,
-                    "value7": 39,
+                    "value7": {
+                      "type": "number",
+                      "value": 39
+                    },
                     "__collapseCase8": false,
-                    "value8": 40,
+                    "value8": {
+                      "type": "number",
+                      "value": 40
+                    },
                     "__collapseCase9": false,
-                    "value9": 41,
+                    "value9": {
+                      "type": "number",
+                      "value": 41
+                    },
                     "__collapseCase10": false,
-                    "value10": 42,
+                    "value10": {
+                      "type": "number",
+                      "value": 42
+                    },
                     "__collapseCase11": false,
-                    "value11": 43,
+                    "value11": {
+                      "type": "number",
+                      "value": 43
+                    },
                     "__collapseCase12": false,
-                    "value12": 44,
+                    "value12": {
+                      "type": "number",
+                      "value": 44
+                    },
                     "__collapseCase13": false,
-                    "value13": 45,
+                    "value13": {
+                      "type": "number",
+                      "value": 45
+                    },
                     "__collapseCase14": false,
-                    "value14": 46,
+                    "value14": {
+                      "type": "number",
+                      "value": 46
+                    },
                     "__collapseCase15": false,
-                    "value15": 47,
+                    "value15": {
+                      "type": "number",
+                      "value": 47
+                    },
                     "__collapseElse": false,
                     "__disableElse": false,
                     "__collapse": false
@@ -681,37 +825,85 @@
                           "variable": "V0",
                           "choices": 16,
                           "__collapseCase0": false,
-                          "value0": 48,
+                          "value0": {
+                            "type": "number",
+                            "value": 48
+                          },
                           "__collapseCase1": false,
-                          "value1": 49,
+                          "value1": {
+                            "type": "number",
+                            "value": 49
+                          },
                           "__collapseCase2": false,
-                          "value2": 50,
+                          "value2": {
+                            "type": "number",
+                            "value": 50
+                          },
                           "__collapseCase3": false,
-                          "value3": 51,
+                          "value3": {
+                            "type": "number",
+                            "value": 51
+                          },
                           "__collapseCase4": false,
-                          "value4": 52,
+                          "value4": {
+                            "type": "number",
+                            "value": 52
+                          },
                           "__collapseCase5": false,
-                          "value5": 53,
+                          "value5": {
+                            "type": "number",
+                            "value": 53
+                          },
                           "__collapseCase6": false,
-                          "value6": 54,
+                          "value6": {
+                            "type": "number",
+                            "value": 54
+                          },
                           "__collapseCase7": false,
-                          "value7": 55,
+                          "value7": {
+                            "type": "number",
+                            "value": 55
+                          },
                           "__collapseCase8": false,
-                          "value8": 56,
+                          "value8": {
+                            "type": "number",
+                            "value": 56
+                          },
                           "__collapseCase9": false,
-                          "value9": 57,
+                          "value9": {
+                            "type": "number",
+                            "value": 57
+                          },
                           "__collapseCase10": false,
-                          "value10": 58,
+                          "value10": {
+                            "type": "number",
+                            "value": 58
+                          },
                           "__collapseCase11": false,
-                          "value11": 59,
+                          "value11": {
+                            "type": "number",
+                            "value": 59
+                          },
                           "__collapseCase12": false,
-                          "value12": 60,
+                          "value12": {
+                            "type": "number",
+                            "value": 60
+                          },
                           "__collapseCase13": false,
-                          "value13": 61,
+                          "value13": {
+                            "type": "number",
+                            "value": 61
+                          },
                           "__collapseCase14": false,
-                          "value14": 62,
+                          "value14": {
+                            "type": "number",
+                            "value": 62
+                          },
                           "__collapseCase15": false,
-                          "value15": 63,
+                          "value15": {
+                            "type": "number",
+                            "value": 63
+                          },
                           "__collapseElse": false,
                           "__disableElse": false,
                           "__collapse": false

@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "6d64f82b-d1be-44e3-95e7-d668f6978621",
+  "_index": 3,
+  "symbol": "actor_pc",
+  "prefabId": "",
   "name": "Actor PC",
+  "coordinateType": "tiles",
+  "x": 19,
+  "y": 12,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_pc",
   "script": [
     {
       "command": "EVENT_IF",
@@ -100,8 +105,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 19,
-  "y": 12,
-  "_index": 3
+  "hit3Script": []
 }

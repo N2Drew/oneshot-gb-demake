@@ -2,25 +2,27 @@
   "_resourceType": "scene",
   "id": "99b7db6a-f742-4ec6-811d-af7b24d18c21",
   "_index": 0,
-  "name": "Menu Inventory",
-  "backgroundId": "25050a38-d7c5-4a93-921f-82b18b671c64",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Menu Inventory",
   "symbol": "scene_menu_inventory",
   "x": 1160,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "25050a38-d7c5-4a93-921f-82b18b671c64",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf",
   "script": [
     {
       "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
       "args": {
-        "speedIn": 0,
-        "speedOut": 0,
+        "speedIn": -3,
+        "speedOut": -3,
         "speed": 0,
         "allowFastForward": true,
         "__collapse": true
@@ -39,6 +41,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "f87a9ca3-c3b4-4be4-a5d3-8a61cd231ebf",
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

@@ -22,8 +22,8 @@
           {
             "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
             "args": {
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "speed": 1,
               "allowFastForward": true,
               "__collapse": true

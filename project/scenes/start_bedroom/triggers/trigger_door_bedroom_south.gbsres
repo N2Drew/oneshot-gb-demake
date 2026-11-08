@@ -82,8 +82,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -190,8 +190,14 @@
                       {
                         "command": "EVENT_WAIT",
                         "args": {
-                          "time": 0.1,
-                          "frames": 30,
+                          "time": {
+                            "type": "number",
+                            "value": 0.1
+                          },
+                          "frames": {
+                            "type": "number",
+                            "value": 30
+                          },
                           "__collapse": true
                         },
                         "id": "6bf6a748-457f-47e5-b700-ef74992982ab",

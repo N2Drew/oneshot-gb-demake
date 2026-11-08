@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e9fb80f4-3324-4f0a-8d1c-19790739440f",
+  "name": "start/start_bathroom",
+  "symbol": "bg_start_bathroom",
+  "tileColors": "",
+  "filename": "start/start_bathroom.png",
+  "width": 32,
+  "height": 24,
+  "imageWidth": 256,
+  "imageHeight": 192,
+  "autoColor": false
+}

@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "d2c71288-7a22-496d-976e-48cd20f38301",
   "_index": 7,
-  "name": "Start Bedroom",
-  "backgroundId": "3ff625ea-bc33-4e3b-9f39-f44b7caca104",
-  "tilesetId": "02682508-4825-4fc7-8f80-11df6533d844",
-  "width": 44,
-  "height": 27,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "0016c+0f18+0014+0f18+0010+0f1c+0010+0f1c+0010+0f9+00!0f9+008+0f!0010+0f9+00f+0f2+00!0f!0010+0f!001a+0f!0010+0f5+0016+0f!0014+0f!00!0f4+008+0f8+00!0f!0014+0fb+002+0fb+001e+0f4+00172+",
-  "autoFadeSpeed": 1,
+  "name": "Start Bedroom",
   "symbol": "scene_start_bedroom",
   "x": 424,
   "y": 608,
+  "width": 44,
+  "height": 27,
+  "backgroundId": "3ff625ea-bc33-4e3b-9f39-f44b7caca104",
+  "tilesetId": "02682508-4825-4fc7-8f80-11df6533d844",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
   "script": [
     {
       "command": "EVENT_IF",
@@ -54,8 +55,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "fee16122-266c-4760-ba81-c833b5fc63cf"
@@ -94,8 +101,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "8b47b569-2938-4fa7-b85f-96d34b7ed2ad"
@@ -152,7 +165,8 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": true
+              "__collapse": true,
+              "collideWith": []
             },
             "id": "e3882ad7-7f58-45f8-90e2-71eed6892751"
           }
@@ -247,8 +261,8 @@
               "position": "top",
               "clearPrevious": true,
               "showFrame": false,
-              "speedIn": 0,
-              "speedOut": 0,
+              "speedIn": -3,
+              "speedOut": -3,
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
@@ -266,5 +280,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
+  "collisions": "0016c+0f18+0014+0f18+0010+0f1c+0010+0f1c+0010+0f9+00!0f9+008+0f!0010+0f9+00f+0f2+00!0f!0010+0f!001a+0f!0010+0f5+0016+0f!0014+0f!00!0f4+008+0f8+00!0f!0014+0fb+002+0fb+001e+0f4+00172+"
 }

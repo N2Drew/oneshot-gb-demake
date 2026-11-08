@@ -15,12 +15,14 @@
 #define SCREEN_PAD_BOTTOM 2
 #define SCREEN_TILE_REFRES_W (SCREEN_TILES_W + SCREEN_PAD_LEFT + SCREEN_PAD_RIGHT)
 #define SCREEN_TILE_REFRES_H (SCREEN_TILES_H + SCREEN_PAD_TOP + SCREEN_PAD_BOTTOM)
-#define PENDING_BATCH_SIZE 7
+#define PENDING_BATCH_SIZE 11
 
 extern INT16 scroll_x;
 extern INT16 scroll_y;
 extern INT16 draw_scroll_x;
 extern INT16 draw_scroll_y;
+extern UINT16 scroll_x_min;
+extern UINT16 scroll_y_min;
 extern UINT16 scroll_x_max;
 extern UINT16 scroll_y_max;
 extern BYTE scroll_offset_x;
@@ -44,7 +46,7 @@ void scroll_init(void) BANKED;
 void scroll_update(void) BANKED;
 
 /**
- * Resets scroll and update the whole screen 
+ * Resets scroll and update the whole screen
  */
 void scroll_repaint(void) BANKED;
 
@@ -63,7 +65,7 @@ UINT8 * GetBkgAddr(void) OLDCALL PRESERVES_REGS(b, c, h, l);
  * @param base_addr address of top-left corner
  * @param w width of the area
  * @param h height of the area
- * @param fill tile id to fill the bottom row 
+ * @param fill tile id to fill the bottom row
  */
 void scroll_rect(UBYTE * base_addr, UBYTE w, UBYTE h, UBYTE fill) OLDCALL BANKED PRESERVES_REGS(b, c);
 

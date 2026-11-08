@@ -1,18 +1,24 @@
 {
   "_resourceType": "actor",
   "id": "fa8f028a-1ebf-40fc-981c-e1f594032a00",
+  "_index": 2,
+  "symbol": "actor_2",
+  "prefabId": "96a2d993-f943-414c-a886-15d42ee1c05c",
   "name": "Actor Slot 2",
+  "coordinateType": "tiles",
+  "x": 11,
+  "y": 3,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "e028db32-8c85-4fa1-ac90-c2e619a71cca",
-  "prefabId": "96a2d993-f943-414c-a886-15d42ee1c05c",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {
     "0e0444ac-5f7a-425c-842d-48205c014b81": {
       "id": "0e0444ac-5f7a-425c-842d-48205c014b81",
@@ -37,14 +43,10 @@
       }
     }
   },
-  "symbol": "actor_2",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 11,
-  "y": 3,
-  "_index": 2
+  "hit3Script": []
 }

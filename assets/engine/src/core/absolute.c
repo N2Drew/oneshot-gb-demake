@@ -4,12 +4,12 @@
 #define SHADOW_OAM_PAGE_WITH_GAP SHADOW_OAM2_BASE_ADDRESS
 
 // Note: if we move SHADOW_OAM2_BASE_ADDRESS to 0xC100 then SHADOW_OAM_PAGE_WITH_GAP will be 0xC000
-//       to do that, in the build scripts the base address of _DATA should be set to 0xC1A0 and 
+//       to do that, in the build scripts the base address of _DATA should be set to 0xC1A0 and
 //       .STACK should be set to 0xE000 (default value)
 
 #define add_check__(a,b) add_check___(a,b)
 #define add_check___(a,b) check_##a##_##b
-#define check_size(typ,sz) typedef char add_check__(typ,__LINE__)[ (sizeof(typ) == (sz)) ? 1 : -1]
+#define check_size(typ,sz) typedef char add_check__(typ,__LINE__)[ (sizeof(typ) == (sz)) ? 1 : "error"]
 
 OAM_item_t      AT(SHADOW_OAM2_BASE_ADDRESS)                                           shadow_OAM2[40];        // 160 bytes
 check_size(shadow_OAM2, 160);

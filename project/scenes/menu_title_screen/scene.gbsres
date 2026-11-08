@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "ea122f05-c69c-4970-a719-5df33b7e0f16",
   "_index": 1,
-  "name": "Menu Title Screen",
-  "backgroundId": "600297b8-7d85-4893-8813-5ea4b102604b",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "LOGO",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Menu Title Screen",
   "symbol": "scene_menu_title_screen",
   "x": 240,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "600297b8-7d85-4893-8813-5ea4b102604b",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_IF_SAVED_DATA",
@@ -102,5 +103,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

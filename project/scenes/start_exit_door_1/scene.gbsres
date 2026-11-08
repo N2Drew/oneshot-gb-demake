@@ -2,19 +2,20 @@
   "_resourceType": "scene",
   "id": "1735958a-fd4b-489f-95cb-74dec153d63a",
   "_index": 20,
-  "name": "Start Exit Door 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Start Exit Door 1",
   "symbol": "scene_start_exit_door_1",
   "x": 240,
   "y": 960,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_IF",
@@ -37,8 +38,14 @@
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
-              "frames": 30,
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 30
+              },
               "__collapse": true
             },
             "id": "bc19cc14-b3c5-4cbf-adb3-f2c573cdc5b8"
@@ -102,5 +109,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }
