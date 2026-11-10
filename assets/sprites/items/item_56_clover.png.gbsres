@@ -406,7 +406,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 5,
+  "numTiles": 6,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -419,5 +419,5 @@
   "filename": "items/item_56_clover.png",
   "width": 48,
   "height": 16,
-  "checksum": "88c4ea069c116576aa4c5cb0b97091ec38a6b237"
+  "checksum": "b5ba349b5865f046d305dc73bab874e565063b6c"
 }

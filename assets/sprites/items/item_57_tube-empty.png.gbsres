@@ -406,7 +406,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 5,
+  "numTiles": 3,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -419,5 +419,5 @@
   "filename": "items/item_57_tube-empty.png",
   "width": 48,
   "height": 16,
-  "checksum": "88c4ea069c116576aa4c5cb0b97091ec38a6b237"
+  "checksum": "5d542b7fc42cb9a7123c1df69a9457e218eb64ca"
 }
