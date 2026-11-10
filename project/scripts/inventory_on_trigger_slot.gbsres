@@ -530,8 +530,8 @@
         "__collapseCase509": false,
         "__collapseCase510": false,
         "__collapseCase511": false,
-        "__collapseElse": false,
-        "__disableElse": true,
+        "__collapseElse": true,
+        "__disableElse": false,
         "value0": {
           "type": "constant",
           "value": "8330d850-54db-4723-a548-04abdf7afa66"
@@ -826,7 +826,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- LIGHTBULB -\nA large lightbulb. It's the sun."
+                "⑧⑧⑧⑧⑧⑧③- LIGHTBULB -\n⑧⑧⑥A large lightbulb. It's the sun."
               ],
               "__section": "text",
               "avatarId": "",
@@ -855,7 +855,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- TELEVISION REMOTE -\nIt's too hard to read in the dark light."
+                "⑧⑧⑧⑧③- TELEVISION REMOTE -\n⑧It's too hard to read in the dark light."
               ],
               "__section": "text",
               "avatarId": "",
@@ -884,7 +884,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- BOTTLE OF ALCOHOL -\nThe smell of the liquid is repugnant."
+                "⑧⑧⑧⑧④- BOTTLE OF ALCOHOL -\n⑧③The smell of the liquid is repugnant."
               ],
               "__section": "text",
               "avatarId": "",
@@ -914,7 +914,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- DRY BRANCH -\nA flaky branch from the bathroom plant."
+                "⑧⑧⑧⑧⑧⑦- DRY BRANCH -\n③A flaky branch from the bathroom plant."
               ],
               "__section": "text",
               "avatarId": "",
@@ -943,7 +943,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- WET BRANCH -\nThe tip is soaked with alcohol."
+                "⑧⑧⑧⑧⑧⑥- WET BRANCH -\n⑧⑧⑤The tip is soaked with alcohol."
               ],
               "__section": "text",
               "avatarId": "",
@@ -972,7 +972,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- TORCH -\nDoesn't give off much light."
+                "⑧⑧⑧⑧⑧⑧⑧①- TORCH -\n⑧⑧⑧②Doesn't give off much light."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1001,7 +1001,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BASEMENT KEY -\nThis thing looks old."
+                "⑧⑧⑧⑧⑧②- BASEMENT KEY -\n⑧⑧⑧⑧⑥This thing looks old."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1030,7 +1030,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CAMERA -\nA broken camera with a screwed-in lens."
+                "⑧⑧⑧⑧⑧⑧⑥- CAMERA -\n②A broken camera with a screwed-in lens."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1058,7 +1058,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- SCREWDRIVER -\nOf the tri-wing type."
+                "⑧⑧⑧⑧⑧⑤- SCREWDRIVER -\n⑧⑧⑧⑧⑤Of the tri-wing type."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1088,7 +1088,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- LENS -\nA large glass lens."
+                "⑧⑧⑧⑧⑧⑧⑧③- LENS -\n⑧⑧⑧⑧⑧①A large glass lens."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1117,7 +1117,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- EMPTY BOTTLE -\nThe smell of alcohol lingers."
+                "⑧⑧⑧⑧⑧③- EMPTY BOTTLE -\n⑧⑧⑧The smell of alcohol lingers."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1146,7 +1146,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BROKEN BATTERY -\nA battery. It has some broken glass in it."
+                "⑧⑧⑧⑧⑦- BROKEN BATTERY -\n③A battery. It has some broken glass in it."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1175,7 +1175,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- EMPTY BATTERY -\nAn intact battery. It's currently empty. "
+                "⑧⑧⑧⑧⑧①- EMPTY BATTERY -\n⑤An intact battery. It's currently empty."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1204,7 +1204,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CHARGED BATTERY -\nA working battery at maximum power."
+                "⑧⑧⑧⑧⑥- CHARGED BATTERY -\n⑥A working battery at maximum power."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1233,7 +1233,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BOTTLE OF SMOKE -\nIt's full of noxious fumes."
+                "⑧⑧⑧⑧⑥- BOTTLE OF SMOKE -\n⑧⑧⑧⑤It's full of noxious fumes."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1262,7 +1262,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BOTTLE OF ACID -\nIt's full of a thick liquid acid."
+                "⑧⑧⑧⑧⑧②- BOTTLE OF ACID -\n⑧⑧⑧It's full of a thick liquid acid."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1290,7 +1290,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- WET SPONGE -\nSoaked with acidic cleaning solution."
+                "⑧⑧⑧⑧⑧⑥- WET SPONGE -\n⑧②Soaked with acidic cleaning solution."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1319,7 +1319,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- CROWBAR -\nMakeshift crowbar made from a pipe."
+                "⑧⑧⑧⑧⑧⑧④- CROWBAR -\n⑦Makeshift crowbar made from a pipe."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1348,7 +1348,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- METAL ROD -\nIt weighs surprisingly little."
+                "⑧⑧⑧⑧⑧⑧①- METAL ROD -\n⑧⑧⑧It weighs surprisingly little."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1378,7 +1378,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- SPONGE -\nA flat sponge with a rough surface."
+                "⑧⑧⑧⑧⑧⑧⑥- SPONGE -\n⑧④A flat sponge with a rough surface."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1407,7 +1407,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- EMPTY SYRINGE -\nThe needle is particularly long."
+                "⑧⑧⑧⑧⑧①- EMPTY SYRINGE -\n⑧⑧③The needle is particularly long."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1436,7 +1436,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- FILLED SYRINGE -\nIt's full of the strange pond liquid."
+                "⑧⑧⑧⑧⑧②- FILLED SYRINGE -\n⑧⑥It's full of the strange pond liquid."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1465,7 +1465,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- AMBER -\nIt's glowing and has a black clover inside."
+                "⑧⑧⑧⑧⑧⑧⑧- AMBER -\n①It's glowing and has a black clover inside."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1494,7 +1494,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- STRANGE JOURNAL -\nIt's written in an unknown language."
+                "⑧⑧⑧⑧⑤- STRANGE JOURNAL -\n⑧②It's written in an unknown language."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1522,7 +1522,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- FEATHER -\nA long feather with glowing edges."
+                "⑧⑧⑧⑧⑧⑧⑤- FEATHER -\n⑧⑤A long feather with glowing edges."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1552,7 +1552,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BOTTLE OF DYE -\nFilled with dark blue liquid used for dying."
+                "⑧⑧⑧⑧⑧③- BOTTLE OF DYE -\n⑦Filled with green liquid used for dying."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1581,7 +1581,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- TUBE OF WATER -\nThe label says \"water sample\"."
+                "⑧⑧⑧⑧⑧②- TUBE OF WATER -\n⑧⑧②The label says \"water sample\"."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1610,7 +1610,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- SEED -\nA seed apparently left behind by Maize."
+                "⑧⑧⑧⑧⑧⑧⑧③- SEED -\n⑤A seed apparently left behind by Maize."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1639,7 +1639,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- WOOL -\nIt's... kind of useless."
+                "⑧⑧⑧⑧⑧⑧⑧②- WOOL -\n⑧⑧⑧⑧④It's... kind of useless."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1668,7 +1668,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- FEATHER PEN -\nMade from dipping a feather into ink."
+                "⑧⑧⑧⑧⑧⑤- FEATHER PEN -\n⑧①Made from dipping a feather into ink."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1697,7 +1697,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- DIE -\nA die with glowing dots."
+                "⑧⑧⑧⑧⑧⑧⑧⑥- DIE -\n⑧⑧⑧⑧A die with glowing dots."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1726,7 +1726,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BUTTON (?) -\nA simple button made from a coffee tin."
+                "⑧⑧⑧⑧⑧⑧- BUTTON (?) -\n⑤A simple button made from a coffee tin."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1754,7 +1754,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- MAGNETIZED BUTTON (?) -\nA button with magnets loosely attached."
+                "⑧⑧⑧③- MAGNETIZED BUTTON (?) -\n④A button with magnets loosely attached."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1783,7 +1783,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- TAPED BUTTON -\nThe magnets are secured with tape."
+                "⑧⑧⑧⑧⑧③- TAPED BUTTON -\n⑧②The magnets are secured with tape."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1812,7 +1812,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- YOU TRIED -\nIt's the thought that counts."
+                "⑧⑧⑧⑧⑧⑧③- YOU TRIED -\n⑧⑧⑧It's the thought that counts."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1842,7 +1842,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- MAGNETS -\nAn assortment of colorful magnets."
+                "⑧⑧⑧⑧⑧⑧③- MAGNETS -\n⑧③An assortment of colorful magnets."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1871,7 +1871,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- METAL CAN -\nMade of aluminum. Says \"coffee grounds\"."
+                "⑧⑧⑧⑧⑧⑧①- METAL CAN -\n⑤Made of steel. Says \"COFFEE GROUNDS\"."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1900,7 +1900,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- SCISSORS -\nA pair of scissors found amidst hair."
+                "⑧⑧⑧⑧⑧⑧④- SCISSORS -\n⑧①A pair of scissors found amidst hair."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1929,7 +1929,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- WEIRD FILM -\nA transparent sheet filled with numbers."
+                "⑧⑧⑧⑧⑧⑧- WEIRD FILM -\n②A transparent sheet filled with numbers."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1958,7 +1958,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CONCAVE LENS -\nA large lens, curved inward."
+                "⑧⑧⑧⑧⑧③- CONCAVE LENS -\n⑧⑧⑧A large lens, curved inward."
               ],
               "__section": "text",
               "avatarId": "",
@@ -1986,7 +1986,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- CONVEX LENS -\nA large lens, curved outward."
+                "⑧⑧⑧⑧⑧⑤- CONVEX LENS -\n⑧⑧⑤A large lens, curved outward."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2016,7 +2016,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- THIN LENS -\nA delicately thin lens."
+                "⑧⑧⑧⑧⑧⑧②- THIN LENS -\n⑧⑧⑧⑧④A delicately thin lens."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2045,7 +2045,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- THICK LENS -\nA large, thick lens."
+                "⑧⑧⑧⑧⑧⑧①- THICK LENS -\n⑧⑧⑧⑧⑧A large, thick lens."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2074,7 +2074,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- GLITTER GLUE -\nA small tube of green glitter glue."
+                "⑧⑧⑧⑧⑧⑥- GLITTER GLUE -\n⑧⑦A small tube of green glitter glue."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2103,7 +2103,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- PHOTO OF NIKO -\nNot a cat!"
+                "⑧⑧⑧⑧⑧③- PHOTO OF NIKO -\n⑧⑧⑧⑧⑧⑧⑦Not a cat!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -2132,7 +2132,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- KIP'S LIBRARY CARD -\nThe name says \"Kip Silverpoint Ph.D.\"."
+                "⑧⑧⑧⑧④- KIP'S LIBRARY CARD -\n⑦The name says \"Kip Greenpoint Ph.D.\"."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2161,7 +2161,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- GAS MASK -\nA mask used to filter air for breathing."
+                "⑧⑧⑧⑧⑧⑧③- GAS MASK -\n⑤A mask used to filter air for breathing."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2190,7 +2190,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- RUBBER GLOVES -\nDesigned to prevent chemical damage."
+                "⑧⑧⑧⑧⑧②- RUBBER GLOVES -\n⑦Designed to prevent chemical damage."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2218,7 +2218,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- NOVELTY T-SHIRT -\n\"All I got was this lousy T-Shirt!\"."
+                "⑧⑧⑧⑧⑦- NOVELTY T-SHIRT -\n⑧⑧\"All I got was this lousy T-shirt!\""
               ],
               "__section": "text",
               "avatarId": "",
@@ -2247,7 +2247,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- \"KIP'S\" LIBRARY CARD -\nNiko's own photo is glued on."
+                "⑧⑧⑧⑧- \"KIP'S\" LIBRARY CARD -\n⑧⑧⑦Niko's own photo is glued on."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2276,7 +2276,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- LIBRARY CARD (STICKY) -\nThere's glue all over her photo now..."
+                "⑧⑧⑧⑥- LIBRARY CARD (STICKY) -\n⑧There's glue all over her photo now..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2306,7 +2306,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- PHOTO OF NIKO (STICKY) -\nThe back of the photo is covered in glue."
+                "⑧⑧⑧④- PHOTO OF NIKO (STICKY) -\n③The back of the photo is covered in glue."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2335,7 +2335,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- DIRT -\nA bag of dirt, for growing plants."
+                "⑧⑧⑧⑧⑧⑧⑧④- DIRT -\n⑧⑧A bag of dirt, for growing plants."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2364,7 +2364,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- WATER PILL -\nGoes in water, supposedly."
+                "⑧⑧⑧⑧⑧⑧①- WATER PILL -\n⑧⑧⑧②Goes in water, supposedly."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2393,7 +2393,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- MEDICATED WATER -\nThe water pill is dissolved in it."
+                "⑧⑧⑧⑧⑤- MEDICATED WATER -\n⑧⑧③The water pill is dissolved in it."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2422,7 +2422,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CLOVER -\nA black clover."
+                "⑧⑧⑧⑧⑧⑧⑦- CLOVER -\n⑧⑧⑧⑧⑧⑦A black clover."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2450,7 +2450,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- EMPTY TUBE -\nAn empty tube. Used to hold water."
+                "⑧⑧⑧⑧⑧⑦- EMPTY TUBE -\n⑧⑤An empty tube. Used to hold water."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2480,7 +2480,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- BOTTLE OF POND WATER -\nIt has the consistency of glue."
+                "⑧⑧⑧⑤- BOTTLE OF POND WATER -\n⑧⑧⑤It has the consistency of glue."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2509,7 +2509,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- GLOWING JOURNAL -\nIt's glowing now...?"
+                "⑧⑧⑧⑧⑥- GLOWING JOURNAL -\n⑧⑧⑧⑧⑦It's glowing now...?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -2538,7 +2538,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- MEMORY DISK -\nA floppy disk."
+                "⑧⑧⑧⑧⑧⑤- MEMORY DISK -\n⑧⑧⑧⑧⑧⑧①A floppy disk."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2567,7 +2567,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- MEMORY DISK (BACKUP) -\nA floppy disk containing a backup."
+                "⑧⑧⑧⑤- MEMORY DISK (BACKUP) -\n⑧⑦A floppy disk containing a backup."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2596,7 +2596,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- CHARGED BATTERY -\nA working rechargable battery."
+                "⑧⑧⑧⑧⑥- CHARGED BATTERY -\nA working, rechargeable battery."
               ],
               "__section": "text",
               "avatarId": "",
@@ -2625,7 +2625,7 @@
             "args": {
               "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
               "text": [
-                "- MUSIC BOX -\nA wind-up music box."
+                "⑧⑧⑧⑧⑧⑧②- MUSIC BOX -\n⑧⑧⑧⑧④A wind-up music box."
               ],
               "__section": "text",
               "avatarId": "",
@@ -3096,7 +3096,35 @@
         "true509": [],
         "true510": [],
         "true511": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "ecad0182-e4ea-425d-89d3-7b6e965c51d0",
+              "text": [
+                ""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 4,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -3,
+              "speedOut": -3,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "104b07d3-1286-49ff-96ce-61198102bbc9"
+          }
+        ]
       },
       "id": "95d8088c-2f41-4db7-a6cd-8636d4fbd1c0"
     }
