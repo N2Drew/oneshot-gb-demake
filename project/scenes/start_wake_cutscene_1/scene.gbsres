@@ -10,7 +10,7 @@
   "width": 20,
   "height": 18,
   "backgroundId": "cfc9f2c0-cbdb-4ec1-b2f7-0a3082ffd380",
-  "tilesetId": "",
+  "tilesetId": "0f76a00d-f512-4322-b625-a88e958a46d4",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -19,11 +19,23 @@
   "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "689d0366-d9ce-4ada-b105-13648851a099",
+        "frame": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "e56665ef-0345-4edc-991a-5ab57cc56c9d"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {
           "type": "number",
-          "value": 1
+          "value": 1.5
         },
         "frames": {
           "type": "number",
@@ -47,7 +59,8 @@
         },
         "direction": "right",
         "fadeSpeed": 0,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "id": "4dee1020-1fb6-4169-85ae-7c6f1dde748c"
     }

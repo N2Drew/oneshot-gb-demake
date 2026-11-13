@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0f76a00d-f512-4322-b625-a88e958a46d4",
+  "name": "start/start_wake_cutscene",
+  "symbol": "tileset_start_start_wake_cu",
+  "width": 16,
+  "height": 12,
+  "imageWidth": 128,
+  "imageHeight": 96,
+  "filename": "start/start_wake_cutscene.png"
+}
