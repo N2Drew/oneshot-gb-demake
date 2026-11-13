@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "adcf6e47-7b90-4e93-8ff5-77ceb30e2941",
+  "name": "menus/menu_credits",
+  "symbol": "bg_menus_menu_credits",
+  "tileColors": "",
+  "filename": "menus/menu_credits.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
