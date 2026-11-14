@@ -75,7 +75,7 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": 0,
+              "fadeSpeed": 1,
               "__collapse": true
             },
             "id": "f2c6089c-c392-4393-9079-c3e044dfa68f"
@@ -109,5 +109,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "playerSpriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0"
 }

@@ -14,10 +14,11 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 4,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "autoFadeEventCollapse": true
 }
