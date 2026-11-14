@@ -18,6 +18,36 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "d210d530-0521-444b-a03b-f37cc830f9bc",
+        "__collapse": true
+      },
+      "id": "054c8f74-a008-41d1-9907-254449d643bb"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "d9bd7e69-e654-468a-ace1-693c9e36a168"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "cf442666-02a9-4c46-900c-cbd92a7b2beb"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
