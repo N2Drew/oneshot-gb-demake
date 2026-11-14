@@ -662,9 +662,9 @@
                   "args": {
                     "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
-                      "Niko dips the branch into the alcohol."
+                      "!S0!⑧①!S1!Niko dips the branch into the alcohol."
                     ],
-                    "__section": "text",
+                    "__section": "behavior",
                     "avatarId": "",
                     "avatarPos": "right",
                     "avatarX": 0,
@@ -679,9 +679,9 @@
                     "showFrame": "true",
                     "speedIn": 0,
                     "speedOut": 0,
-                    "closeWhen": "key",
+                    "closeWhen": "text",
                     "closeButton": "a",
-                    "closeDelayTime": 0.5,
+                    "closeDelayTime": 1,
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
@@ -2900,7 +2900,7 @@
                   "args": {
                     "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
-                      "I can't combine those...\n($V0$ << 8) | $V1$ = $506$"
+                      "I can't combine those..."
                     ],
                     "__section": "text",
                     "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",
@@ -2917,9 +2917,9 @@
                     "showFrame": "true",
                     "speedIn": 0,
                     "speedOut": 0,
-                    "closeWhen": "key",
+                    "closeWhen": "text",
                     "closeButton": "a",
-                    "closeDelayTime": 0.5,
+                    "closeDelayTime": 1,
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
@@ -2932,7 +2932,7 @@
                   "args": {
                     "__presetId": "96a8787c-fd4d-4844-9cc9-b4295b914f6e",
                     "text": [
-                      "Those can't be combined.\n($V0$ << 8) | $V1$ = $506$"
+                      "!S0!⑧⑧⑧⑤!S1!Those can't be combined."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -2949,9 +2949,9 @@
                     "showFrame": "true",
                     "speedIn": 0,
                     "speedOut": 0,
-                    "closeWhen": "key",
+                    "closeWhen": "text",
                     "closeButton": "a",
-                    "closeDelayTime": 0.5,
+                    "closeDelayTime": 1,
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
