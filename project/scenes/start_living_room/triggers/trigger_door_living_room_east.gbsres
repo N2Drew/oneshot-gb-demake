@@ -63,6 +63,14 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "145",
+              "__collapse": true
+            },
+            "id": "8d63fab0-5db4-453c-bd98-b655ac999965"
+          },
+          {
             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
             "args": {
               "actorId": "$self$",
@@ -72,12 +80,16 @@
             "id": "d5c1cdaa-6689-40de-9fbb-b3996b2035d9"
           },
           {
-            "command": "EVENT_INC_VALUE",
+            "command": "EVENT_ACTOR_SET_FRAME",
             "args": {
-              "variable": "145",
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              },
               "__collapse": true
             },
-            "id": "8d63fab0-5db4-453c-bd98-b655ac999965"
+            "id": "b13302b5-a339-404e-ada8-3b5b997bbfbd"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",

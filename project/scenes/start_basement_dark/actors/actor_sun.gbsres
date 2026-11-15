@@ -34,6 +34,14 @@
       "id": "49df1f91-4fac-40df-b177-eea615438fa0"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f8f79f0c-76a2-4b21-87d3-375203a348fe",
+        "__collapse": true
+      },
+      "id": "5e3cd7e5-58df-4eee-8877-45e189ad69a6"
+    },
+    {
       "command": "EVENT_ADD_FLAGS",
       "args": {
         "variable": "146",
