@@ -66,7 +66,8 @@
               "$variable[V1]$": {
                 "type": "variable",
                 "value": "504"
-              }
+              },
+              "__collapse": true
             },
             "id": "d08cdda4-350e-4d96-af1a-d7d80d0a7e08"
           },
@@ -145,7 +146,8 @@
                         "type": "number",
                         "value": 1
                       }
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "4437ea91-af5b-4096-90a0-131588a2b225"
                 },
@@ -160,7 +162,8 @@
                     "$variable[V1]$": {
                       "type": "variable",
                       "value": "504"
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "cf62ddf3-5e2d-4471-812a-f56a0a1333ef"
                 }

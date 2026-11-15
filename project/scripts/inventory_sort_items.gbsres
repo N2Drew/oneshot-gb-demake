@@ -67,7 +67,7 @@
                 "type": "variable",
                 "value": "508"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "aca1280f-d051-414c-8a85-f12b13f41a66"
           },
@@ -138,7 +138,7 @@
                       "type": "variable",
                       "value": "511"
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "eb9e667a-b76a-450d-8674-b79f2fd0a65d"
                 },
@@ -179,7 +179,7 @@
                             "type": "variable",
                             "value": "511"
                           },
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "9934a0f3-48a5-46a1-b940-6610acf3d4a8"
                       },
@@ -231,7 +231,7 @@
                 "type": "variable",
                 "value": "508"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "68be6d92-69c4-4b70-a15f-a644a5dae459"
           }

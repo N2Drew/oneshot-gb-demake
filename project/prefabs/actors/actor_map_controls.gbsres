@@ -35,7 +35,7 @@
                 "type": "variable",
                 "value": "141"
               },
-              "__collapse": false,
+              "__collapse": true,
               "$actor[0]$": "$self$"
             },
             "id": "0775d9b0-0ed5-4557-8eb7-7add12cac04a"

@@ -50,7 +50,8 @@
                   "type": "variable",
                   "value": "501"
                 }
-              }
+              },
+              "__collapse": true
             },
             "id": "551cd7c2-a2fd-4a34-aacf-6459c332dfdf"
           },

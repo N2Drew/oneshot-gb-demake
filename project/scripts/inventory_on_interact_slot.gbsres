@@ -170,7 +170,8 @@
                                 "$variable[V1]$": {
                                   "type": "variable",
                                   "value": "V0"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "1204b4e6-85f7-425f-8b6f-a34dc3a56800"
                             }
@@ -187,7 +188,8 @@
                                 "$variable[V1]$": {
                                   "type": "variable",
                                   "value": "141"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "7309c6ec-adc8-4700-a6d6-4adbb7f96d21"
                             }
