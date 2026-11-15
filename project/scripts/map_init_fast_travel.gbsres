@@ -6,5 +6,64 @@
   "variables": {},
   "actors": {},
   "symbol": "map_init_fast_travel",
-  "script": []
+  "script": [
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "TODO: Check if enough travel ",
+        "__collapse": false
+      },
+      "id": "5863138a-540c-4cc7-bb89-c9a9b1b7983b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "number",
+            "value": 0
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "66daa8c4-fccf-49af-ac10-8cf4e0aa5805",
+              "text": [
+                "!S0!⑧⑧②!S1![ You cannot fast travel right now. ]"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 1,
+              "maxHeight": 2,
+              "textX": 0,
+              "textY": 0,
+              "textHeight": 2,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -3,
+              "speedOut": -3,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9e3e8799-66af-4e6a-a6e5-b97b635b39c3"
+          }
+        ]
+      },
+      "id": "b965c41b-7d44-4dc3-af17-7b29681dc114"
+    }
+  ]
 }

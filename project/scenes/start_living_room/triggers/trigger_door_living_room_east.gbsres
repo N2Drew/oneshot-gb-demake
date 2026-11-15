@@ -63,6 +63,15 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 255,
+              "__collapse": true
+            },
+            "id": "d5c1cdaa-6689-40de-9fbb-b3996b2035d9"
+          },
+          {
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "145",
@@ -108,6 +117,15 @@
               "__collapse": true
             },
             "id": "609239e6-50f5-4f0e-b1e8-5b55b53737a3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "574e018c-f4d5-42bd-bb45-4ad38af2af71"
           }
         ],
         "false": []

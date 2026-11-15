@@ -65,7 +65,8 @@
             "args": {
               "__presetId": "a13b69bb-fd6a-4fb8-8293-2b853fa5d234",
               "text": [
-                "Helloooo?\n...anyone?"
+                "Helloooo?",
+                "!S0!Helloooo?\n!S1!...anyone?"
               ],
               "__section": "text",
               "avatarId": "1b6029f2-005d-4226-8bc9-b61fa6ac829c",

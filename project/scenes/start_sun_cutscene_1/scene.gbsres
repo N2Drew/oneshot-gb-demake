@@ -23,7 +23,7 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 2
+          "value": 1.5
         },
         "frames": {
           "type": "number",
