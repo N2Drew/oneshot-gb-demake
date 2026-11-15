@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "88834690-513b-41d2-96d5-f2ee3e381b27",
+  "name": "start/start_exit_cutscene-1",
+  "symbol": "bg_start_start_exit_cutscen",
+  "tileColors": "",
+  "filename": "start/start_exit_cutscene-1.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
