@@ -14,8 +14,39 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 4,
-  "script": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "cb0e2b1b-a12d-4661-901e-b7a98bd65f17",
+        "__collapse": true
+      },
+      "id": "a720d03f-fd5e-436a-b64c-5789e84d5f05"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 2.75
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "b9e81b49-7392-4812-871d-0217d3d7b4de"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": true
+      },
+      "id": "5762eebc-4370-48c5-8d8c-543352c2165a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
