@@ -2,12 +2,12 @@
   "_resourceType": "actor",
   "id": "68a964b8-4268-482e-9faa-6fc372d3e1f6",
   "_index": 2,
-  "symbol": "actor_chair",
+  "symbol": "actor_chair_1",
   "prefabId": "",
-  "name": "Actor Chair",
+  "name": "Actor Chair 1",
   "coordinateType": "tiles",
-  "x": 33,
-  "y": 13,
+  "x": 39,
+  "y": 22,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "8a6404ac-997d-4a82-b1b1-7b8b9fd678b0",
@@ -49,7 +49,16 @@
       "id": "0b81da8b-1893-459c-bdfc-1388a5e15226"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "f1cf972e-ca67-45ed-89fd-426aa56fa83f"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
