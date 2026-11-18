@@ -6,7 +6,7 @@
   "prefabId": "",
   "name": "Actor Fridge",
   "coordinateType": "tiles",
-  "x": 44,
+  "x": 45,
   "y": 19,
   "frame": 0,
   "animate": false,
