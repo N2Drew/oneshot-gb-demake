@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "039bce8e-277e-40a5-a688-69ea4f936c9d",
+  "_index": 25,
+  "name": "Menu Disclaimer",
+  "backgroundId": "e74cd0f8-6831-4cf1-b201-6f4dd94a278f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_menu_disclaimer",
+  "x": 1344,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

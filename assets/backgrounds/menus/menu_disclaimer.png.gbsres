@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e74cd0f8-6831-4cf1-b201-6f4dd94a278f",
+  "name": "menus/menu_disclaimer",
+  "symbol": "bg_menus_menu_disclaimer",
+  "tileColors": "",
+  "filename": "menus/menu_disclaimer.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
