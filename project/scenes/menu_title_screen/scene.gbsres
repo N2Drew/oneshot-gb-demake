@@ -26,6 +26,21 @@
       "id": "de717212-6261-45f3-8917-e8b5de9fcb17"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1.25
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "be642f0b-6e69-40bf-99bf-273a546d11a8"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [

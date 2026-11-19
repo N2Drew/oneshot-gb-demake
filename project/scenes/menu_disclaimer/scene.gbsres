@@ -18,6 +18,21 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1.25
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "f0bc9326-8b30-4bd0-b291-59bda538872b"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
