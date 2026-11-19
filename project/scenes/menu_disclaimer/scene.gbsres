@@ -16,8 +16,39 @@
   "symbol": "scene_menu_disclaimer",
   "x": 1344,
   "y": 30,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "start"
+        ],
+        "__collapse": true
+      },
+      "id": "7c715056-bdc9-4554-81e2-1d5187d13fdb"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ea122f05-c69c-4970-a719-5df33b7e0f16",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 1,
+        "__collapse": true
+      },
+      "id": "2288d0ae-4fb0-47aa-8dbb-308c7d80097d"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }
