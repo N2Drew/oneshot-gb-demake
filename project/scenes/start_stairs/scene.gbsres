@@ -22,7 +22,6 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "b",
           "up",
           "down"
         ],

@@ -40,6 +40,18 @@
     {
       "id": "SHOOTER_WALL_COLLISION_GROUP",
       "value": "COLLISION_GROUP_NONE"
+    },
+    {
+      "id": "FEAT_PLATFORM_RUN",
+      "value": 1
+    },
+    {
+      "id": "PLATFORM_RUN_STYLE",
+      "value": "RUN_STYLE_INSTANT"
+    },
+    {
+      "id": "plat_run_vel",
+      "value": 4505
     }
   ]
 }

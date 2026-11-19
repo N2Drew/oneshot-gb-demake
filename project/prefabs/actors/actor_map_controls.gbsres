@@ -69,7 +69,7 @@
         "input": [
           "b"
         ],
-        "override": true,
+        "override": false,
         "__scriptTabs": "press"
       },
       "children": {
