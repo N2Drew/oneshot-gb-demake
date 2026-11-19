@@ -1,0 +1,82 @@
+{
+  "_resourceType": "scene",
+  "id": "d116597d-e432-471a-9909-9695d6a55a81",
+  "_index": 26,
+  "name": "Menu Sleep",
+  "backgroundId": "7d33b5fb-f3b4-45be-8ae3-f267eccd7c11",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_menu_sleep",
+  "x": 1528,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "147"
+        },
+        "__collapseElse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "147",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "a4b88a18-526a-4492-85c1-1b9fbd229682"
+          },
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_STOP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "7cf98daa-8bde-4d93-b502-97e27313242b"
+                }
+              ],
+              "load": []
+            },
+            "id": "3280838d-bd7e-469c-9bf5-4e96b49af7bf"
+          }
+        ],
+        "false": []
+      },
+      "id": "20333a8b-74b3-4519-8b70-a2bf71db41b0"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": 1,
+        "__collapse": true
+      },
+      "id": "8ce9157f-afc4-4908-b140-eab83c12772f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

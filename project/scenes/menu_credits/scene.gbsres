@@ -25,6 +25,14 @@
       "id": "a720d03f-fd5e-436a-b64c-5789e84d5f05"
     },
     {
+      "command": "EVENT_CLEAR_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapse": true
+      },
+      "id": "defea95a-9a55-4f8d-b343-2d3fb47a2221"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": {

@@ -20,22 +20,11 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
-            "args": {
-              "speedIn": -3,
-              "speedOut": -3,
-              "speed": 1,
-              "allowFastForward": true,
-              "__collapse": true
-            },
-            "id": "4e146090-9d0d-4a0d-93d7-2841a11d92b0"
-          },
-          {
             "command": "EVENT_OVERLAY_HIDE",
             "args": {
               "__collapse": true
             },
-            "id": "5e4548de-edfe-42fe-bd52-ce146c6c13d2"
+            "id": "1b575143-e119-4c47-8c1f-da8e64354d27"
           },
           {
             "command": "EVENT_SCENE_POP_STATE",

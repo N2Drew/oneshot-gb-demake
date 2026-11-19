@@ -171,12 +171,47 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_FADE_OUT",
+                  "command": "EVENT_MUSIC_STOP",
                   "args": {
-                    "speed": 1,
                     "__collapse": true
                   },
-                  "id": "e28e840e-b28b-4658-a394-5926777893e6"
+                  "id": "76c74e69-30bf-4a8b-a8f1-ccb5127c9d06"
+                },
+                {
+                  "command": "EVENT_SCENE_PUSH_STATE",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "26c5ebdb-0997-454f-9a65-c6c08d31f46e"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "147",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "834b2494-722b-4f2a-bd87-146d39cc0dc0"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "d116597d-e432-471a-9909-9695d6a55a81",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": 4,
+                    "__collapse": true
+                  },
+                  "id": "6b9e033c-7d0e-4b0e-b23a-d5ab71f70587"
                 }
               ],
               "load": []

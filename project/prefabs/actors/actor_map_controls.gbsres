@@ -28,6 +28,17 @@
             "id": "09e4c397-a9f0-4738-b667-71b8d96dddf6"
           },
           {
+            "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+            "args": {
+              "speedIn": -3,
+              "speedOut": -3,
+              "speed": 1,
+              "allowFastForward": true,
+              "__collapse": true
+            },
+            "id": "48690853-966a-4956-9d6d-56526587a72e"
+          },
+          {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "7cc91818-c180-4891-882d-6a38fc7cc1ce",

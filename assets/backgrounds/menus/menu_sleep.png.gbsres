@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7d33b5fb-f3b4-45be-8ae3-f267eccd7c11",
+  "name": "menus/menu_sleep",
+  "symbol": "bg_menus_menu_sleep",
+  "tileColors": "",
+  "filename": "menus/menu_sleep.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
