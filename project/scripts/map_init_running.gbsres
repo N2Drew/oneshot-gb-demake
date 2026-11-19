@@ -1,0 +1,52 @@
+{
+  "_resourceType": "script",
+  "id": "4404cf58-5847-402a-b71e-bcfd076aeb4b",
+  "name": "Map Init Running",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "map_init_running",
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "__collapseElse": false,
+              "__disableElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "player",
+                    "speed": 1,
+                    "__collapse": true
+                  },
+                  "id": "beeb9081-9f56-4f0e-8250-19688e1a5d61"
+                }
+              ]
+            },
+            "id": "9fc87c81-647b-4f91-acf6-ef5e22b0c27c"
+          }
+        ]
+      },
+      "id": "2b062b04-7868-4c56-9ebe-b20ea4e91c1d"
+    }
+  ]
+}

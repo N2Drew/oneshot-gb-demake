@@ -39,6 +39,14 @@
               "$actor[0]$": "$self$"
             },
             "id": "0775d9b0-0ed5-4557-8eb7-7add12cac04a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4404cf58-5847-402a-b71e-bcfd076aeb4b",
+              "__collapse": true
+            },
+            "id": "5556a2d7-c6e7-4134-9207-b5f50bedfc98"
           }
         ]
       },
@@ -54,9 +62,27 @@
         "__scriptTabs": "press"
       },
       "children": {
-        "true": []
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "player",
+              "speed": 1.5,
+              "__collapse": true
+            },
+            "id": "701c140e-2ac6-45f7-a331-f9d82579aa29"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "4404cf58-5847-402a-b71e-bcfd076aeb4b",
+              "__collapse": true
+            },
+            "id": "934b5f1b-04ba-4f91-8987-873ddf42a017"
+          }
+        ]
       },
-      "id": "0e1cbfa4-72e3-4515-9739-8d98be00e8ef"
+      "id": "38f0fe98-3a07-4a1a-8c97-dd863d55d289"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
