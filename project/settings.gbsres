@@ -215,7 +215,7 @@
   "spriteMode": "8x16",
   "openBuildFolderOnExport": true,
   "showRomUsageAfterBuild": true,
-  "romFilename": "",
+  "romFilename": "oneshot-gb-demake_1.0.0-demo",
   "defaultSceneTypeId": "TOPDOWN",
   "disabledSceneTypeIds": [
     "ADVENTURE",
